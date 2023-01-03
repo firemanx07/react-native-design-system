@@ -23,11 +23,11 @@
     "@babel/core": "^7.20.2",
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@babel/runtime": "^7.20.1",
+    "@expo/webpack-config": "^0.16.26",
+    "@karankalsi/react-native-svg-loader": "^1.0.4",
     "@proxym/eslint-config": "^0.0.1",
     "@proxym/prettier-config": "^0.0.1",
     "@proxym/themes": "^0.0.1",
-    "@expo/webpack-config": "^0.16.26",
-    "@karankalsi/react-native-svg-loader": "^1.0.4",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/react": "^6.5.13",
     "@testing-library/jest-native": "^5.2.0",
@@ -86,5 +86,5 @@
     "node_modules/",
     "lib/"
   ],
-  "gitHead": "33e45d3b18de78fa9192eae0f2e46227392a48b5"
+  "gitHead": "67b15580af3dcc626f79b2b839bffedbbd9a6b46"
 }
