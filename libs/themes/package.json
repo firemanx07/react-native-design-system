@@ -1,6 +1,6 @@
 {
   "name": "@proxym/themes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.ts",
   "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
@@ -14,8 +14,8 @@
     "build:ci": "yarn && yarn typescript && yarn prepare"
   },
   "devDependencies": {
-    "@proxym/eslint-config": "^0.0.2",
-    "@proxym/prettier-config": "^0.0.2",
+    "@proxym/eslint-config": "^0.0.3",
+    "@proxym/prettier-config": "^0.0.3",
     "@types/styled-components": "^5.1.26",
     "@types/styled-components-react-native": "^5.2.0",
     "react-native": "0.69.7",
