@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo tests Logo snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <test-file-stub
+      fill="#222222"
+      height={36}
+      width={131}
+    />
+  </View>
+  <Text
+    fontFamily="Muli-Regular"
+    fontSize={14}
+    lineHeight={20}
+    style={
+      [
+        {
+          "color": "#222222",
+          "fontFamily": "Muli-Regular",
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        {
+          "color": "#666666",
+          "marginBottom": 4,
+        },
+      ]
+    }
+  >
+    Sample variants:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Color primary
+      </Text>
+      <test-file-stub
+        fill="#FF8066"
+        height={36}
+        width={131}
+      />
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Color dark
+      </Text>
+      <test-file-stub
+        fill="#222222"
+        height={36}
+        width={131}
+      />
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Color light
+      </Text>
+      <test-file-stub
+        fill="#FFFFFF"
+        height={36}
+        width={131}
+      />
+    </View>
+  </View>
+</View>
+`;

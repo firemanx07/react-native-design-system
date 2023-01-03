@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingItem tests SettingItem snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <Text
+    fontFamily="Muli-Bold"
+    fontSize={20}
+    lineHeight={26}
+    style={
+      [
+        {
+          "color": "#222222",
+          "fontFamily": "Muli-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    SettingItem:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "flexDirection": "row",
+            "minHeight": 60,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingRight": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          fontFamily="Muli-Bold"
+          fontSize={16}
+          lineHeight={20}
+          numberOfLines={2}
+          style={
+            [
+              {
+                "color": "#222222",
+                "fontFamily": "Muli-Bold",
+                "fontSize": 16,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          Likes
+        </Text>
+        <Text
+          fontFamily="Muli-SemiBold"
+          fontSize={14}
+          lineHeight={20}
+          numberOfLines={2}
+          style={
+            [
+              {
+                "color": "#222222",
+                "fontFamily": "Muli-SemiBold",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+              {
+                "color": "#666666",
+                "paddingTop": 4,
+              },
+            ]
+          }
+        >
+          Jemand hat deine Fotos geliked
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#DEDFE0",
+            "borderRadius": 14,
+            "height": 28,
+            "opacity": 1,
+            "paddingBottom": 2,
+            "paddingLeft": 2,
+            "paddingRight": 2,
+            "paddingTop": 2,
+            "width": 48,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          size={24}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12,
+              "elevation": 2,
+              "height": 24,
+              "shadowColor": "#222222",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+              "width": 24,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "flexDirection": "row",
+            "minHeight": 60,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingRight": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          fontFamily="Muli-Bold"
+          fontSize={16}
+          lineHeight={20}
+          numberOfLines={2}
+          style={
+            [
+              {
+                "color": "#222222",
+                "fontFamily": "Muli-Bold",
+                "fontSize": 16,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          Likes
+        </Text>
+        <Text
+          fontFamily="Muli-SemiBold"
+          fontSize={14}
+          lineHeight={20}
+          numberOfLines={2}
+          style={
+            [
+              {
+                "color": "#222222",
+                "fontFamily": "Muli-SemiBold",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+              {
+                "color": "#666666",
+                "paddingTop": 4,
+              },
+            ]
+          }
+        >
+          Jemand hat deine Fotos geliked
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#FF8066",
+            "borderRadius": 14,
+            "height": 28,
+            "opacity": 1,
+            "paddingBottom": 2,
+            "paddingLeft": 2,
+            "paddingRight": 2,
+            "paddingTop": 2,
+            "width": 48,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          size={24}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12,
+              "elevation": 2,
+              "height": 24,
+              "shadowColor": "#222222",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 20,
+                },
+              ],
+              "width": 24,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

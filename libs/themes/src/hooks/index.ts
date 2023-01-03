@@ -1,0 +1,1 @@
+export { useNamespacedTheme } from './useNamespacedTheme';

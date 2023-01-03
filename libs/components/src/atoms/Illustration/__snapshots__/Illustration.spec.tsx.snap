@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Illustration tests Illustration snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <Text
+    fontFamily="Muli-Bold"
+    fontSize={20}
+    lineHeight={26}
+    style={
+      [
+        {
+          "color": "#222222",
+          "fontFamily": "Muli-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    Illustration:
+  </Text>
+  <Image
+    height={216}
+    source={
+      {
+        "uri": "",
+      }
+    }
+    style={
+      [
+        {
+          "height": 216,
+          "width": 270,
+        },
+      ]
+    }
+    width={270}
+  />
+</View>
+`;

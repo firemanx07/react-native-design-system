@@ -1,0 +1,22 @@
+{
+  "extends": ["universe/native"],
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        "rootPathSuffix": "src",
+        "rootPathPrefix": "_"
+      }
+    }
+  },
+  "ignorePatterns": ["**/lib/*", "lib/*"],
+  "plugins": ["react", "react-native", "react-hooks"],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": true
+      }
+    ]
+  }
+}

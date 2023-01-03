@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "libs/*"
+  ],
+  "version": "0.0.1",
+  "command": {
+    "publish": {
+      "registry": "https://repos.proxym-group.net/repository/npm-private/"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "ignoreChanges": [
+    "**/__tests__/**",
+    "**/*.snap",
+    "**/*.md"
+  ]
+}

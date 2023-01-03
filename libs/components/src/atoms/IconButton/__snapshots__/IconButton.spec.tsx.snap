@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton tests IconButton snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 17,
+          "borderWidth": 1,
+          "height": 34,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 34,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#222222"
+        height={20}
+        width={20}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 17,
+          "borderWidth": 1,
+          "height": 34,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 34,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#222222"
+        height={20}
+        width={20}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 17,
+          "borderWidth": 1,
+          "height": 34,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 34,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#222222"
+        height={20}
+        width={20}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 17,
+          "borderWidth": 1,
+          "height": 34,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 34,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#222222"
+        height={20}
+        width={20}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 17,
+          "borderWidth": 1,
+          "height": 34,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 34,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#222222"
+        height={20}
+        width={20}
+      />
+    </View>
+  </View>
+</View>
+`;

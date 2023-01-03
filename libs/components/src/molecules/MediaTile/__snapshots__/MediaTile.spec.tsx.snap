@@ -1,0 +1,1097 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaTile tests MediaTile snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <Text
+    fontFamily="Muli-Bold"
+    fontSize={20}
+    lineHeight={26}
+    style={
+      [
+        {
+          "color": "#222222",
+          "fontFamily": "Muli-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    MediaTile:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      size={124}
+      style={
+        [
+          {
+            "height": 124,
+            "overflow": "hidden",
+            "width": 124,
+          },
+        ]
+      }
+    >
+      <Image
+        size={124}
+        source={
+          {
+            "uri": "https://picsum.photos/124/124",
+          }
+        }
+        style={
+          [
+            {
+              "height": 124,
+              "width": 124,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <Text
+    fontFamily="Muli-Regular"
+    fontSize={14}
+    lineHeight={20}
+    style={
+      [
+        {
+          "color": "#222222",
+          "fontFamily": "Muli-Regular",
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        {
+          "color": "#666666",
+          "marginBottom": 4,
+        },
+      ]
+    }
+  >
+    Sample variants:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        New - Comment
+      </Text>
+      <View
+        size={124}
+        style={
+          [
+            {
+              "height": 124,
+              "overflow": "hidden",
+              "width": 124,
+            },
+          ]
+        }
+      >
+        <View
+          borderRadius={4}
+          size={18}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "alignSelf": "flex-start",
+                "backgroundColor": "#FF8066",
+                "borderRadius": 4,
+                "flexDirection": "row",
+                "height": 18,
+                "justifyContent": "center",
+                "minWidth": 18,
+                "paddingBottom": 4,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 4,
+              },
+              {
+                "backgroundColor": "#2FBFA7",
+                "paddingHorizontal": 6,
+                "position": "absolute",
+                "right": 6,
+                "top": 6,
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Muli-ExtraBold"
+            fontSize={10}
+            lineHeight={14}
+            style={
+              [
+                {
+                  "color": "#222222",
+                  "fontFamily": "Muli-ExtraBold",
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+                {
+                  "letterSpacing": 1.5,
+                },
+              ]
+            }
+          >
+            NEW
+          </Text>
+        </View>
+        <test-file-stub
+          fill="#FFFFFF"
+          height={24}
+          style={
+            [
+              {
+                "bottom": 4,
+                "position": "absolute",
+                "right": 4,
+                "zIndex": 1,
+              },
+            ]
+          }
+          width={24}
+        />
+        <Image
+          size={124}
+          source={
+            {
+              "uri": "https://picsum.photos/124/124",
+            }
+          }
+          style={
+            [
+              {
+                "height": 124,
+                "width": 124,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        New - Selectable
+      </Text>
+      <View
+        size={124}
+        style={
+          [
+            {
+              "height": 124,
+              "overflow": "hidden",
+              "width": 124,
+            },
+          ]
+        }
+      >
+        <View
+          borderRadius={4}
+          size={18}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "alignSelf": "flex-start",
+                "backgroundColor": "#FF8066",
+                "borderRadius": 4,
+                "flexDirection": "row",
+                "height": 18,
+                "justifyContent": "center",
+                "minWidth": 18,
+                "paddingBottom": 4,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 4,
+              },
+              {
+                "backgroundColor": "#2FBFA7",
+                "paddingHorizontal": 6,
+                "position": "absolute",
+                "right": 6,
+                "top": 6,
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Muli-ExtraBold"
+            fontSize={10}
+            lineHeight={14}
+            style={
+              [
+                {
+                  "color": "#222222",
+                  "fontFamily": "Muli-ExtraBold",
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+                {
+                  "letterSpacing": 1.5,
+                },
+              ]
+            }
+          >
+            NEW
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(34,34,34,0.8)",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 10,
+              "bottom": 6,
+              "height": 20,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 6,
+              "width": 20,
+              "zIndex": 3,
+            }
+          }
+        />
+        <Image
+          size={124}
+          source={
+            {
+              "uri": "https://picsum.photos/124/124",
+            }
+          }
+          style={
+            [
+              {
+                "height": 124,
+                "width": 124,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        New - Selected
+      </Text>
+      <View
+        size={124}
+        style={
+          [
+            {
+              "height": 124,
+              "overflow": "hidden",
+              "width": 124,
+            },
+          ]
+        }
+      >
+        <View
+          borderRadius={4}
+          size={18}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "alignSelf": "flex-start",
+                "backgroundColor": "#FF8066",
+                "borderRadius": 4,
+                "flexDirection": "row",
+                "height": 18,
+                "justifyContent": "center",
+                "minWidth": 18,
+                "paddingBottom": 4,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 4,
+              },
+              {
+                "backgroundColor": "#2FBFA7",
+                "paddingHorizontal": 6,
+                "position": "absolute",
+                "right": 6,
+                "top": 6,
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Muli-ExtraBold"
+            fontSize={10}
+            lineHeight={14}
+            style={
+              [
+                {
+                  "color": "#222222",
+                  "fontFamily": "Muli-ExtraBold",
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+                {
+                  "letterSpacing": 1.5,
+                },
+              ]
+            }
+          >
+            NEW
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "rgba(34,34,34,0.5)",
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 2,
+              },
+            ]
+          }
+        />
+        <View
+          accessibilityState={
+            {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FF8066",
+              "borderColor": "#FF8066",
+              "borderRadius": 10,
+              "bottom": 6,
+              "height": 20,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 6,
+              "width": 20,
+              "zIndex": 3,
+            }
+          }
+        >
+          <test-file-stub
+            fill="#FFFFFF"
+            height={16}
+            style={
+              [
+                {},
+              ]
+            }
+            width={16}
+          />
+        </View>
+        <Image
+          size={124}
+          source={
+            {
+              "uri": "https://picsum.photos/124/124",
+            }
+          }
+          style={
+            [
+              {
+                "height": 124,
+                "width": 124,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Video
+      </Text>
+      <View
+        size={124}
+        style={
+          [
+            {
+              "height": 124,
+              "overflow": "hidden",
+              "width": 124,
+            },
+          ]
+        }
+      >
+        <Text
+          fontFamily="Muli-Bold"
+          fontSize={12}
+          lineHeight={18}
+          style={
+            [
+              {
+                "color": "#222222",
+                "fontFamily": "Muli-Bold",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+              {
+                "color": "#FFFFFF",
+                "left": 8,
+                "position": "absolute",
+                "textShadowColor": "rgba(34,34,34,0.5)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 2,
+                "top": 5,
+                "zIndex": 2,
+              },
+            ]
+          }
+        >
+          01:22
+        </Text>
+        <Image
+          size={124}
+          source={
+            {
+              "uri": "https://picsum.photos/124/124",
+            }
+          }
+          style={
+            [
+              {
+                "height": 124,
+                "width": 124,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Video - New - Comment
+      </Text>
+      <View
+        size={124}
+        style={
+          [
+            {
+              "height": 124,
+              "overflow": "hidden",
+              "width": 124,
+            },
+          ]
+        }
+      >
+        <View
+          borderRadius={4}
+          size={18}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "alignSelf": "flex-start",
+                "backgroundColor": "#FF8066",
+                "borderRadius": 4,
+                "flexDirection": "row",
+                "height": 18,
+                "justifyContent": "center",
+                "minWidth": 18,
+                "paddingBottom": 4,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 4,
+              },
+              {
+                "backgroundColor": "#2FBFA7",
+                "paddingHorizontal": 6,
+                "position": "absolute",
+                "right": 6,
+                "top": 6,
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Muli-ExtraBold"
+            fontSize={10}
+            lineHeight={14}
+            style={
+              [
+                {
+                  "color": "#222222",
+                  "fontFamily": "Muli-ExtraBold",
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+                {
+                  "letterSpacing": 1.5,
+                },
+              ]
+            }
+          >
+            NEW
+          </Text>
+        </View>
+        <test-file-stub
+          fill="#FFFFFF"
+          height={24}
+          style={
+            [
+              {
+                "bottom": 4,
+                "position": "absolute",
+                "right": 4,
+                "zIndex": 1,
+              },
+            ]
+          }
+          width={24}
+        />
+        <Text
+          fontFamily="Muli-Bold"
+          fontSize={12}
+          lineHeight={18}
+          style={
+            [
+              {
+                "color": "#222222",
+                "fontFamily": "Muli-Bold",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+              {
+                "color": "#FFFFFF",
+                "left": 8,
+                "position": "absolute",
+                "textShadowColor": "rgba(34,34,34,0.5)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 2,
+                "top": 5,
+                "zIndex": 2,
+              },
+            ]
+          }
+        >
+          01:22
+        </Text>
+        <Image
+          size={124}
+          source={
+            {
+              "uri": "https://picsum.photos/124/124",
+            }
+          }
+          style={
+            [
+              {
+                "height": 124,
+                "width": 124,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#222222",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#F2F3F4",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Unlock button
+      </Text>
+      <View
+        size={124}
+        style={
+          [
+            {
+              "height": 124,
+              "overflow": "hidden",
+              "width": 124,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "rgba(34,34,34,0.5)",
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 2,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 3,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 28,
+                "justifyContent": "center",
+                "maxWidth": "100%",
+                "opacity": 1,
+                "paddingHorizontal": 8,
+              }
+            }
+          >
+            <test-file-stub
+              fill="#FFFFFF"
+              height={16}
+              style={
+                [
+                  {},
+                ]
+              }
+              width={16}
+            />
+            <Text
+              color="rgba(34,34,34,0.3)"
+              fontFamily="Muli-Bold"
+              fontSize={14}
+              hasIcon={true}
+              lineHeight={20}
+              numberOfLines={1}
+              size="Small"
+              style={
+                [
+                  {
+                    "color": "#222222",
+                    "fontFamily": "Muli-Bold",
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                  },
+                  {
+                    "color": "rgba(34,34,34,0.3)",
+                    "marginLeft": 4,
+                  },
+                  {
+                    "color": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              Freishalten
+            </Text>
+          </View>
+        </View>
+        <Image
+          size={124}
+          source={
+            {
+              "uri": "https://picsum.photos/124/124",
+            }
+          }
+          style={
+            [
+              {
+                "height": 124,
+                "width": 124,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

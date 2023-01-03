@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseButton tests Outline snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 24,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "maxWidth": "100%",
+          "opacity": 1,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        color="#222222"
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        hasIcon={false}
+        lineHeight={20}
+        numberOfLines={1}
+        size="Regular"
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "color": "#222222",
+              "marginLeft": 0,
+            },
+          ]
+        }
+      >
+        Button Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`BaseButton tests OutlineWithIcon snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#DEDFE0",
+          "borderRadius": 24,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "maxWidth": "100%",
+          "opacity": 1,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#222222"
+        height={24}
+        width={24}
+      />
+      <Text
+        color="#222222"
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        hasIcon={true}
+        lineHeight={20}
+        numberOfLines={1}
+        size="Regular"
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "color": "#222222",
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        Button Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`BaseButton tests Primary snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FF8066",
+          "borderRadius": 24,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "maxWidth": "100%",
+          "opacity": 1,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        color="#FFFFFF"
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        hasIcon={false}
+        lineHeight={20}
+        numberOfLines={1}
+        size="Regular"
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "color": "#FFFFFF",
+              "marginLeft": 0,
+            },
+          ]
+        }
+      >
+        Button Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`BaseButton tests PrimaryWithIcon snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FF8066",
+          "borderRadius": 24,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "maxWidth": "100%",
+          "opacity": 1,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#FFFFFF"
+        height={24}
+        width={24}
+      />
+      <Text
+        color="#FFFFFF"
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        hasIcon={true}
+        lineHeight={20}
+        numberOfLines={1}
+        size="Regular"
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "color": "#FFFFFF",
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        Button Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`BaseButton tests Secondary snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FF9C48",
+          "borderRadius": 24,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "maxWidth": "100%",
+          "opacity": 1,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        color="#FFFFFF"
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        hasIcon={false}
+        lineHeight={20}
+        numberOfLines={1}
+        size="Regular"
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "color": "#FFFFFF",
+              "marginLeft": 0,
+            },
+          ]
+        }
+      >
+        Button Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`BaseButton tests SecondaryWithIcon snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F3F4",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#222222",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FF9C48",
+          "borderRadius": 24,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "maxWidth": "100%",
+          "opacity": 1,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#FFFFFF"
+        height={24}
+        width={24}
+      />
+      <Text
+        color="#FFFFFF"
+        fontFamily="Muli-Bold"
+        fontSize={16}
+        hasIcon={true}
+        lineHeight={20}
+        numberOfLines={1}
+        size="Regular"
+        style={
+          [
+            {
+              "color": "#222222",
+              "fontFamily": "Muli-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "color": "#FFFFFF",
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        Button Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;

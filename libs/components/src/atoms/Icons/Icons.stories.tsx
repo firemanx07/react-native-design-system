@@ -1,0 +1,166 @@
+import {
+  ColorType,
+  IconSizeType,
+  styled,
+  useNamespacedTheme,
+} from '@proxym/themes';
+import type { Story } from '@storybook/react';
+import React, { useMemo, useCallback } from 'react';
+
+import {
+  StorybookRow,
+  StorybookScreen,
+  StorybookSection,
+  StorybookSectionText,
+} from '../../storybook';
+import { BaseText } from '../BaseText';
+import * as pdp from './pdp';
+import * as icons from './svg';
+
+export default {
+  title: 'Atoms/Icons',
+  argTypes: {
+    size: {
+      control: { type: 'select' },
+      options: Object.values(IconSizeType).filter(
+        (item) => typeof item === 'number'
+      ),
+    },
+    color: {
+      control: { type: 'select' },
+      options: ColorType,
+    },
+  },
+};
+
+type IconType = {
+  width?: number;
+  height?: number;
+  fill?: string;
+};
+
+type IconsType = { [key: string]: (props: IconType) => JSX.Element };
+
+const baseIcons = icons as IconsType;
+const pdpIcons = pdp as IconsType;
+
+const ICON_WRAPPER_WIDTH = 300;
+const ICON_WRAPPER_MARGIN = 10;
+const ICONS_IN_ROW = 4;
+
+const Template: Story = ({ size, color }) => {
+  const { iconSize } = useNamespacedTheme();
+
+  const iconSizeKeys = useMemo(
+    () =>
+      Object.values(iconSize).filter(
+        (value: string | number) => typeof value === 'string'
+      ) as string[],
+    []
+  );
+
+  const renderIconSize = useCallback((key: any) => {
+    return (
+      <StorybookSectionText
+        key={key}
+      >{`${key}: ${iconSize[key]}px`}</StorybookSectionText>
+    );
+  }, []);
+
+  const renderIcon = useCallback(
+    (key: string) => {
+      const Icon = baseIcons[key];
+      return (
+        <IconWrapper key={key} width={ICON_WRAPPER_WIDTH}>
+          <Icon
+            width={size || iconSize.primary}
+            height={size || iconSize.primary}
+            fill={color}
+          />
+          <IconName>{key}</IconName>
+        </IconWrapper>
+      );
+    },
+    [size, color]
+  );
+
+  return (
+    <StorybookScreen>
+      <StorybookSection title="Supported icon sizes:">
+        {iconSizeKeys.map(renderIconSize)}
+      </StorybookSection>
+      <StorybookSectionText>All icons:</StorybookSectionText>
+      <IconsWrapper>{Object.keys(baseIcons).map(renderIcon)}</IconsWrapper>
+    </StorybookScreen>
+  );
+};
+
+const PDPIconsTemplate: Story = ({ size }) => {
+  const { iconSize } = useNamespacedTheme();
+
+  const renderIcon = useCallback(
+    (key: string) => {
+      const Icon = pdpIcons[key];
+      return (
+        <IconWrapper key={key} width={ICON_WRAPPER_WIDTH}>
+          <Icon
+            width={size || iconSize.large}
+            height={size || iconSize.large}
+          />
+          <IconName>{key}</IconName>
+        </IconWrapper>
+      );
+    },
+    [size]
+  );
+
+  return (
+    <StorybookScreen>
+      <StorybookSectionText>PDP icons:</StorybookSectionText>
+      <IconsWrapper>{Object.keys(pdpIcons).map(renderIcon)}</IconsWrapper>
+    </StorybookScreen>
+  );
+};
+
+const IconsWrapper = styled(StorybookRow)`
+  width: ${ICON_WRAPPER_WIDTH * ICONS_IN_ROW +
+  ICON_WRAPPER_MARGIN * ICONS_IN_ROW}px;
+  flex-wrap: wrap;
+`;
+
+const IconWrapper = styled(StorybookSection)`
+  flex-direction: row;
+  align-items: center;
+  width: ${ICON_WRAPPER_WIDTH}px;
+  margin: 0;
+  margin-right: ${ICON_WRAPPER_MARGIN}px;
+  margin-bottom: ${ICON_WRAPPER_MARGIN}px;
+  overflow: hidden;
+`;
+
+const IconName = styled(BaseText)`
+  padding-left: ${({ theme }) => theme.ds.spacing.primary}px;
+`;
+
+const parameters = {
+  controls: {
+    include: ['size', 'color'],
+  },
+};
+
+const defaultArgs = {
+  size: undefined,
+  color: ColorType.dark,
+};
+
+export const BaseIcons = Template.bind({});
+BaseIcons.parameters = parameters;
+BaseIcons.args = {
+  ...defaultArgs,
+};
+
+export const PDPIcons = PDPIconsTemplate.bind({});
+PDPIcons.parameters = parameters;
+PDPIcons.args = {
+  ...defaultArgs,
+};

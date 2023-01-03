@@ -1,0 +1,17 @@
+name: Pull Request | CI
+
+on:
+    push:
+        branches-ignore:
+            - master
+
+
+permissions:
+    id-token: write
+    contents: read
+
+jobs:
+    ci:
+        name: CI
+        uses: ./.github/workflows/ci.yaml
+        secrets: inherit

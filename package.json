@@ -1,0 +1,44 @@
+{
+  "name": "proxym-rn-design-system",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "git@github.com:celebrate-app/celebrate-apps-design-system.git",
+  "publishConfig": {
+    "@proxym:registry": "https://repos.proxym-group.net/repository/npm-private/"
+  },
+  "workspaces": [
+    "libs/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "test:ci": "lerna run test:ci",
+    "lint": "lerna run lint",
+    "prepare": "lerna run prepare",
+    "lint:fix": "lerna run lint:fix",
+    "publish-packages": "lerna publish from-package --yes",
+    "storybook": "cd libs/components && yarn start-storybook",
+    "build-storybook": "cd libs/components && build-storybook",
+    "clean-nx": "npx nx reset && npx nx clear-cache",
+    "clean-modules": "npx lerna clean --yes && find . -name node_modules -type d -prune -exec rm -rf '{}' +",
+    "clean-watchman": "watchman watch-del-all",
+    "bootstrap": "lerna bootstrap",
+    "deploy": "cd cdk && cdk deploy --require-approval never"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "lerna": "^6.0.3"
+  },
+  "resolutions": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.7",
+    "react-native-web": "~0.17.5",
+    "@testing-library/jest-native": "^4.0.2",
+    "@testing-library/react-native": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {}
+}

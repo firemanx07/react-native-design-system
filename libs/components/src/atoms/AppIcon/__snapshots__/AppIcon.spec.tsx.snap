@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppIcon tests AppIcon snapshot test 1`] = `
+<test-file-stub
+  height={85}
+  width={85}
+/>
+`;

@@ -1,0 +1,31 @@
+name: Build Storybook
+
+on:
+  workflow_call:
+
+jobs:
+  build-storybook:
+    name: Build Storybook
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+      - name: install
+        run: yarn
+      - name: build
+        run: yarn build-storybook
+      - name: Store storybook artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: storybook-build
+          path: libs/components/storybook-static
+          retention-days: 1
