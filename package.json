@@ -2,7 +2,7 @@
   "name": "proxym-rn-design-system",
   "version": "0.0.1",
   "private": true,
-  "repository": "git@github.com:celebrate-app/celebrate-apps-design-system.git",
+  "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
     "@proxym:registry": "https://repos.proxym-group.net/repository/npm-private/"
   },
@@ -22,8 +22,7 @@
     "clean-nx": "npx nx reset && npx nx clear-cache",
     "clean-modules": "npx lerna clean --yes && find . -name node_modules -type d -prune -exec rm -rf '{}' +",
     "clean-watchman": "watchman watch-del-all",
-    "bootstrap": "lerna bootstrap",
-    "deploy": "cd cdk && cdk deploy --require-approval never"
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "fs-extra": "^10.1.0",

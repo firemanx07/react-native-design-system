@@ -9,7 +9,7 @@ import {
 } from './types';
 
 export const theme: ThemeType = {
-  // NOTE: the Design System theme must have it's own napespace
+  // NOTE: the Design System theme must have it's own namespace
   // to avoid conflicts with the mobile app theme
   ds: {
     colors: ColorType,

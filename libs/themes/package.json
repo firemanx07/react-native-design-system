@@ -2,12 +2,12 @@
   "name": "@proxym/themes",
   "version": "0.0.1",
   "main": "src/index.ts",
-  "repository": "git@github.com:celebrate-app/celebrate-apps-design-system.git",
+  "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
     "@proxym:registry": "https://repos.proxym-group.net/repository/npm-private/"
   },
   "scripts": {
-    "lint": "eslint --ext '.js,.ts,.tsx' .",
+    "lint": "eslint . --ext .js,.ts,.tsx",
     "lint:fix": "yarn lint --fix",
     "prepare": "bob build",
     "typescript": "tsc --noEmit",
@@ -56,5 +56,5 @@
     "node_modules/",
     "lib/"
   ],
-  "gitHead": "67b15580af3dcc626f79b2b839bffedbbd9a6b46"
+  "gitHead": "38a03e2f37d04f03da56e82b30e244b321ba431f"
 }

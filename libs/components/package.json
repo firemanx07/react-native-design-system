@@ -1,8 +1,8 @@
 {
   "name": "@proxym/components",
-  "version": "0.0.8",
+  "version": "0.0.1",
   "main": "src/index.tsx",
-  "repository": "git@github.com:celebrate-app/celebrate-apps-design-system.git",
+  "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
     "@proxym:registry": "https://repos.proxym-group.net/repository/npm-private/"
   },
@@ -12,7 +12,7 @@
     "build-storybook": "build-storybook",
     "lint": "eslint --ext '.js,.ts,.tsx' .",
     "lint:fix": "yarn lint --fix",
-    "test": "TZ=UTC jest --watch --coverage=false",
+    "test": "jest --watch --coverage=false",
     "test:coverage": "jest --verbose --coverage --passWithNoTests",
     "test:ci": "jest --coverage=false --passWithNoTests",
     "prepare": "bob build",
@@ -30,9 +30,9 @@
     "@proxym/themes": "^0.0.1",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/react": "^6.5.13",
-    "@testing-library/jest-native": "^5.2.0",
+    "@testing-library/jest-native": "^4.0.13",
     "@testing-library/react-hooks": "^8.0.1",
-    "@testing-library/react-native": "^11.4.0",
+    "@testing-library/react-native": "^7.2.0",
     "@types/jest": "^29.2.2",
     "babel-loader": "^8.2.5",
     "babel-plugin-root-import": "^6.6.0",
@@ -45,7 +45,7 @@
     "react-native-builder-bob": "^0.18.2",
     "react-native-reanimated": "^2.13.0",
     "react-native-svg": "^13.6.0",
-    "react-native-web": "0.18.10",
+    "react-native-web": "0.17.7",
     "react-test-renderer": "^18.2.0",
     "storybook-addon-mock": "^1.7.0",
     "typescript": "4.8.4"
@@ -86,5 +86,5 @@
     "node_modules/",
     "lib/"
   ],
-  "gitHead": "67b15580af3dcc626f79b2b839bffedbbd9a6b46"
+  "gitHead": "38a03e2f37d04f03da56e82b30e244b321ba431f"
 }

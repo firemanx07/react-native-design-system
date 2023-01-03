@@ -1,4 +1,4 @@
-import { theme, ThemeProvider } from '@celebrate-app/themes';
+import { theme, ThemeProvider } from '@proxym/themes';
 import { Story } from '@storybook/react';
 import {
   cleanup,
