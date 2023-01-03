@@ -6,8 +6,8 @@ module.exports = ({ config }) => {
     projectRoot: resolve(__dirname, '../'),
     babel: {
       dangerouslyAddModulePathsToTranspile: [
-        // Ensure that all packages starting with @celebrate-app are transpiled.
-        '@celebrate-app',
+        // Ensure that all packages starting with @proxym are transpiled.
+        '@proxym',
       ],
     },
     module: {
