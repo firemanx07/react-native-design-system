@@ -9,9 +9,9 @@ export const Spacing = () => {
   const spacingKeys = useMemo(
     () =>
       Object.values(spacing).filter(
-        (value: string | number) => typeof value === 'string'
+        (value: string | number) => typeof value === 'string',
       ) as string[],
-    []
+    [],
   );
 
   const renderSpace = useCallback((key: any) => {

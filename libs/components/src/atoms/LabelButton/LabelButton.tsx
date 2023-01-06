@@ -73,7 +73,7 @@ export const ButtonText = styled(BaseText).attrs(
   ({ buttonVariant }: ButtonTextType) => ({
     variant: labelButtonTextVariant[buttonVariant],
     weight: TextWeight.Bold,
-  })
+  }),
 )<ButtonTextType>`
   text-decoration-line: ${({ underline }) =>
     underline ? 'underline' : 'none'};

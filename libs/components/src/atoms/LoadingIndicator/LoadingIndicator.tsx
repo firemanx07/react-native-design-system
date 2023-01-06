@@ -33,7 +33,7 @@ export const LoadingIndicator = ({
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveCircle((prev) => (prev > 2 ? 1 : prev + 1));
+      setActiveCircle(prev => (prev > 2 ? 1 : prev + 1));
     }, INTERVAL);
 
     return () => {
@@ -43,7 +43,7 @@ export const LoadingIndicator = ({
 
   return (
     <Container testID={testID}>
-      {[1, 2, 3].map((i) => (
+      {[1, 2, 3].map(i => (
         <Circle key={i} active={i === activeCircle} {...circleProps} />
       ))}
     </Container>

@@ -16,7 +16,7 @@ const Story: ComponentMeta<typeof IllustrationBase> = {
 export default Story;
 
 const Template: ComponentStory<typeof IllustrationBase> = (
-  args: IllustrationProps
+  args: IllustrationProps,
 ) => (
   <StorybookScreen title="Illustration:">
     <IllustrationBase {...args} />

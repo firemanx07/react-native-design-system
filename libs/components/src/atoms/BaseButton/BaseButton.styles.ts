@@ -86,7 +86,7 @@ export const ButtonText = styled(BaseText).attrs(
   ({ size }: ButtonTextType) => ({
     variant: buttonTextVariant[size],
     weight: TextWeight.Bold,
-  })
+  }),
 )<ButtonTextType>`
   color: ${({ color }) => color};
   margin-left: ${({ hasIcon, size }) =>

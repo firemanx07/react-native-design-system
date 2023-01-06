@@ -1,15 +1,24 @@
 {
-  "extends": ["universe/native"],
-  "settings": {
-    "import/resolver": {
-      "babel-plugin-root-import": {
-        "rootPathSuffix": "src",
-        "rootPathPrefix": "_"
-      }
-    }
+  "env": {
+    "node": true
   },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "universe/native",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
   "ignorePatterns": ["**/lib/*", "lib/*"],
   "plugins": ["react", "react-native", "react-hooks"],
+  "overrides": [
+    {
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "files": ["*.ts", "*.tsx", "*.d.ts", "*.mock.ts"]
+    }
+  ],
   "rules": {
     "prettier/prettier": [
       "warn",
@@ -17,6 +26,18 @@
         "singleQuote": true,
         "semi": true
       }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        "rootPathSuffix": "src",
+        "rootPathPrefix": "_"
+      }
+    },
+    "import/ignore": [
+      "react-native",
+      "node_modules/react-native/index\\.js$"
     ]
   }
 }

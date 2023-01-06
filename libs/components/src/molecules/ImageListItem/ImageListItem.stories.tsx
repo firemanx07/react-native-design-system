@@ -16,8 +16,8 @@ const Story: ComponentMeta<typeof ImageListItemBase> = {
 export default Story;
 
 const defaultArgs = {
-  title: 'Zuletzt hinzugefügt',
-  subtitle: '300 Dateien',
+  title: 'Recently added',
+  subtitle: '300 files',
   hasArrow: true,
   renderImage: (size: number) => (
     <Image
@@ -28,7 +28,7 @@ const defaultArgs = {
 };
 
 const Template: ComponentStory<typeof ImageListItemBase> = (
-  args: ImageListItemProps
+  args: ImageListItemProps,
 ) => (
   <StorybookScreen title="ImageListItem:">
     <StorybookSection>

@@ -14,7 +14,7 @@ const Providers = ({ children }: { children: ReactNode }) => {
 
 export const customRender = (
   ui: React.ReactElement<any>,
-  options?: RenderOptions
+  options?: RenderOptions,
 ) => {
   return render(ui, { wrapper: Providers, ...options });
 };
@@ -38,7 +38,7 @@ export function testComponentSnapshot(
   TestComponent: React.ReactElement<
     any,
     string | React.JSXElementConstructor<any>
-  >
+  >,
 ) {
   test('Snapshot test', () => {
     const comp = customRender(TestComponent);
@@ -48,7 +48,7 @@ export function testComponentSnapshot(
 }
 
 export function testAllStories(stories: any) {
-  Object.keys(stories).forEach((story) => {
+  Object.keys(stories).forEach(story => {
     if (story !== 'default') {
       testStory(story, stories[story]);
     }

@@ -1,12 +1,12 @@
-import { theme, ThemeProvider } from "@proxym/themes";
-import React from "react";
+import { theme, ThemeProvider } from '@proxym/themes';
+import React from 'react';
 
 import { loadStorybookFonts } from './loadFonts';
 
 loadStorybookFonts();
 
 export const decorators = [
-  (Story) => (
+  Story => (
     <ThemeProvider theme={theme}>
       <Story />
     </ThemeProvider>
@@ -15,5 +15,5 @@ export const decorators = [
 
 //👇 Configures Storybook to log the actions in the UI.
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
 };

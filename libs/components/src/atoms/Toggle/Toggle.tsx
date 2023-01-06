@@ -43,7 +43,7 @@ export const Toggle = ({
       useNativeDriver: true,
       duration: TOGGLE_DURATION,
     }).start(() => {
-      setIsActive((prev) => {
+      setIsActive(prev => {
         const newActiveState = !prev;
         onPress(newActiveState);
         return newActiveState;
@@ -110,7 +110,7 @@ const ToggleBullet = styled(Animated.View)<ToggleBulletType>`
   width: ${({ size }) => size}px;
   height: ${({ size }) => size}px;
   border-radius: ${({ size }) => size / 2}px;
-  elevation: 2;
+  elevation: ${2};
   shadow-offset: 0 2px;
   shadow-color: ${({ theme }) => theme.ds.colors.dark};
   shadow-opacity: 0.1;

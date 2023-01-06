@@ -5,7 +5,7 @@ import { ButtonVariant } from './BaseButton.types';
 
 export const useButtonContentColor = (
   variant: ButtonVariant,
-  disabled?: boolean
+  disabled?: boolean,
 ) => {
   const { colors } = useNamespacedTheme();
 

@@ -27,7 +27,7 @@ type IconComponentType = (props: {
 }) => JSX.Element;
 
 const Template: ComponentStory<typeof IconButtonBase> = (
-  args: Omit<IconButtonProps, 'renderIcon'>
+  args: Omit<IconButtonProps, 'renderIcon'>,
 ) => {
   const buttonIcons = [
     HeartOutlineIcon,

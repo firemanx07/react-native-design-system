@@ -23,12 +23,12 @@ const commonProps = {
   size: 124,
   labels: {
     new: 'New',
-    unlock: 'Freishalten',
+    unlock: 'unlock',
   },
 };
 
 const Template: ComponentStory<typeof MediaTileBase> = (
-  args: MediaTileProps
+  args: MediaTileProps,
 ) => (
   <StorybookScreen title="MediaTile:">
     <StorybookSection>

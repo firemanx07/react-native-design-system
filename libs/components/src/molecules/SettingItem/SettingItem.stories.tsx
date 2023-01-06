@@ -14,7 +14,7 @@ const Story: ComponentMeta<typeof SettingItemBase> = {
 export default Story;
 
 const Template: ComponentStory<typeof SettingItemBase> = (
-  args: SettingItemProps
+  args: SettingItemProps,
 ) => (
   <StorybookScreen title="SettingItem:">
     <StorybookSection>
@@ -34,7 +34,7 @@ const parameters = {
 
 const defaultArgs = {
   title: 'Likes',
-  subtitle: 'Jemand hat deine Fotos geliked',
+  subtitle: 'Someone liked your photos',
   onToggle: () => {},
   isActive: false,
   disabled: false,

@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .js,.ts,.tsx",
     "lint:fix": "yarn lint --fix",
     "prepare": "bob build",
+    "prettier:write": "yarn prettier --write **/*.{js,jsx,ts,tsx,json}",
     "typescript": "tsc --noEmit",
     "build:ci": "yarn && yarn typescript && yarn prepare"
   },

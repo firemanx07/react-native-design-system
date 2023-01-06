@@ -14,7 +14,7 @@ const Story: ComponentMeta<typeof LoadingIndicatorBase> = {
 export default Story;
 
 const Template: ComponentStory<typeof LoadingIndicatorBase> = (
-  args: LoadingIndicatorProps
+  args: LoadingIndicatorProps,
 ) => (
   <StorybookScreen>
     <LoadingIndicatorBase {...args} />

@@ -84,7 +84,7 @@ const Template: Story = () => {
 
   const renderLabelButton = (
     variant: LabelButtonVariant,
-    underline?: boolean
+    underline?: boolean,
   ) => (
     <StorybookItemWrapper>
       <LabelButton variant={variant} onPress={noop} underline={underline}>

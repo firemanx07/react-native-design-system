@@ -117,7 +117,7 @@ export const Colors = () => {
 
   const renderColor = useCallback(
     (item: ColorPreviewProps) => <ColorPreview key={item.name} {...item} />,
-    []
+    [],
   );
 
   const renderSection = useCallback(
@@ -127,7 +127,7 @@ export const Colors = () => {
         <Section>{item.data.map(renderColor)}</Section>
       </Fragment>
     ),
-    []
+    [],
   );
 
   return <Container>{sections.map(renderSection)}</Container>;

@@ -32,4 +32,4 @@ export const loadStorybookFonts = () => {
   style.appendChild(document.createTextNode(fontStyles));
 
   document.head.appendChild(style);
-}
+};

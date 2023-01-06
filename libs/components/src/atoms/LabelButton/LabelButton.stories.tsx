@@ -20,7 +20,7 @@ const Story: ComponentMeta<typeof LabelButtonBase> = {
 export default Story;
 
 const Template: ComponentStory<typeof LabelButtonBase> = (
-  args: LabelButtonProps
+  args: LabelButtonProps,
 ) => (
   <StorybookScreen>
     <StorybookSection>

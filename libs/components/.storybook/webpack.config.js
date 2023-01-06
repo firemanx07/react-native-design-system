@@ -14,10 +14,10 @@ module.exports = ({ config }) => {
       rules: [
         {
           test: /\.ttf$/,
-          loader: "url-loader",
-          include: resolve(__dirname, "../src/assets/fonts"),
+          loader: 'url-loader',
+          include: resolve(__dirname, '../src/assets/fonts'),
         },
-      ]
-    }
+      ],
+    },
   });
 };
