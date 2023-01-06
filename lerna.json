@@ -3,6 +3,7 @@
     "libs/*"
   ],
   "version": "0.0.5",
+  "license": "SEE LICENSE IN LICENSE FILE",
   "command": {
     "publish": {
       "registry": "https://repos.proxym-group.net/repository/npm-private/"

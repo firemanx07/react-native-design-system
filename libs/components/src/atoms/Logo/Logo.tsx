@@ -1,11 +1,11 @@
-import { useNamespacedTheme } from '@proxym/themes';
+import { ColorType, useNamespacedTheme } from '@proxym/themes';
 import React, { memo } from 'react';
 
 import ProxymLogo from '../../assets/images/logo-text.svg';
 import { TestIDType } from '../../types';
 
 export type PropsType = {
-  color?: string;
+  color?: typeof ColorType[keyof typeof ColorType];
   width?: number;
 } & TestIDType;
 

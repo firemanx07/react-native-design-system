@@ -1,5 +1,5 @@
 import { ColorType } from '@proxym/themes';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 
 import {
@@ -15,14 +15,15 @@ const Story: ComponentMeta<typeof LogoBase> = {
   title: 'Atoms/Logo',
   argTypes: {
     color: {
-      control: { type: 'color' },
+      control: { type: 'select' },
+      options: ColorType,
     },
   },
 };
 export default Story;
 
 const defaultArgs: LogoProps = {
-  color: '#222222',
+  color: ColorType.dark,
   width: 131,
 };
 
