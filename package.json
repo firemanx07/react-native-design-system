@@ -22,6 +22,7 @@
     "clean-nx": "npx nx reset && npx nx clear-cache",
     "clean-modules": "npx lerna clean --yes && find . -name node_modules -type d -prune -exec rm -rf '{}' +",
     "clean-watchman": "watchman watch-del-all",
+    "prettier:write": "lerna run prettier:write",
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {

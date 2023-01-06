@@ -1,7 +1,7 @@
 import { useNamespacedTheme } from '@proxym/themes';
 import React, { memo } from 'react';
 
-import CelebrateLogo from '../../assets/images/logo.svg';
+import ProxymLogo from '../../assets/images/logo-text.svg';
 import { TestIDType } from '../../types';
 
 export type PropsType = {
@@ -17,7 +17,7 @@ export const Logo = ({ width = BASE_WIDTH, color, testID }: PropsType) => {
   const { colors } = useNamespacedTheme();
 
   return (
-    <CelebrateLogo
+    <ProxymLogo
       width={width}
       height={height}
       fill={color || colors.primary}

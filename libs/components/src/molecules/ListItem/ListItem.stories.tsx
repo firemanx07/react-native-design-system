@@ -18,7 +18,7 @@ const renderIconLeft = (size: number, color: string) => (
   <BellIcon width={size} height={size} fill={color} />
 );
 
-const listItemText = 'Benachrichtigungen';
+const listItemText = 'notifications';
 
 const Template: ComponentStory<typeof ListItemBase> = (args: ListItemProps) => (
   <StorybookScreen title="ListItem:">

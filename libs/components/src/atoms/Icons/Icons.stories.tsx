@@ -23,7 +23,7 @@ export default {
     size: {
       control: { type: 'select' },
       options: Object.values(IconSizeType).filter(
-        (item) => typeof item === 'number'
+        item => typeof item === 'number',
       ),
     },
     color: {
@@ -54,9 +54,9 @@ const Template: Story = ({ size, color }) => {
   const iconSizeKeys = useMemo(
     () =>
       Object.values(iconSize).filter(
-        (value: string | number) => typeof value === 'string'
+        (value: string | number) => typeof value === 'string',
       ) as string[],
-    []
+    [],
   );
 
   const renderIconSize = useCallback((key: any) => {
@@ -81,7 +81,7 @@ const Template: Story = ({ size, color }) => {
         </IconWrapper>
       );
     },
-    [size, color]
+    [size, color],
   );
 
   return (
@@ -111,7 +111,7 @@ const PDPIconsTemplate: Story = ({ size }) => {
         </IconWrapper>
       );
     },
-    [size]
+    [size],
   );
 
   return (
@@ -132,9 +132,7 @@ const IconWrapper = styled(StorybookSection)`
   flex-direction: row;
   align-items: center;
   width: ${ICON_WRAPPER_WIDTH}px;
-  margin: 0;
-  margin-right: ${ICON_WRAPPER_MARGIN}px;
-  margin-bottom: ${ICON_WRAPPER_MARGIN}px;
+  margin: 0 ${ICON_WRAPPER_MARGIN}px ${ICON_WRAPPER_MARGIN}px 0;
   overflow: hidden;
 `;
 
