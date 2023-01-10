@@ -1,6 +1,6 @@
 {
   "name": "@proxym/components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "src/index.tsx",
   "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
@@ -26,9 +26,9 @@
     "@babel/runtime": "^7.20.1",
     "@expo/webpack-config": "^0.16.26",
     "@karankalsi/react-native-svg-loader": "^1.0.4",
-    "@proxym/eslint-config": "^0.0.5",
-    "@proxym/prettier-config": "^0.0.5",
-    "@proxym/themes": "^0.0.5",
+    "@proxym/eslint-config": "^0.0.6",
+    "@proxym/prettier-config": "^0.0.6",
+    "@proxym/themes": "^0.0.6",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/react": "^6.5.13",
     "@testing-library/jest-native": "^4.0.13",
