@@ -7,8 +7,8 @@ This package uses [styled-components](https://styled-components.com/) for stylin
 ## Structure
 It is organized as a monorepo with Lerna and contains the following packages:
 
-- [`@proxym/components`]: This package contains the reusable components that make up the design system, such as buttons, forms, and navigation.
-- `@proxym/theme`: This package contains the design system's theme, including colors, typography, and other design tokens.
+- [`@proxym/components`](#proxymcomponents): This package contains the reusable components that make up the design system, such as buttons, forms, and navigation.
+- [`@proxym/theme`](#proxymtheme): This package contains the design system's theme, including colors, typography, and other design tokens.
 
 ## Local Developpment
 
@@ -30,14 +30,15 @@ npm install @proxym/components
 
 You can import individual components from the package and use them in your application. For example, to use the `Button` component:
 
-```javascript
+```js
 import { BaseButton } from '@proxym/components';
 
 function MyComponent() {
   return <BaseButton>Click me</BaseButton>;
-}
+};
 ```
-@proxym/theme
+## @proxym/theme
+
 This package contains the design system's theme, it provides a set of variables and design tokens to style the components.
 
 ### Installation
