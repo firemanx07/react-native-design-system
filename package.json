@@ -2,6 +2,7 @@
   "name": "proxym-rn-design-system",
   "version": "0.0.5",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE FILE",
   "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
     "@proxym:registry": "https://repos.proxym-group.net/repository/npm-private/"

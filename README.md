@@ -10,7 +10,7 @@ It is organized as a monorepo with Lerna and contains the following packages:
 - [`@proxym/components`](#proxymcomponents): This package contains the reusable components that make up the design system, such as buttons, forms, and navigation.
 - [`@proxym/theme`](#proxymtheme): This package contains the design system's theme, including colors, typography, and other design tokens.
 
-## Local Developpment
+## Local Development
 
 To install the Proxym Design System, you will need to have [Lerna](https://lernajs.io/) installed globally. Then, in the root of the monorepo run the following command:
 ```
@@ -59,8 +59,8 @@ const GlobalStyle = createGlobalStyle`
 `;
 ```
 ## Storybook
-To help you visualizing and interact with all the provided components we have deployed a storybook at https://proxym-rn-design-system.netlify.app(under construction)
+To help you visualize and interact with all the provided components we have deployed a storybook at https://proxym-rn-design-system.netlify.app(under construction)
 ## Contributing
 We welcome contributions to the Proxym Design System! Before submitting a pull request, please make sure to read our contributing guidelines and code of conduct.
 ## License
-The Proxym Design System is licensed under [private software license agreemet](LICENSE)
+The Proxym Design System is licensed under [private software license agreement](LICENSE)
