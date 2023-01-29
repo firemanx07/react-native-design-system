@@ -6,6 +6,7 @@ pages:
       - docker
     script:
       - yarn install
+      - yarn bootstrap # added bootstrap step
       - yarn build-storybook
       - mv libs/components/storybook-static ./public
     artifacts:
