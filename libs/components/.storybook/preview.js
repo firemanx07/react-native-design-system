@@ -6,7 +6,7 @@ import { loadStorybookFonts } from './loadFonts';
 loadStorybookFonts();
 
 export const decorators = [
-  Story => (
+  (Story) => (
     <ThemeProvider theme={theme}>
       <Story />
     </ThemeProvider>
