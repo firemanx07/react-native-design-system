@@ -7,7 +7,7 @@ pages:
     script:
       - yarn install
       - yarn build-storybook
-      - mv libs/components/storybook-static ../../../public
+      - mv libs/components/storybook-static ./public
     artifacts:
         paths:
         - public
