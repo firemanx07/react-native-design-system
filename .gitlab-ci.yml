@@ -1,0 +1,13 @@
+image: gitlab-registry.proxym-group.net/docker/node:16.17.0
+
+pages:
+    stage: deploy
+    script:
+      - yarn install
+      - yarn build-storybook
+      - mv libs/components/storybook-static ../../../public
+    artifacts:
+        paths:
+        - public
+    only:
+      - master
