@@ -2,6 +2,8 @@ image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 pages:
     stage: deploy
+    tags:
+      - docker
     script:
       - yarn install
       - yarn build-storybook
