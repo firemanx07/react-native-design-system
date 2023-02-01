@@ -1,17 +1,20 @@
 image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 pages:
-    stage: deploy
-    tags:
-      - docker
-    script:
-      - yarn install
-      - yarn bootstrap # added bootstrap step
-      - export NODE_ENV=production # set NODE_ENV to production
-      - yarn build-storybook
-      - mv libs/components/storybook-static ./public
-    artifacts:
-        paths:
-        - public
-    only:
+  stage: deploy
+  tags:
+    - docker
+  script:
+    - yarn install
+    - yarn bootstrap
+    - export NODE_ENV=production
+    - yarn build-storybook
+    - mv libs/components/storybook-static ./public
+  artifacts:
+    paths:
+      - public
+  only:
+    changes:
       - master
+      - libs/components/src/**/*.stories.tsx
+  when: manual
