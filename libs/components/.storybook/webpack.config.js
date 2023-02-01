@@ -4,7 +4,7 @@ const { withUnimodules } = require('@expo/webpack-config/addons');
 const isProduction = process.env.NODE_ENV === 'production';
 const baseUrl = isProduction ? '/react-native-starter/proxym-rn-design-system/' : '/';
 
-module.exports = ({ config }) => {
+module.exports = ({ config  }) => {
   return withUnimodules(config, {
     projectRoot: resolve(__dirname, '../'),
     publicPath: baseUrl,

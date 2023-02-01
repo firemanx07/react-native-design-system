@@ -5,7 +5,7 @@ import IconSizeType from './IconSizeType';
 import LineHeightType from './LineHeightType';
 import SpacingType from './SpacingType';
 
-type ThemeType = {
+export type DSType = {
   ds: {
     colors: typeof ColorType;
     spacing: typeof SpacingType;
@@ -17,5 +17,3 @@ type ThemeType = {
     iconSize: typeof IconSizeType;
   };
 };
-
-export default ThemeType;

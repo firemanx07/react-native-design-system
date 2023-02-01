@@ -1,5 +1,5 @@
 import {
-  ThemeType,
+  DSType,
   ColorType,
   FontFamilyType,
   SpacingType,
@@ -8,7 +8,7 @@ import {
   IconSizeType,
 } from './types';
 
-export const theme: ThemeType = {
+export const theme: DSType = {
   // NOTE: the Design System theme must have it's own namespace
   // to avoid conflicts with the mobile app theme
   ds: {

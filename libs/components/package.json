@@ -29,8 +29,10 @@
     "@proxym/eslint-config": "^0.0.6",
     "@proxym/prettier-config": "^0.0.6",
     "@proxym/themes": "^0.0.6",
-    "@storybook/addon-essentials": "^6.5.13",
-    "@storybook/react": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addons": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/theming": "^6.5.16",
     "@testing-library/jest-native": "^4.0.13",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/react-native": "^7.2.0",
@@ -49,6 +51,7 @@
     "react-native-web": "0.17.7",
     "react-test-renderer": "^18.2.0",
     "storybook-addon-mock": "^1.7.0",
+    "storybook-dark-mode": "^2.0.5",
     "typescript": "4.8.4"
   },
   "peerDependencies": {

@@ -3,7 +3,9 @@ import React from 'react';
 
 import { loadStorybookFonts } from './loadFonts';
 
+
 loadStorybookFonts();
+
 
 export const decorators = [
   (Story) => (

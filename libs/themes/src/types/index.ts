@@ -1,4 +1,4 @@
-export { default as ThemeType } from './ThemeType';
+export { DSType } from './DSType';
 export { default as ColorType } from './ColorType';
 export { default as FontFamilyType } from './FontFamilyType';
 export { default as FontSizeType } from './FontSizeType';
