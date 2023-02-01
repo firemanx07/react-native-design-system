@@ -14,9 +14,7 @@ pages:
     paths:
       - public
   only:
-    - master 
-  rules:
-    - if: '$CI_COMMIT_CHANGED_FILES =~ libs/components/src/**/*.stories.tsx$'
-    - when: on_changes
-  allow_failure: false
+    changes:
+      - master
+      - libs/components/src/**/*.stories.tsx
   when: manual
