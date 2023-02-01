@@ -59,7 +59,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 ```
 ## Storybook
-To help you visualize and interact with all the provided components we have deployed a storybook at https://proxym-rn-design-system.netlify.app(under construction)
+To help you visualize and interact with all the provided components we have deployed a storybook here: [Proxym's DS](https://ghassen-mellassi.pages.proxym-it.tn/react-native-starter/proxym-rn-design-system)
 ## Contributing
 We welcome contributions to the Proxym Design System! Before submitting a pull request, please make sure to read our contributing guidelines and code of conduct.
 ## License
