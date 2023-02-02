@@ -1,10 +1,11 @@
 import {
   FontFamilyType,
-  styled,
-  useNamespacedTheme,
   FontSizeType,
   LineHeightType,
+  styled,
+  useNamespacedTheme,
 } from '@proxym/themes';
+import colorType from '@proxym/themes/src/types/ColorType';
 import React, { memo, useMemo } from 'react';
 import { StyleProp, TextProps, TextStyle } from 'react-native';
 
@@ -29,6 +30,7 @@ export type PropsType = {
   variant?: TextVariant;
   weight?: TextWeight;
   style?: StyleProp<TextStyle>;
+  color?: colorType;
 } & TextProps;
 
 export const BaseText = ({
@@ -114,10 +116,11 @@ type StyledTextVariant = {
   fontFamily: FontFamilyType;
   fontSize: FontSizeType;
   lineHeight: LineHeightType;
+  color?: colorType;
 };
 
 const StyledText = styled.Text<StyledTextVariant>`
-  color: ${({ theme }) => theme.ds.colors.dark};
+  color: ${({ theme, color }) => color ?? theme.ds.colors.dark};
   font-family: ${({ fontFamily }) => fontFamily};
   font-size: ${({ fontSize }) => fontSize}px;
   line-height: ${({ lineHeight }) => lineHeight}px;

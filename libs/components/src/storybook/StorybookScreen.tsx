@@ -19,7 +19,7 @@ export const StorybookScreen = ({ title, children, style }: PropsType) => (
 
 export const Container = styled.View`
   flex: 1;
-  background-color: ${({ theme }) => theme.ds.colors.grayLight};
+  background-color: ${({ theme }) => theme.ds.colors.light};
   padding: ${({ theme }) => theme.ds.spacing.primary}px;
   min-height: 600px;
 `;

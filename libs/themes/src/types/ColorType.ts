@@ -1,17 +1,17 @@
 enum ColorType {
   // Primary colors:
-  primary = '#FF8066',
-  dark = '#222222',
+  primary = '#4D37D9',
+  dark = '#2C2C2C',
   light = '#FFFFFF',
 
   // Secondary colors:
-  secondary = '#FFF1E7',
+  secondary = '#49C4E9',
   secondaryDark = '#FFE6D1',
 
   // Alert colors:
-  error = '#F54F69',
+  error = '#FF3B3B',
   errorLight = '#FEEDF0',
-  success = '#2FBFA7',
+  success = '#1CC577',
   successLight = '#EAF9F6',
 
   // Accent colors:
@@ -19,9 +19,9 @@ enum ColorType {
   accentDark = '#FF9C48',
 
   // Grayscale colors:
-  grayDark = '#666666',
+  grayDark = '#C7C7D2',
   graySoft = '#DEDFE0',
-  grayLight = '#F2F3F4',
+  grayLight = '#C7C7D2',
   grayUltraLight = '#F9F9FA',
 }
 

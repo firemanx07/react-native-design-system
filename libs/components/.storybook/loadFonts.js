@@ -1,28 +1,33 @@
-import muliRegular from '../src/assets/fonts/Muli-Regular.ttf';
-import muliSemiBold from '../src/assets/fonts/Muli-SemiBold.ttf';
-import muliBold from '../src/assets/fonts/Muli-Bold.ttf';
-import muliExtraBold from '../src/assets/fonts/Muli-ExtraBold.ttf';
+import rubikRegular from '../src/assets/fonts/Rubik-Regular.ttf';
+import rubikSemiBold from '../src/assets/fonts/Rubik-SemiBold.ttf';
+import rubikBold from '../src/assets/fonts/Rubik-Bold.ttf';
+import rubikExtraBold from '../src/assets/fonts/Rubik-ExtraBold.ttf';
+import rubikMedium from '../src/assets/fonts/Rubik-Medium.ttf';
 import { FontFamilyType } from '@proxym/themes';
 
 export const loadStorybookFonts = () => {
   const fontStyles = `
     @font-face {
-      src: url(${muliRegular});
+      src: url(${rubikRegular});
       font-family: ${FontFamilyType.primary};
     }
 
     @font-face {
-      src: url(${muliSemiBold});
+      src: url(${rubikSemiBold});
       font-family: ${FontFamilyType.primarySemiBold};
     }
 
     @font-face {
-      src: url(${muliBold});
+      src: url(${rubikBold});
       font-family: ${FontFamilyType.primaryBold};
     }
 
     @font-face {
-      src: url(${muliExtraBold});
+      src: url(${rubikExtraBold});
+      font-family: ${FontFamilyType.primaryExtraBold};
+    }
+     @font-face {
+      src: url(${rubikMedium});
       font-family: ${FontFamilyType.primaryExtraBold};
     }
   `;
