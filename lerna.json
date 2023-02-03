@@ -2,7 +2,7 @@
   "packages": [
     "libs/*"
   ],
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "SEE LICENSE IN LICENSE FILE",
   "command": {
     "publish": {
