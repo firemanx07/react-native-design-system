@@ -27,12 +27,12 @@ export const Toggle = ({
   const { iconSize, spacing, colors } = useNamespacedTheme();
   const [isActive, setIsActive] = useState<boolean>(isActiveInitial);
   const toggleSize = size || iconSize.primary;
-  const toggleSpacing = spacing.tiny / 2;
-  const toggleRightPosition = toggleSize - toggleSpacing * 2;
+  const toggleSpacing = spacing.tiny;
+  const toggleRightPosition = toggleSize - toggleSpacing;
   const startPosition = isActive ? toggleRightPosition : 0;
   const endPosition = isActive ? 0 : toggleRightPosition;
 
-  const containerWidth = toggleSize * 2;
+  const containerWidth = toggleSize * 2 + toggleSpacing;
   const containerHeight = toggleSize + toggleSpacing * 2;
 
   const translateX = new Animated.Value(startPosition);
@@ -56,10 +56,10 @@ export const Toggle = ({
       return colors.grayLight;
     }
     if (isActive) {
-      return colors.primary;
+      return secondary ? colors.secondary : colors.primary;
     }
     return colors.graySoft;
-  }, [colors, isActive, disabled]);
+  }, [colors, isActive, disabled, secondary]);
 
   return (
     <Container
@@ -114,8 +114,7 @@ const ToggleBullet = styled(Animated.View)<ToggleBulletType>`
   shadow-offset: 0 2px;
   shadow-color: ${({ theme }) => theme.ds.colors.dark};
   shadow-opacity: 0.1;
-  background-color: ${({ theme, secondary }) =>
-    secondary ? theme.ds.colors.grayLight : theme.ds.colors.light};
+  background-color: ${({ theme }) => theme.ds.colors.light};
 `;
 
 export default memo(Toggle);

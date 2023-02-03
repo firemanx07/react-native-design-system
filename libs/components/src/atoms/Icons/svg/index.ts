@@ -19,7 +19,6 @@ export { default as SpeechBubbleIcon } from './speech-bubble-icon.svg';
 export { default as MembersIcon } from './members-icon.svg';
 export { default as AddMemberIcon } from './add-member-icon.svg';
 export { default as ImageSquareIcon } from './image-square-icon.svg';
-export { default as CheckIcon } from './check-icon.svg';
 export { default as CheckBoldIcon } from './check-bold-icon.svg';
 export { default as CloseCircleIcon } from './close-circle-icon.svg';
 export { default as LaptopIcon } from './laptop-icon.svg';

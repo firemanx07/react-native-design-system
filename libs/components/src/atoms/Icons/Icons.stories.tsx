@@ -57,6 +57,7 @@ const Template: Story = ({ size, color }) => {
     errorLight,
     successLight,
   ].includes(color);
+
   const iconSizeKeys = useMemo(
     () =>
       Object.values(iconSize).filter(
@@ -125,7 +126,7 @@ type IconNameType = {
 
 const IconName = styled(BaseText)<IconNameType>`
   padding-left: ${({ theme }) => theme.ds.spacing.primary}px;
-  ${props => !!props.isLight && `color:${() => props.theme.ds.colors.dark}`};
+  ${props => !!props.isLight && `color:${themes.dark.textColor}`};
 `;
 
 const parameters = {

@@ -1,4 +1,5 @@
 import { css, styled } from '@proxym/themes';
+import { rgba } from 'polished';
 
 import { BaseText, TextVariant, TextWeight } from '../BaseText';
 import { ButtonShape, ButtonSize } from './BaseButton.types';
@@ -40,6 +41,7 @@ type ButtonType = {
   size: ButtonSize;
   shape: ButtonShape;
   disabled?: boolean;
+  customColor?: string;
 };
 
 const ButtonCommon = styled.TouchableOpacity<ButtonType>`
@@ -47,11 +49,11 @@ const ButtonCommon = styled.TouchableOpacity<ButtonType>`
   height: ${({ size }) => buttonHeight[size]}px;
   border-radius: ${({ size, shape }) => {
     switch (shape) {
-      case ButtonShape.Square:
-        return 6;
       case ButtonShape.Rounded:
-      default:
         return buttonHeight[size] / 2;
+      case ButtonShape.Square:
+      default:
+        return 7;
     }
   }}px;
   max-width: 100%;
@@ -61,19 +63,27 @@ const ButtonCommon = styled.TouchableOpacity<ButtonType>`
 `;
 
 export const ButtonPrimary = styled(ButtonCommon)`
-  background-color: ${({ theme, disabled }) =>
-    disabled ? theme.ds.colors.graySoft : theme.ds.colors.primary};
+  background-color: ${({ theme, disabled, customColor }) =>
+    disabled
+      ? rgba(theme.ds.colors.grayDark, 0.2)
+      : customColor ?? theme.ds.colors.primary};
 `;
 
 export const ButtonSecondary = styled(ButtonCommon)`
-  background-color: ${({ theme, disabled }) =>
-    disabled ? theme.ds.colors.graySoft : theme.ds.colors.accentDark};
+  background-color: ${({ theme, disabled, customColor }) =>
+    disabled
+      ? rgba(theme.ds.colors.grayDark, 0.2)
+      : customColor ?? theme.ds.colors.secondary};
 `;
 
 export const ButtonOutline = styled(ButtonCommon)`
-  background-color: ${({ theme }) => theme.ds.colors.light};
-  border-color: ${({ theme }) => theme.ds.colors.graySoft};
-  border-width: 1px;
+  background-color: ${({ theme, disabled }) =>
+    disabled ? rgba(theme.ds.colors.grayDark, 0.2) : theme.ds.colors.light};
+
+  ${({ theme, disabled, customColor }) =>
+    !disabled &&
+    `border-color: ${customColor ?? theme.ds.colors.primary};
+    border-width: 1px;`}
 `;
 
 type ButtonTextType = {

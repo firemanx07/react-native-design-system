@@ -24,12 +24,13 @@ export type PropsType = {
   style?: StyleProp<ViewStyle>;
   textStyle?: StyleProp<TextStyle>;
   shape?: ButtonShape;
+  customColor?: string;
 } & TestIDType;
 
 export const BaseButton = ({
   variant = ButtonVariant.Primary,
   size = ButtonSize.Regular,
-  shape = ButtonShape.Rounded,
+  shape = ButtonShape.Square,
   onPress,
   children,
   disabled,
@@ -37,9 +38,10 @@ export const BaseButton = ({
   style,
   textStyle,
   renderIcon,
+  customColor,
   testID,
 }: PropsType) => {
-  const contentColor = useButtonContentColor(variant, disabled);
+  const contentColor = useButtonContentColor(variant, disabled, customColor);
   const hasIcon = !!renderIcon;
 
   const Button = useMemo(() => {
@@ -82,6 +84,7 @@ export const BaseButton = ({
       disabled={disabled}
       style={style}
       onPress={onPress}
+      customColor={customColor}
       testID={testID}
     >
       {renderContent()}

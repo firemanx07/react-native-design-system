@@ -67,13 +67,13 @@ const Template: Story = () => {
     );
   };
 
-  const renderSquareButton = (showIcon?: boolean, disabled?: boolean) => (
+  const renderRoundedButton = (showIcon?: boolean, disabled?: boolean) => (
     <StorybookItemWrapper>
       <SquareButton
         onPress={noop}
         variant={ButtonVariant.Outline}
         size={ButtonSize.Regular}
-        shape={ButtonShape.Square}
+        shape={ButtonShape.Rounded}
         disabled={disabled}
         renderIcon={showIcon ? renderIcon : undefined}
       >
@@ -113,10 +113,10 @@ const Template: Story = () => {
       </StorybookRow>
       <StorybookRow>
         <StorybookSection title="BaseButton - Outline - Square">
-          {renderSquareButton(true, false)}
-          {renderSquareButton(false, false)}
-          {renderSquareButton(true, true)}
-          {renderSquareButton(false, true)}
+          {renderRoundedButton(true, false)}
+          {renderRoundedButton(false, false)}
+          {renderRoundedButton(true, true)}
+          {renderRoundedButton(false, true)}
         </StorybookSection>
         <StorybookSection title="LabelButton">
           <StorybookSectionText>

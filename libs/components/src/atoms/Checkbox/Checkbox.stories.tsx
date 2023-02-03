@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
-import { StorybookScreen } from '../../storybook';
+import { StorybookScreen, StorybookSection } from '../../storybook';
 import {
   Checkbox as CheckboxBase,
   PropsType as CheckboxProps,
@@ -14,20 +14,30 @@ const Story: ComponentMeta<typeof CheckboxBase> = {
 export default Story;
 
 const Template: ComponentStory<typeof CheckboxBase> = (args: CheckboxProps) => (
-  <StorybookScreen title="Checkbox:">
-    <CheckboxBase {...args} />
+  <StorybookScreen>
+    <StorybookSection title="CheckBox:">
+      <CheckboxBase {...args} />
+    </StorybookSection>
+
+    <StorybookSection title="Disabled:">
+      <CheckboxBase {...args} disabled />
+    </StorybookSection>
+    <StorybookSection title="inactive:">
+      <CheckboxBase {...args} disabled={false} isChecked={false} />
+    </StorybookSection>
   </StorybookScreen>
 );
 
 const parameters = {
   controls: {
-    include: ['size', 'isChecked'],
+    include: ['size', 'isChecked', 'disabled'],
   },
 };
 
 const defaultArgs: CheckboxProps = {
   size: 20,
   isChecked: true,
+  disabled: false,
   onPress: () => {},
 };
 

@@ -1,18 +1,23 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ColorType } from '@proxym/themes';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 
 import { StorybookScreen, StorybookSection } from '../../storybook';
-import { CameraIcon } from '../Icons';
+import { PersonIcon } from '../Icons';
 import {
   BaseButton as BaseButtonBase,
   PropsType as BaseButtonProps,
 } from './BaseButton';
-import { ButtonVariant, ButtonSize } from './BaseButton.types';
+import { ButtonSize, ButtonVariant } from './BaseButton.types';
 
 const Story: ComponentMeta<typeof BaseButtonBase> = {
   component: BaseButtonBase,
   title: 'Atoms/Base Button',
   argTypes: {
+    customColor: {
+      control: { type: 'select' },
+      options: ColorType,
+    },
     variant: {
       control: { type: 'radio' },
     },
@@ -34,12 +39,19 @@ const Template: ComponentStory<typeof BaseButtonBase> = (
 );
 
 const renderIcon = (size: number, color: string) => (
-  <CameraIcon width={size} height={size} fill={color} />
+  <PersonIcon width={size} height={size} fill={color} />
 );
 
 const parameters = {
   controls: {
-    include: ['size', 'disabled', 'loading', 'children'],
+    include: [
+      'size',
+      'customColor',
+      'disabled',
+      'loading',
+      'children',
+      'customColor',
+    ],
   },
 };
 
