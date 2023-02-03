@@ -47,9 +47,16 @@ const ICON_WRAPPER_WIDTH = 300;
 const ICON_WRAPPER_MARGIN = 10;
 const ICONS_IN_ROW = 4;
 const { light, graySoft, grayUltraLight, errorLight, successLight } = ColorType;
+
 const Template: Story = ({ size, color }) => {
   const { iconSize } = useNamespacedTheme();
-
+  const isLight = [
+    light,
+    graySoft,
+    grayUltraLight,
+    errorLight,
+    successLight,
+  ].includes(color);
   const iconSizeKeys = useMemo(
     () =>
       Object.values(iconSize).filter(
@@ -70,23 +77,13 @@ const Template: Story = ({ size, color }) => {
     (key: string) => {
       const Icon = bkriseIcons[key];
       return (
-        <IconWrapper
-          key={key}
-          width={ICON_WRAPPER_WIDTH}
-          isLight={[
-            light,
-            graySoft,
-            grayUltraLight,
-            errorLight,
-            successLight,
-          ].includes(color)}
-        >
+        <IconWrapper key={key} width={ICON_WRAPPER_WIDTH} isLight={isLight}>
           <Icon
             width={size || iconSize.primary}
             height={size || iconSize.primary}
             fill={color}
           />
-          <IconName color={color}>{key}</IconName>
+          <IconName isLight={isLight}>{key}</IconName>
         </IconWrapper>
       );
     },
@@ -112,6 +109,7 @@ const IconsWrapper = styled(StorybookRow)`
 type IconWrapperProps = {
   isLight?: boolean;
 };
+
 const IconWrapper = styled(StorybookSection)<IconWrapperProps>`
   flex-direction: row;
   align-items: center;
@@ -121,8 +119,13 @@ const IconWrapper = styled(StorybookSection)<IconWrapperProps>`
   ${props => props.isLight && `background-color:${themes.dark.appBg}`};
 `;
 
-const IconName = styled(BaseText)`
+type IconNameType = {
+  isLight?: boolean;
+};
+
+const IconName = styled(BaseText)<IconNameType>`
   padding-left: ${({ theme }) => theme.ds.spacing.primary}px;
+  ${props => !!props.isLight && `color:${() => props.theme.ds.colors.dark}`};
 `;
 
 const parameters = {
