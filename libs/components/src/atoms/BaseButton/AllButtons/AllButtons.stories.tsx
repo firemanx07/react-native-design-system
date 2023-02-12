@@ -15,12 +15,13 @@ import {
   PlusIcon,
   HeartIcon,
   HeartOutlineIcon,
-  StarIcon,
   StarOutlineIcon,
   DownloadIcon,
   PaperPlaneIcon,
   LockKeyIcon,
   CloseIcon,
+  WindowIcon,
+  DeleteBinIcon,
 } from '../../Icons';
 import { LabelButton, LabelButtonVariant } from '../../LabelButton';
 import { BaseButton } from '../BaseButton';
@@ -136,8 +137,8 @@ const Template: Story = () => {
           {renderIconButton(HeartOutlineIcon, colors.dark)}
           {renderIconButton(HeartIcon)}
           {renderIconButton(StarOutlineIcon, colors.dark)}
-          {renderIconButton(StarIcon)}
-          {renderIconButton(DownloadIcon)}
+          {renderIconButton(DeleteBinIcon, colors.success)}
+          {renderIconButton(DownloadIcon, colors.primary)}
           <StorybookItemWrapper>
             <SubmitIconButton
               onPress={noop}
@@ -149,6 +150,16 @@ const Template: Story = () => {
                   height={size}
                   fill={colors.light}
                 />
+              )}
+            />
+          </StorybookItemWrapper>
+          <StorybookItemWrapper>
+            <RoundIconButton
+              onPress={noop}
+              size={45}
+              iconSize={24}
+              renderIcon={(size: number) => (
+                <WindowIcon width={size} height={size} fill={colors.light} />
               )}
             />
           </StorybookItemWrapper>
@@ -207,6 +218,11 @@ const SquareButton = styled(BaseButton)`
 const SubmitIconButton = styled(IconButton)`
   background-color: ${({ theme }) => theme.ds.colors.primary};
   border-color: ${({ theme }) => theme.ds.colors.primary};
+`;
+const RoundIconButton = styled(IconButton)`
+  background-color: ${({ theme }) => theme.ds.colors.secondary};
+  border-color: ${({ theme }) => theme.ds.colors.primary};
+  border-radius: ${({ size }) => (size ?? 34) / 2}px;
 `;
 
 const ButtonXSmall = styled(BaseButton).attrs(({ theme }) => ({

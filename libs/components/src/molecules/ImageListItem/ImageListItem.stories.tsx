@@ -40,7 +40,7 @@ const Template: ComponentStory<typeof ImageListItemBase> = (
         hasArrow={false}
         renderImage={() => (
           <Illustration
-            name={IllustrationName.People}
+            name={IllustrationName.Cards}
             size={IllustrationSize.S}
           />
         )}

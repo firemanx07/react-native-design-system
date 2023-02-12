@@ -28,11 +28,13 @@ const defaultArgs: LogoProps = {
 };
 
 const Template: ComponentStory<typeof LogoBase> = (args: LogoProps) => (
-  <StorybookScreen>
+  <StorybookScreen style={{ backgroundColor: ColorType.graySoft }}>
     <StorybookSection>
       <LogoBase {...args} />
     </StorybookSection>
-    <StorybookSectionText>Sample variants:</StorybookSectionText>
+    <StorybookSectionText style={{ color: ColorType.dark }}>
+      Sample variants:
+    </StorybookSectionText>
     <StorybookRow>
       <StorybookSection title="Color primary">
         <LogoBase {...defaultArgs} color={ColorType.primary} />

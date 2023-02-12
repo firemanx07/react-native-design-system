@@ -47,10 +47,8 @@ type ContainerType = {
 const Container = styled.TouchableOpacity<ContainerType>`
   width: ${({ size }) => size}px;
   height: ${({ size }) => size}px;
-  border-radius: ${({ size }) => size / 2}px;
-  border-width: 1px;
-  border-color: ${({ theme }) => theme.ds.colors.graySoft};
-  background-color: ${({ theme }) => theme.ds.colors.light};
+  border-radius: ${7}px;
+  background-color: ${({ theme }) => rgba(theme.ds.colors.primaryLight, 0.06)};
   justify-content: center;
   align-items: center;
 `;

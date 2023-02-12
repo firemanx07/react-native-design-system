@@ -6,21 +6,15 @@ import * as illustrations from '../../assets/images/illustrations';
 
 export enum IllustrationSize {
   // NOTE: it determines width of the image
-  XL = 270,
-  L = 200,
+  XL = 340,
+  L = 190,
   M = 128,
   S = 60,
 }
 
 export enum IllustrationName {
-  VideoPremium = 'VideoPremium',
-  Video = 'Video',
-  People = 'People',
-  Upload = 'Upload',
-  Dove = 'Dove',
-  DoveUpdate = 'DoveUpdate',
-  PolaroidMan = 'PolaroidMan',
-  PolaroidWoman = 'PolaroidWoman',
+  Cards = 'Cards',
+  Board = 'Board',
 }
 
 export type PropsType = {
@@ -42,6 +36,7 @@ export const Illustration = ({
       {...imageProps}
       width={size}
       height={size * 0.8}
+      resizeMode="contain"
       source={illustrations[name]}
     />
   );

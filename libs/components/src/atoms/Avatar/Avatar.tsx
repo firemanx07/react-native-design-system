@@ -6,18 +6,27 @@ import { TestIDType } from '../../types';
 
 export enum AvatarSize {
   XS = 20,
-  S = 30,
-  M = 36,
-  L = 44,
+  S = 39,
+  M = 51,
+  L = 66,
   XL = 120,
 }
-
+export enum AvatarShape {
+  Round = 'Round',
+  Square = 'Square',
+}
 export type PropsType = {
   uri?: string;
   size?: AvatarSize;
+  shape?: AvatarShape;
 } & TestIDType;
 
-export const Avatar = ({ uri, size = AvatarSize.S, testID }: PropsType) => {
+export const Avatar = ({
+  uri,
+  size = AvatarSize.S,
+  shape = AvatarShape.Round,
+  testID,
+}: PropsType) => {
   const imageSource: ImageSourcePropType = useMemo(() => {
     if (uri) {
       return { uri };
@@ -27,7 +36,7 @@ export const Avatar = ({ uri, size = AvatarSize.S, testID }: PropsType) => {
   }, [size, uri]);
 
   return (
-    <Container size={size} testID={testID}>
+    <Container size={size} testID={testID} shape={shape}>
       <AvatarImage size={size} source={imageSource} />
     </Container>
   );
@@ -35,12 +44,14 @@ export const Avatar = ({ uri, size = AvatarSize.S, testID }: PropsType) => {
 
 type StyledCommonType = {
   size: AvatarSize;
+  shape?: AvatarShape;
 };
 
 const Container = styled.View<StyledCommonType>`
   height: ${({ size }) => size}px;
   width: ${({ size }) => size}px;
-  border-radius: ${({ size }) => size / 2}px;
+  border-radius: ${({ size, shape }) =>
+    shape === AvatarShape.Round ? size / 2 : (size * 7) / 62}px;
   overflow: hidden;
 `;
 

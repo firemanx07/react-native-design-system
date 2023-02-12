@@ -1,14 +1,9 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ColorType } from '@proxym/themes';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 
 import { StorybookScreen, StorybookSection } from '../../storybook';
-import {
-  HeartOutlineIcon,
-  HeartIcon,
-  StarOutlineIcon,
-  StarIcon,
-  DownloadIcon,
-} from '../Icons';
+import { DeleteBinIcon, DownloadSquareIcon } from '../Icons';
 import {
   IconButton as IconButtonBase,
   PropsType as IconButtonProps,
@@ -29,21 +24,24 @@ type IconComponentType = (props: {
 const Template: ComponentStory<typeof IconButtonBase> = (
   args: Omit<IconButtonProps, 'renderIcon'>,
 ) => {
-  const buttonIcons = [
-    HeartOutlineIcon,
-    HeartIcon,
-    StarOutlineIcon,
-    StarIcon,
-    DownloadIcon,
+  const buttonIcons: { icon: IconComponentType; fill?: string }[] = [
+    { icon: DownloadSquareIcon },
+    { icon: DeleteBinIcon, fill: ColorType.success },
   ];
 
   const renderIcon =
-    (Icon: IconComponentType) => (size: number, color: string) =>
-      <Icon width={size} height={size} fill={color} />;
+    (Icon: { icon: IconComponentType; fill?: string }) => (size: number) =>
+      (
+        <Icon.icon
+          width={size}
+          height={size}
+          fill={Icon.fill ?? ColorType.primary}
+        />
+      );
 
   return (
     <StorybookScreen>
-      {buttonIcons.map((Icon: IconComponentType, i: number) => (
+      {buttonIcons.map((Icon, i: number) => (
         <StorybookSection key={i}>
           <IconButtonBase renderIcon={renderIcon(Icon)} {...args} />
         </StorybookSection>

@@ -14,6 +14,7 @@ export { default as CloudDownloadIcon } from './CloudDownloadIcon.svg';
 export { default as CloudIcon } from './CloudIcon.svg';
 export { default as CloudUploadIcon } from './CloudUploadIcon.svg';
 export { default as DebitIcon } from './DebitIcon.svg';
+export { default as DeleteBinIcon } from './DeleteBinIcon.svg';
 export { default as DownArrowIcon } from './DownArrowIcon.svg';
 export { default as DownloadIcon } from './DownloadIcon.svg';
 export { default as DownloadSquareIcon } from './DownloadSquareIcon.svg';

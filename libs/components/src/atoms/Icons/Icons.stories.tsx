@@ -43,7 +43,7 @@ type IconsType = { [key: string]: (props: IconType) => JSX.Element };
 
 const bkriseIcons = bkrise as IconsType;
 
-const ICON_WRAPPER_WIDTH = 300;
+const ICON_WRAPPER_WIDTH = 270;
 const ICON_WRAPPER_MARGIN = 10;
 const ICONS_IN_ROW = 4;
 const { light, graySoft, grayUltraLight, errorLight, successLight } = ColorType;
@@ -106,6 +106,7 @@ const IconsWrapper = styled(StorybookRow)`
   width: ${ICON_WRAPPER_WIDTH * ICONS_IN_ROW +
   ICON_WRAPPER_MARGIN * ICONS_IN_ROW}px;
   flex-wrap: wrap;
+  justify-content: center;
 `;
 type IconWrapperProps = {
   isLight?: boolean;

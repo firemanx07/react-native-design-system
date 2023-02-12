@@ -1,5 +1,4 @@
 export { default as CloseIcon } from './close-icon.svg';
-export { default as DownloadIcon } from './download-icon.svg';
 export { default as HeartIcon } from './heart-icon.svg';
 export { default as HeartOutlineIcon } from './heart-outline-icon.svg';
 export { default as StarIcon } from './star-icon.svg';

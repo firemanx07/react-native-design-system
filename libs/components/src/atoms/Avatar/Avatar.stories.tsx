@@ -22,7 +22,7 @@ const Template: ComponentStory<typeof AvatarBase> = (args: AvatarProps) => (
 
 const parameters = {
   controls: {
-    include: ['uri', 'size'],
+    include: ['uri', 'size', 'shape'],
   },
 };
 

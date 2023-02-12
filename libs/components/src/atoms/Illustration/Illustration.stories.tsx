@@ -33,5 +33,5 @@ export const Illustration = Template.bind({});
 Illustration.parameters = parameters;
 Illustration.args = {
   size: IllustrationSize.XL,
-  name: IllustrationName.Dove,
+  name: IllustrationName.Board,
 };

@@ -23,6 +23,7 @@ enum ColorType {
   graySoft = '#DEDFE0',
   grayLight = '#C7C7D2',
   grayUltraLight = '#F9F9FA',
+  primaryLight = '#5C529A',
 }
 
 export default ColorType;

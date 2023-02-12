@@ -10,4 +10,5 @@ export * from './Illustration';
 export * from './LoadingIndicator';
 export * from './Logo';
 export * from './Checkbox';
+export * from './Slider';
 export * from './Toggle';

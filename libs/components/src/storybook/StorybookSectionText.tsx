@@ -6,5 +6,5 @@ export const StorybookSectionText = styled(BaseText).attrs({
   variant: TextVariant.M,
 })`
   margin-bottom: ${({ theme }) => theme.ds.spacing.tiny}px;
-  color: ${({ theme }) => theme.ds.colors.grayDark};
+  color: ${({ theme }) => theme.ds.colors.dark};
 `;
