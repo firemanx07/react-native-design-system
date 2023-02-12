@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider tests Slider snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      {
+        "backgroundColor": "#DEDFE0",
+      },
+    ]
+  }
+>
+  <Text
+    fontFamily="Rubik-Bold"
+    fontSize={20}
+    lineHeight={26}
+    style={
+      [
+        {
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    Slider:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#2C2C2C",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 330,
+        },
+      ]
+    }
+    width={330}
+  >
+    <View
+      size={15}
+      style={
+        [
+          {
+            "backgroundColor": "#C7C7D2",
+            "borderRadius": 5,
+            "height": 10,
+            "justifyContent": "center",
+            "marginVertical": 10,
+            "overflow": "visible",
+          },
+          {
+            "width": 300,
+          },
+        ]
+      }
+    >
+      <View
+        size={15}
+        style={
+          [
+            {
+              "backgroundColor": "#49C4E9",
+              "borderRadius": 5,
+              "height": 10,
+              "position": "absolute",
+            },
+            {
+              "width": undefined,
+            },
+          ]
+        }
+      />
+      <View
+        collapsable={false}
+        handlerTag={1}
+        handlerType="PanGestureHandler"
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        size={15}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 7.5,
+              "elevation": 3,
+              "height": 15,
+              "justifyContent": "center",
+              "shadowColor": "#49C4E9",
+              "shadowOpacity": 0.2,
+              "shadowRadius": 10,
+              "width": 15,
+            },
+            {
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          ]
+        }
+      >
+        <View
+          size={15}
+          style={
+            [
+              {
+                "backgroundColor": "#49C4E9",
+                "borderRadius": 5,
+                "height": 10,
+                "width": 10,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

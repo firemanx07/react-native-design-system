@@ -5,7 +5,7 @@ exports[`LabelButton tests LabelButton snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -22,7 +22,7 @@ exports[`LabelButton tests LabelButton snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -68,14 +68,14 @@ exports[`LabelButton tests LabelButton snapshot test 1`] = `
       <Text
         buttonVariant="Regular"
         disabled={false}
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={18}
         lineHeight={24}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 18,
               "lineHeight": 24,
             },

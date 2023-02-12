@@ -5,7 +5,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -15,6 +15,9 @@ exports[`Logo tests Logo snapshot test 1`] = `
         "paddingRight": 16,
         "paddingTop": 16,
       },
+      {
+        "backgroundColor": "#DEDFE0",
+      },
     ]
   }
 >
@@ -22,7 +25,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -41,26 +44,29 @@ exports[`Logo tests Logo snapshot test 1`] = `
     width={370}
   >
     <test-file-stub
-      fill="#222222"
+      fill="#2C2C2C"
       height={36}
       width={131}
     />
   </View>
   <Text
-    fontFamily="Muli-Regular"
+    fontFamily="Rubik-Regular"
     fontSize={14}
     lineHeight={20}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Regular",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Regular",
           "fontSize": 14,
           "lineHeight": 20,
         },
         {
-          "color": "#666666",
+          "color": "#2C2C2C",
           "marginBottom": 4,
+        },
+        {
+          "color": "#2C2C2C",
         },
       ]
     }
@@ -80,7 +86,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -99,19 +105,19 @@ exports[`Logo tests Logo snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -123,7 +129,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
         Color primary
       </Text>
       <test-file-stub
-        fill="#FF8066"
+        fill="#4D37D9"
         height={36}
         width={131}
       />
@@ -132,7 +138,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -151,19 +157,19 @@ exports[`Logo tests Logo snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -175,7 +181,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
         Color dark
       </Text>
       <test-file-stub
-        fill="#222222"
+        fill="#2C2C2C"
         height={36}
         width={131}
       />
@@ -184,7 +190,7 @@ exports[`Logo tests Logo snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -203,19 +209,19 @@ exports[`Logo tests Logo snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",

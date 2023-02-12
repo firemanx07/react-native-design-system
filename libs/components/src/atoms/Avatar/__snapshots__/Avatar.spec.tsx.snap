@@ -5,7 +5,7 @@ exports[`Avatar tests Avatar snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -19,14 +19,14 @@ exports[`Avatar tests Avatar snapshot test 1`] = `
   }
 >
   <Text
-    fontFamily="Muli-Bold"
+    fontFamily="Rubik-Bold"
     fontSize={20}
     lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
           "fontSize": 20,
           "lineHeight": 26,
         },
@@ -39,20 +39,21 @@ exports[`Avatar tests Avatar snapshot test 1`] = `
     Avatar:
   </Text>
   <View
-    size={30}
+    shape="Round"
+    size={39}
     style={
       [
         {
-          "borderRadius": 15,
-          "height": 30,
+          "borderRadius": 19.5,
+          "height": 39,
           "overflow": "hidden",
-          "width": 30,
+          "width": 39,
         },
       ]
     }
   >
     <Image
-      size={30}
+      size={39}
       source={
         {
           "uri": "https://picsum.photos/120/120",
@@ -61,8 +62,8 @@ exports[`Avatar tests Avatar snapshot test 1`] = `
       style={
         [
           {
-            "height": 30,
-            "width": 30,
+            "height": 39,
+            "width": 39,
           },
         ]
       }
@@ -76,7 +77,7 @@ exports[`Avatar tests AvatarPlaceholder snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -90,14 +91,14 @@ exports[`Avatar tests AvatarPlaceholder snapshot test 1`] = `
   }
 >
   <Text
-    fontFamily="Muli-Bold"
+    fontFamily="Rubik-Bold"
     fontSize={20}
     lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
           "fontSize": 20,
           "lineHeight": 26,
         },
@@ -110,20 +111,21 @@ exports[`Avatar tests AvatarPlaceholder snapshot test 1`] = `
     Avatar:
   </Text>
   <View
-    size={30}
+    shape="Round"
+    size={39}
     style={
       [
         {
-          "borderRadius": 15,
-          "height": 30,
+          "borderRadius": 19.5,
+          "height": 39,
           "overflow": "hidden",
-          "width": 30,
+          "width": 39,
         },
       ]
     }
   >
     <Image
-      size={30}
+      size={39}
       source={
         {
           "uri": "",
@@ -132,8 +134,8 @@ exports[`Avatar tests AvatarPlaceholder snapshot test 1`] = `
       style={
         [
           {
-            "height": 30,
-            "width": 30,
+            "height": 39,
+            "width": 39,
           },
         ]
       }

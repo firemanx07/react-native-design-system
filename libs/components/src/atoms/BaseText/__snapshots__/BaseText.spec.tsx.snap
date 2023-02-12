@@ -5,7 +5,7 @@ exports[`BaseText tests BaseText snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -19,14 +19,14 @@ exports[`BaseText tests BaseText snapshot test 1`] = `
   }
 >
   <Text
-    fontFamily="Muli-Bold"
+    fontFamily="Rubik-Bold"
     fontSize={20}
     lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
           "fontSize": 20,
           "lineHeight": 26,
         },

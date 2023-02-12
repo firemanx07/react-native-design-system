@@ -5,7 +5,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -22,14 +22,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
   }
 >
   <Text
-    fontFamily="Muli-Bold"
+    fontFamily="Rubik-Bold"
     fontSize={20}
     lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
           "fontSize": 20,
           "lineHeight": 26,
         },
@@ -45,7 +45,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -82,14 +82,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#DEDFE0",
-          "borderRadius": 14,
-          "height": 28,
+          "borderRadius": 20,
+          "height": 40,
           "opacity": 1,
-          "paddingBottom": 2,
-          "paddingLeft": 2,
-          "paddingRight": 2,
-          "paddingTop": 2,
-          "width": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": 56,
         }
       }
     >
@@ -103,7 +103,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
             "borderRadius": 12,
             "elevation": 2,
             "height": 24,
-            "shadowColor": "#222222",
+            "shadowColor": "#2C2C2C",
             "shadowOffset": {
               "height": 2,
               "width": 0,
@@ -124,7 +124,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -143,19 +143,19 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     width={370}
   >
     <Text
-      fontFamily="Muli-Bold"
+      fontFamily="Rubik-Bold"
       fontSize={16}
       lineHeight={20}
       style={
         [
           {
-            "color": "#222222",
-            "fontFamily": "Muli-Bold",
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
             "fontSize": 16,
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#C7C7D2",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -180,14 +180,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#DEDFE0",
-          "borderRadius": 14,
-          "height": 28,
+          "borderRadius": 20,
+          "height": 40,
           "opacity": 1,
-          "paddingBottom": 2,
-          "paddingLeft": 2,
-          "paddingRight": 2,
-          "paddingTop": 2,
-          "width": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": 56,
         }
       }
     >
@@ -200,7 +200,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
             "borderRadius": 12,
             "elevation": 2,
             "height": 24,
-            "shadowColor": "#222222",
+            "shadowColor": "#2C2C2C",
             "shadowOffset": {
               "height": 2,
               "width": 0,
@@ -221,7 +221,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -240,19 +240,19 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     width={370}
   >
     <Text
-      fontFamily="Muli-Bold"
+      fontFamily="Rubik-Bold"
       fontSize={16}
       lineHeight={20}
       style={
         [
           {
-            "color": "#222222",
-            "fontFamily": "Muli-Bold",
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
             "fontSize": 16,
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#C7C7D2",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -277,14 +277,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#DEDFE0",
-          "borderRadius": 14,
-          "height": 28,
+          "borderRadius": 20,
+          "height": 40,
           "opacity": 1,
-          "paddingBottom": 2,
-          "paddingLeft": 2,
-          "paddingRight": 2,
-          "paddingTop": 2,
-          "width": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": 56,
         }
       }
     >
@@ -294,11 +294,11 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
         size={24}
         style={
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#FFFFFF",
             "borderRadius": 12,
             "elevation": 2,
             "height": 24,
-            "shadowColor": "#222222",
+            "shadowColor": "#2C2C2C",
             "shadowOffset": {
               "height": 2,
               "width": 0,
@@ -319,7 +319,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -338,19 +338,19 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     width={370}
   >
     <Text
-      fontFamily="Muli-Bold"
+      fontFamily="Rubik-Bold"
       fontSize={16}
       lineHeight={20}
       style={
         [
           {
-            "color": "#222222",
-            "fontFamily": "Muli-Bold",
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
             "fontSize": 16,
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#C7C7D2",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -374,15 +374,15 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         {
-          "backgroundColor": "#FF8066",
-          "borderRadius": 14,
-          "height": 28,
+          "backgroundColor": "#4D37D9",
+          "borderRadius": 20,
+          "height": 40,
           "opacity": 1,
-          "paddingBottom": 2,
-          "paddingLeft": 2,
-          "paddingRight": 2,
-          "paddingTop": 2,
-          "width": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": 56,
         }
       }
     >
@@ -395,7 +395,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
             "borderRadius": 12,
             "elevation": 2,
             "height": 24,
-            "shadowColor": "#222222",
+            "shadowColor": "#2C2C2C",
             "shadowOffset": {
               "height": 2,
               "width": 0,
@@ -403,7 +403,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
             "shadowOpacity": 0.1,
             "transform": [
               {
-                "translateX": 20,
+                "translateX": 16,
               },
             ],
             "width": 24,
@@ -416,7 +416,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -435,19 +435,19 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     width={370}
   >
     <Text
-      fontFamily="Muli-Bold"
+      fontFamily="Rubik-Bold"
       fontSize={16}
       lineHeight={20}
       style={
         [
           {
-            "color": "#222222",
-            "fontFamily": "Muli-Bold",
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
             "fontSize": 16,
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#C7C7D2",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -476,15 +476,15 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         {
-          "backgroundColor": "#F2F3F4",
-          "borderRadius": 14,
-          "height": 28,
+          "backgroundColor": "#C7C7D2",
+          "borderRadius": 20,
+          "height": 40,
           "opacity": 1,
-          "paddingBottom": 2,
-          "paddingLeft": 2,
-          "paddingRight": 2,
-          "paddingTop": 2,
-          "width": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": 56,
         }
       }
     >
@@ -497,7 +497,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
             "borderRadius": 12,
             "elevation": 2,
             "height": 24,
-            "shadowColor": "#222222",
+            "shadowColor": "#2C2C2C",
             "shadowOffset": {
               "height": 2,
               "width": 0,
