@@ -1,5 +1,7 @@
 export * from './BaseText';
 export * from './BaseButton';
+export * from './Checkbox';
+export * from './Circle';
 export * from './LabelButton';
 export * from './IconButton';
 export * from './Icons';
@@ -9,6 +11,4 @@ export * from './Badge';
 export * from './Illustration';
 export * from './LoadingIndicator';
 export * from './Logo';
-export * from './Checkbox';
-export * from './Slider';
 export * from './Toggle';

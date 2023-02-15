@@ -55,7 +55,7 @@
     "typescript": "4.8.4"
   },
   "peerDependencies": {
-    "@proxym/themes": "^0.0.2",
+    "@proxym/themes": "^0.0.11",
     "polished": "^4.2.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

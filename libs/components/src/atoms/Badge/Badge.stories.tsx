@@ -51,6 +51,12 @@ const squareBadgeWithIconProps = {
   children: 'Premium',
   style: { backgroundColor: theme.ds.colors.light },
 };
+const squareBadgeArrowDownProps = {
+  size: BadgeSize.Medium,
+  variant: BadgeVariant.ArrowDown,
+  children: '10 Années',
+  style: { backgroundColor: theme.ds.colors.secondary },
+};
 
 const AllBadgesTemplate: Story = () => (
   <StorybookScreen title="All badges:">
@@ -68,6 +74,9 @@ const AllBadgesTemplate: Story = () => (
     <StorybookRow>
       <StorybookSection title="Square Badge With Icon">
         <BadgeBase {...squareBadgeWithIconProps} />
+      </StorybookSection>
+      <StorybookSection title="Square Badge ArrowDown">
+        <BadgeBase {...squareBadgeArrowDownProps} />
       </StorybookSection>
     </StorybookRow>
   </StorybookScreen>
@@ -102,3 +111,6 @@ RegularSquareBadge.args = regularSquareBadgeProps;
 export const SquareBadgeWithIcon = Template.bind({});
 SquareBadgeWithIcon.parameters = parameters;
 SquareBadgeWithIcon.args = squareBadgeWithIconProps;
+export const SquareBadgeArrowDown = Template.bind({});
+SquareBadgeArrowDown.parameters = parameters;
+SquareBadgeArrowDown.args = squareBadgeArrowDownProps;

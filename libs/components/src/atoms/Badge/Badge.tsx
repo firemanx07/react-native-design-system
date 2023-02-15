@@ -14,6 +14,7 @@ export enum BadgeSize {
 export enum BadgeVariant {
   Rounded = 'Rounded',
   Square = 'Square',
+  ArrowDown = 'ArrowDown',
 }
 
 export type PropsType = {
@@ -62,11 +63,11 @@ export const Badge = ({
 
   const borderRadius = useMemo(() => {
     switch (variant) {
-      case BadgeVariant.Square:
-        return 4;
       case BadgeVariant.Rounded:
-      default:
         return size / 2;
+      case BadgeVariant.Square:
+      default:
+        return 7;
     }
   }, [variant, size]);
 
@@ -85,6 +86,7 @@ export const Badge = ({
       <BadgeText color={badgeContentColor} {...textProps} style={textStyle}>
         {children}
       </BadgeText>
+      {variant === BadgeVariant.ArrowDown && <ArrowDown style={style} />}
     </Container>
   );
 };
@@ -118,5 +120,14 @@ export const BadgeText = styled(BaseText)<BadgeTextType>`
 const IconWrapper = styled.View`
   padding-right: ${({ theme }) => theme.ds.spacing.tiny}px;
 `;
-
+const ArrowDown = styled.View<BadgeTextType>`
+  width: 10px;
+  height: 10px;
+  background-color: ${({ theme }) => theme.ds.colors.primary};
+  position: absolute;
+  bottom: -4px;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  z-index: -1;
+`;
 export default memo(Badge);

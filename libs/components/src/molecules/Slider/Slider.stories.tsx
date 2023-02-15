@@ -7,7 +7,7 @@ import { default as SliderBase, SliderProps, SliderSize } from './Slider';
 
 const Story: ComponentMeta<typeof SliderBase> = {
   component: SliderBase,
-  title: 'Atoms/Slider',
+  title: 'molecules/Slider',
   argTypes: {
     size: {
       control: { type: 'select' },
@@ -37,12 +37,22 @@ const Template: ComponentStory<typeof SliderBase> = (args: SliderProps) => {
 
 const parameters = {
   controls: {
-    include: ['width', 'size', 'disabled', 'min', 'max', 'step', 'value'],
+    include: [
+      'label',
+      'width',
+      'size',
+      'disabled',
+      'min',
+      'max',
+      'step',
+      'initialValue',
+    ],
   },
 };
 
 const defaultArgs: SliderProps = {
-  value: 0,
+  initialValue: 25,
+  label: 'DT',
   min: 0,
   max: 100,
   onChange: noop,

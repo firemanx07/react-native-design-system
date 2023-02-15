@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider tests Slider snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      {
+        "backgroundColor": "#DEDFE0",
+      },
+    ]
+  }
+>
+  <Text
+    fontFamily="Rubik-Bold"
+    fontSize={20}
+    lineHeight={26}
+    style={
+      [
+        {
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    Slider:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#2C2C2C",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 330,
+        },
+      ]
+    }
+    width={330}
+  >
+    <View
+      style={
+        [
+          {},
+        ]
+      }
+    >
+      <View
+        collapsable={false}
+        handlerTag={1}
+        handlerType="PanGestureHandler"
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "maxWidth": "20%",
+            },
+            {
+              "transform": [
+                {
+                  "translateX": NaN,
+                },
+              ],
+            },
+          ]
+        }
+      >
+        <View
+          borderRadius={7}
+          size={24}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "alignSelf": "flex-start",
+                "backgroundColor": "#4D37D9",
+                "borderRadius": 7,
+                "flexDirection": "row",
+                "height": 24,
+                "justifyContent": "center",
+                "minWidth": 24,
+                "paddingBottom": 4,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 4,
+              },
+              {
+                "backgroundColor": "#49C4E9",
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            25 DT
+          </Text>
+          <View
+            size={24}
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderLeftColor": "transparent",
+                  "borderLeftWidth": 4,
+                  "borderRightColor": "transparent",
+                  "borderRightWidth": 4,
+                  "borderStyle": "solid",
+                  "borderTopColor": "#49C4E9",
+                  "borderTopWidth": 8,
+                  "bottom": -4,
+                  "height": 0,
+                  "position": "absolute",
+                  "width": 0,
+                  "zIndex": -1,
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            },
+          ]
+        }
+      >
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={16}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          0 DT
+        </Text>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={16}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          100 DT
+        </Text>
+      </View>
+      <View
+        size={15}
+        style={
+          [
+            {
+              "backgroundColor": "#C7C7D2",
+              "borderRadius": 5,
+              "height": 10,
+              "justifyContent": "center",
+              "overflow": "visible",
+            },
+            {
+              "width": 300,
+            },
+          ]
+        }
+      >
+        <View
+          size={15}
+          style={
+            [
+              {
+                "backgroundColor": "#49C4E9",
+                "borderRadius": 5,
+                "height": 10,
+                "position": "absolute",
+              },
+              {
+                "width": undefined,
+              },
+            ]
+          }
+        />
+        <View
+          collapsable={false}
+          handlerTag={2}
+          handlerType="PanGestureHandler"
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          size={15}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 7.5,
+                "elevation": 3,
+                "height": 15,
+                "justifyContent": "center",
+                "shadowColor": "#49C4E9",
+                "shadowOpacity": 0.2,
+                "shadowRadius": 10,
+                "width": 15,
+              },
+              {
+                "transform": [
+                  {
+                    "translateX": undefined,
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          <View
+            size={15}
+            style={
+              [
+                {
+                  "backgroundColor": "#49C4E9",
+                  "borderRadius": 5,
+                  "height": 10,
+                  "width": 10,
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
