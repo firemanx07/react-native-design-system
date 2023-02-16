@@ -35,7 +35,9 @@ const parameters = {
 const defaultArgs = {
   title: 'Likes',
   subtitle: 'Someone liked your photos',
-  onToggle: () => {},
+  onToggle: () => {
+    //this is mock
+  },
   isActive: false,
   disabled: false,
 };
