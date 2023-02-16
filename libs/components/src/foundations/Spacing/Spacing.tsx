@@ -10,18 +10,21 @@ export const Spacing = () => {
     () =>
       Object.values(spacing).filter(
         (value: string | number) => typeof value === 'string',
-      ) as string[],
-    [],
+      ),
+    [spacing],
   );
 
-  const renderSpace = useCallback((key: any) => {
-    return (
-      <Fragment key={key}>
-        <BaseText variant={TextVariant.M}>{key}</BaseText>
-        <Space height={spacing[key] as unknown as number} />
-      </Fragment>
-    );
-  }, []);
+  const renderSpace = useCallback(
+    (key: any) => {
+      return (
+        <Fragment key={key}>
+          <BaseText variant={TextVariant.M}>{key}</BaseText>
+          <Space height={spacing[key] as unknown as number} />
+        </Fragment>
+      );
+    },
+    [spacing],
+  );
 
   return <Container>{spacingKeys.map(renderSpace)}</Container>;
 };

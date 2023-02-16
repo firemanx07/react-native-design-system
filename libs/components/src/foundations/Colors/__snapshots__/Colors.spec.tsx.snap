@@ -5,1187 +5,1225 @@ exports[`Colors tests Colors snapshot test 1`] = `
   style={
     [
       {
-        "paddingBottom": 20,
-        "paddingLeft": 20,
-        "paddingRight": 20,
-        "paddingTop": 20,
+        "backgroundColor": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
       },
     ]
   }
 >
   <Text
-    fontFamily="Muli-Bold"
-    fontSize={18}
-    lineHeight={24}
+    fontFamily="Rubik-Bold"
+    fontSize={20}
+    lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
-          "fontSize": 18,
-          "lineHeight": 24,
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
         },
       ]
     }
   >
-    Primary colors:
+    Colors:
   </Text>
   <View
     style={
       [
         {
-          "flexDirection": "row",
-          "flexWrap": "wrap",
-          "marginBottom": 20,
-          "marginTop": 10,
-          "width": 720,
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
         },
       ]
     }
   >
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={18}
+      lineHeight={24}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Primary colors:
+    </Text>
     <View
       style={
         [
           {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
             "marginBottom": 20,
-            "marginRight": 20,
+            "marginTop": 10,
+            "width": 720,
           },
         ]
       }
     >
       <View
-        color="#FF8066"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#FF8066",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#4D37D9"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#4D37D9",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #4D37D9
+          </Text>
+        </View>
         <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          primary
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 20,
+              "marginRight": 20,
+            },
+          ]
+        }
+      >
+        <View
+          color="#2C2C2C"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#2C2C2C",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #2C2C2C
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          dark
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 20,
+              "marginRight": 20,
+            },
+          ]
+        }
+      >
+        <View
           color="#FFFFFF"
-          fontFamily="Muli-Bold"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #FFFFFF
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
               },
             ]
           }
         >
-          #FF8066
+          light
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        primary
-      </Text>
     </View>
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={18}
+      lineHeight={24}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Secondary colors:
+    </Text>
     <View
       style={
         [
           {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
             "marginBottom": 20,
-            "marginRight": 20,
+            "marginTop": 10,
+            "width": 720,
           },
         ]
       }
     >
       <View
-        color="#222222"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#222222",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#49C4E9"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#49C4E9",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #49C4E9
+          </Text>
+        </View>
         <Text
-          color="#FFFFFF"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
               },
             ]
           }
         >
-          #222222
+          secondary
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
+      <View
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
-        dark
-      </Text>
+        <View
+          color="#FFE6D1"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFE6D1",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #FFE6D1
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          secondaryDark
+        </Text>
+      </View>
     </View>
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={18}
+      lineHeight={24}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Alert colors:
+    </Text>
     <View
       style={
         [
           {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
             "marginBottom": 20,
-            "marginRight": 20,
+            "marginTop": 10,
+            "width": 720,
           },
         ]
       }
     >
       <View
-        color="#FFFFFF"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#FFFFFF",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#FF3B3B"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FF3B3B",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #FF3B3B
+          </Text>
+        </View>
         <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
               },
             ]
           }
         >
-          #FFFFFF
+          error
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
+      <View
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
-        light
-      </Text>
+        <View
+          color="#FEEDF0"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FEEDF0",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #FEEDF0
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          errorLight
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 20,
+              "marginRight": 20,
+            },
+          ]
+        }
+      >
+        <View
+          color="#1CC577"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#1CC577",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #1CC577
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          success
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 20,
+              "marginRight": 20,
+            },
+          ]
+        }
+      >
+        <View
+          color="#EAF9F6"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#EAF9F6",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #EAF9F6
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          successLight
+        </Text>
+      </View>
     </View>
-  </View>
-  <Text
-    fontFamily="Muli-Bold"
-    fontSize={18}
-    lineHeight={24}
-    style={
-      [
-        {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-      ]
-    }
-  >
-    Secondary colors:
-  </Text>
-  <View
-    style={
-      [
-        {
-          "flexDirection": "row",
-          "flexWrap": "wrap",
-          "marginBottom": 20,
-          "marginTop": 10,
-          "width": 720,
-        },
-      ]
-    }
-  >
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={18}
+      lineHeight={24}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Accent colors:
+    </Text>
     <View
       style={
         [
           {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
             "marginBottom": 20,
-            "marginRight": 20,
+            "marginTop": 10,
+            "width": 720,
           },
         ]
       }
     >
       <View
-        color="#FFF1E7"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#FFF1E7",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#FFB500"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFB500",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #FFB500
+          </Text>
+        </View>
         <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
               },
             ]
           }
         >
-          #FFF1E7
+          accent
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
+      <View
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
-        secondary
-      </Text>
+        <View
+          color="#FF9C48"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FF9C48",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #FF9C48
+          </Text>
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={14}
+          lineHeight={20}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          accentDark
+        </Text>
+      </View>
     </View>
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={18}
+      lineHeight={24}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Grayscale colors:
+    </Text>
     <View
       style={
         [
           {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
             "marginBottom": 20,
-            "marginRight": 20,
+            "marginTop": 10,
+            "width": 720,
           },
         ]
       }
     >
       <View
-        color="#FFE6D1"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#FFE6D1",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#C7C7D2"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#C7C7D2",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#FFFFFF"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            #C7C7D2
+          </Text>
+        </View>
         <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
               },
             ]
           }
         >
-          #FFE6D1
+          grayDark
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        secondaryDark
-      </Text>
-    </View>
-  </View>
-  <Text
-    fontFamily="Muli-Bold"
-    fontSize={18}
-    lineHeight={24}
-    style={
-      [
-        {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-      ]
-    }
-  >
-    Alert colors:
-  </Text>
-  <View
-    style={
-      [
-        {
-          "flexDirection": "row",
-          "flexWrap": "wrap",
-          "marginBottom": 20,
-          "marginTop": 10,
-          "width": 720,
-        },
-      ]
-    }
-  >
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
       <View
-        color="#F54F69"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#F54F69",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#DEDFE0"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#DEDFE0",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #DEDFE0
+          </Text>
+        </View>
         <Text
-          color="#FFFFFF"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
               },
             ]
           }
         >
-          #F54F69
+          graySoft
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        error
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
       <View
-        color="#FEEDF0"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#FEEDF0",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#C7C7D2"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#C7C7D2",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #C7C7D2
+          </Text>
+        </View>
         <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
               },
             ]
           }
         >
-          #FEEDF0
+          grayLight
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        errorLight
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
       <View
-        color="#2FBFA7"
         style={
           [
             {
-              "alignItems": "center",
-              "backgroundColor": "#2FBFA7",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
+              "marginBottom": 20,
+              "marginRight": 20,
             },
           ]
         }
       >
+        <View
+          color="#F9F9FA"
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F9F9FA",
+                "borderColor": "#DEDFE0",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 50,
+                "justifyContent": "center",
+                "marginBottom": 8,
+                "width": 100,
+              },
+            ]
+          }
+        >
+          <Text
+            color="#2C2C2C"
+            fontFamily="Rubik-Bold"
+            fontSize={14}
+            lineHeight={20}
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "#2C2C2C",
+                },
+              ]
+            }
+          >
+            #F9F9FA
+          </Text>
+        </View>
         <Text
-          color="#FFFFFF"
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Regular"
           fontSize={14}
           lineHeight={20}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
               },
             ]
           }
         >
-          #2FBFA7
+          grayUltraLight
         </Text>
       </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        success
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#EAF9F6"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#EAF9F6",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
-              },
-            ]
-          }
-        >
-          #EAF9F6
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        successLight
-      </Text>
-    </View>
-  </View>
-  <Text
-    fontFamily="Muli-Bold"
-    fontSize={18}
-    lineHeight={24}
-    style={
-      [
-        {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-      ]
-    }
-  >
-    Accent colors:
-  </Text>
-  <View
-    style={
-      [
-        {
-          "flexDirection": "row",
-          "flexWrap": "wrap",
-          "marginBottom": 20,
-          "marginTop": 10,
-          "width": 720,
-        },
-      ]
-    }
-  >
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#FFB500"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#FFB500",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#FFFFFF"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
-              },
-            ]
-          }
-        >
-          #FFB500
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        accent
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#FF9C48"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#FF9C48",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#FFFFFF"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
-              },
-            ]
-          }
-        >
-          #FF9C48
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        accentDark
-      </Text>
-    </View>
-  </View>
-  <Text
-    fontFamily="Muli-Bold"
-    fontSize={18}
-    lineHeight={24}
-    style={
-      [
-        {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-      ]
-    }
-  >
-    Grayscale colors:
-  </Text>
-  <View
-    style={
-      [
-        {
-          "flexDirection": "row",
-          "flexWrap": "wrap",
-          "marginBottom": 20,
-          "marginTop": 10,
-          "width": 720,
-        },
-      ]
-    }
-  >
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#666666"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#666666",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#FFFFFF"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#FFFFFF",
-              },
-            ]
-          }
-        >
-          #666666
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        grayDark
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#DEDFE0"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#DEDFE0",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
-              },
-            ]
-          }
-        >
-          #DEDFE0
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        graySoft
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#F2F3F4"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#F2F3F4",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
-              },
-            ]
-          }
-        >
-          #F2F3F4
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        grayLight
-      </Text>
-    </View>
-    <View
-      style={
-        [
-          {
-            "marginBottom": 20,
-            "marginRight": 20,
-          },
-        ]
-      }
-    >
-      <View
-        color="#F9F9FA"
-        style={
-          [
-            {
-              "alignItems": "center",
-              "backgroundColor": "#F9F9FA",
-              "borderColor": "#DEDFE0",
-              "borderRadius": 8,
-              "borderWidth": 1,
-              "height": 50,
-              "justifyContent": "center",
-              "marginBottom": 8,
-              "width": 100,
-            },
-          ]
-        }
-      >
-        <Text
-          color="#222222"
-          fontFamily="Muli-Bold"
-          fontSize={14}
-          lineHeight={20}
-          style={
-            [
-              {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
-                "fontSize": 14,
-                "lineHeight": 20,
-              },
-              {
-                "color": "#222222",
-              },
-            ]
-          }
-        >
-          #F9F9FA
-        </Text>
-      </View>
-      <Text
-        fontFamily="Muli-Regular"
-        fontSize={14}
-        lineHeight={20}
-        style={
-          [
-            {
-              "color": "#222222",
-              "fontFamily": "Muli-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-            },
-          ]
-        }
-      >
-        grayUltraLight
-      </Text>
     </View>
   </View>
 </View>

@@ -11,7 +11,9 @@ const Story: ComponentMeta<typeof ToggleBase> = {
 };
 export default Story;
 
-const noop = () => {};
+const noop = () => {
+  // This is a mock
+};
 
 const Template: ComponentStory<typeof ToggleBase> = (args: ToggleProps) => {
   const { colors } = useNamespacedTheme();
