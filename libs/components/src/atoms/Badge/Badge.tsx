@@ -109,7 +109,7 @@ const Container = styled.View<ContainerType>`
     theme: {
       ds: { spacing },
     },
-  }) => `${spacing.tiny}px ${spacing.small}px`};
+  }) => `${spacing.tiny + ' px ' + spacing.small}`}px;
 `;
 
 type BadgeTextType = {
