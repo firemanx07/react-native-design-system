@@ -16,10 +16,6 @@ sonarqube-check:
   script:
     - sonar-scanner
   allow_failure: true
-  only:
-    changes:
-      - merge_requests
-      - master
 
 pages:
   stage: deploy
