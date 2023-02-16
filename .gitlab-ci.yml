@@ -1,6 +1,7 @@
 image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 sonarqube-check:
+  stage: code_review
   tags:
     - docker
   image:
