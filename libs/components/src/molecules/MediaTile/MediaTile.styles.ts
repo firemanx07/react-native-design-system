@@ -114,7 +114,7 @@ export const VideoDurationText = styled(BaseText).attrs({
   weight: TextWeight.Bold,
 })`
   color: ${({ theme }) => theme.ds.colors.light};
-  text-shadow: ${({ theme }) => `0 0 2px ${rgba(theme.ds.colors.dark, 0.5)}`};
+  text-shadow: ${({ theme }) => '0 0 2px ' + rgba(theme.ds.colors.dark, 0.5)};
   position: absolute;
   top: 5px;
   left: 8px;
