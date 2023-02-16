@@ -105,7 +105,7 @@ export const ButtonText = styled(BaseText).attrs(
 )<ButtonTextType>`
   color: ${({ color }) => color};
   margin-left: ${({ hasIcon, size }) => {
-    const iconSize = size === ButtonSize.Small ? 4 : 8;
-    return hasIcon ? iconSize : 0;
+    const iconPadding = size === ButtonSize.Small ? 4 : 8;
+    return hasIcon ? iconPadding : 0;
   }}px;
 `;

@@ -121,7 +121,7 @@ const IconWrapper = styled(StorybookSection)<IconWrapperProps>`
   width: ${ICON_WRAPPER_WIDTH}px;
   margin: 0 ${ICON_WRAPPER_MARGIN}px ${ICON_WRAPPER_MARGIN}px 0;
   overflow: hidden;
-  ${props => props.isLight && `background-color:${themes.dark.appBg}`};
+  ${props => props.isLight && 'background-color: ' + themes.dark.appBg};
 `;
 
 type IconNameType = {
@@ -130,7 +130,7 @@ type IconNameType = {
 
 const IconName = styled(BaseText)<IconNameType>`
   padding-left: ${({ theme }) => theme.ds.spacing.primary}px;
-  ${props => !!props.isLight && `color:${themes.dark.textColor}`};
+  ${props => !!props.isLight && 'color: ' + themes.dark.textColor};
 `;
 
 const parameters = {
