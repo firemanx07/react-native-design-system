@@ -21,10 +21,9 @@ sonarqube-check:
   script:
     - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"
   allow_failure: true
-  only:
-    changes:
-      - master
-      - develop
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master" && $CI_MERGE_REQUEST_ACCEPTED == true'
+
 
 test_CI:
   stage: Code_Review
