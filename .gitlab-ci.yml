@@ -3,7 +3,7 @@ image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 stages:
   - Code_Review
   - deploy
-  
+
 sonarqube-check:
   stage: Code_Review
   tags:
@@ -22,8 +22,9 @@ sonarqube-check:
     - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"
   allow_failure: true
   only:
-    refs:
-      - merge_requests
+    changes:
+      - master
+      - develop
 
 test_CI:
   stage: Code_Review
@@ -33,7 +34,9 @@ test_CI:
     - yarn install
     - yarn lint
     - yarn test:ci
-
+  only:
+    refs:
+      - merge_requests
 
 pages:
   stage: deploy

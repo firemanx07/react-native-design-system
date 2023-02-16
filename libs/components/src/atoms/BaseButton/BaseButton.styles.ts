@@ -1,4 +1,5 @@
 import { css, styled } from '@proxym/themes';
+import ColorType from '@proxym/themes/lib/typescript/src/types/ColorType';
 import { rgba } from 'polished';
 
 import { BaseText, TextVariant, TextWeight } from '../BaseText';
@@ -61,7 +62,14 @@ const ButtonCommon = styled.TouchableOpacity<ButtonType>`
   justify-content: center;
   align-items: center;
 `;
-
+const isDisabled = (
+  colors: typeof ColorType,
+  disabled: boolean | undefined,
+  customColor: string | undefined,
+) =>
+  !disabled &&
+  `border-color: ${customColor ?? colors.primary};
+    border-width: 1px;`;
 export const ButtonPrimary = styled(ButtonCommon)`
   background-color: ${({ theme, disabled, customColor }) =>
     disabled
@@ -79,11 +87,8 @@ export const ButtonSecondary = styled(ButtonCommon)`
 export const ButtonOutline = styled(ButtonCommon)`
   background-color: ${({ theme, disabled }) =>
     disabled ? rgba(theme.ds.colors.grayDark, 0.2) : theme.ds.colors.light};
-
   ${({ theme, disabled, customColor }) =>
-    !disabled &&
-    `border-color: ${customColor ?? theme.ds.colors.primary};
-    border-width: 1px;`}
+    isDisabled(theme.ds.colors, disabled, customColor)}
 `;
 
 type ButtonTextType = {
@@ -99,6 +104,8 @@ export const ButtonText = styled(BaseText).attrs(
   }),
 )<ButtonTextType>`
   color: ${({ color }) => color};
-  margin-left: ${({ hasIcon, size }) =>
-    hasIcon ? (size === ButtonSize.Small ? 4 : 8) : 0}px;
+  margin-left: ${({ hasIcon, size }) => {
+    const iconSize = size === ButtonSize.Small ? 4 : 8;
+    return hasIcon ? iconSize : 0;
+  }}px;
 `;

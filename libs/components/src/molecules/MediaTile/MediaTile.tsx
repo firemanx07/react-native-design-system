@@ -51,8 +51,8 @@ export const MediaTile = ({
     return (
       <ButtonWrapper>
         <ButtonUnlock
-          renderIcon={(size: number) => (
-            <StyledLockKeyIcon width={size} height={size} />
+          renderIcon={(iconSize: number) => (
+            <StyledLockKeyIcon width={iconSize} height={iconSize} />
           )}
           disabled
         >

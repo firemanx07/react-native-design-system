@@ -7,7 +7,7 @@ import {
   StorybookScreen,
   StorybookSection,
 } from '../../storybook';
-import { DiamondIcon } from '../Icons';
+import { AlertTriangleIcon } from '../Icons';
 import {
   Badge as BadgeBase,
   PropsType as BadgeProps,
@@ -46,7 +46,7 @@ const squareBadgeWithIconProps = {
   variant: BadgeVariant.Square,
   contentColor: theme.ds.colors.primary,
   renderIconLeft: (size: number, color: string) => (
-    <DiamondIcon width={size} height={size} fill={color} />
+    <AlertTriangleIcon width={size} height={size} fill={color} />
   ),
   children: 'Premium',
   style: { backgroundColor: theme.ds.colors.light },

@@ -60,7 +60,9 @@ const defaultArgs: Omit<IconButtonProps, 'renderIcon'> = {
   size: 34,
   iconSize: 20,
   disabled: false,
-  onPress: () => {},
+  onPress: () => {
+    // This is a mock
+  },
 };
 
 export const IconButton = Template.bind({});

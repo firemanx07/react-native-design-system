@@ -40,7 +40,9 @@ const defaultArgs: LabelButtonProps = {
   disabled: false,
   underline: false,
   children: 'Label Button Text',
-  onPress: () => {},
+  onPress: () => {
+    // This is a mock
+  },
 };
 
 export const LabelButton = Template.bind({});

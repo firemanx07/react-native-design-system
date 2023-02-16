@@ -38,7 +38,9 @@ const defaultArgs: CheckboxProps = {
   size: 20,
   isChecked: true,
   disabled: false,
-  onPress: () => {},
+  onPress: () => {
+    // This is a mock
+  },
 };
 
 export const Checkbox = Template.bind({});

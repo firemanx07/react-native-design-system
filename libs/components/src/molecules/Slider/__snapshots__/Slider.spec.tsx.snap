@@ -141,23 +141,24 @@ exports[`Slider tests Slider snapshot test 1`] = `
             25 DT
           </Text>
           <View
-            size={24}
             style={
               [
                 {
-                  "backgroundColor": "transparent",
-                  "borderLeftColor": "transparent",
-                  "borderLeftWidth": 4,
-                  "borderRightColor": "transparent",
-                  "borderRightWidth": 4,
-                  "borderStyle": "solid",
-                  "borderTopColor": "#49C4E9",
-                  "borderTopWidth": 8,
+                  "backgroundColor": "#4D37D9",
+                  "borderRadius": 2,
                   "bottom": -4,
-                  "height": 0,
+                  "height": 10,
                   "position": "absolute",
-                  "width": 0,
+                  "transform": [
+                    {
+                      "rotate": "45deg",
+                    },
+                  ],
+                  "width": 10,
                   "zIndex": -1,
+                },
+                {
+                  "backgroundColor": "#49C4E9",
                 },
               ]
             }

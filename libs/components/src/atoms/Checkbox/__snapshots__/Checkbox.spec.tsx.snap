@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox tests Checkbox snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#2C2C2C",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={16}
+      lineHeight={20}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+          },
+          {
+            "backgroundColor": "#C7C7D2",
+            "left": 16,
+            "paddingHorizontal": 8,
+            "position": "absolute",
+            "top": -12,
+          },
+        ]
+      }
+    >
+      CheckBox:
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "height": 20,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 20,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#49C4E9"
+        height="100%"
+        style={
+          [
+            {},
+          ]
+        }
+        width="100%"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#2C2C2C",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={16}
+      lineHeight={20}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+          },
+          {
+            "backgroundColor": "#C7C7D2",
+            "left": 16,
+            "paddingHorizontal": 8,
+            "position": "absolute",
+            "top": -12,
+          },
+        ]
+      }
+    >
+      Disabled:
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "height": 20,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 20,
+        }
+      }
+    >
+      <test-file-stub
+        fill="#C7C7D2"
+        height="100%"
+        style={
+          [
+            {},
+          ]
+        }
+        width="100%"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#2C2C2C",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <Text
+      fontFamily="Rubik-Bold"
+      fontSize={16}
+      lineHeight={20}
+      style={
+        [
+          {
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+          },
+          {
+            "backgroundColor": "#C7C7D2",
+            "left": 16,
+            "paddingHorizontal": 8,
+            "position": "absolute",
+            "top": -12,
+          },
+        ]
+      }
+    >
+      inactive:
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "height": 20,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 20,
+        }
+      }
+    >
+      <View
+        size={20}
+        style={
+          [
+            {
+              "borderColor": "#C7C7D2",
+              "borderRadius": 6.2,
+              "borderWidth": 2,
+              "height": "100%",
+              "width": "100%",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

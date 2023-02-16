@@ -5,7 +5,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -19,14 +19,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
   }
 >
   <Text
-    fontFamily="Muli-Bold"
+    fontFamily="Rubik-Bold"
     fontSize={20}
     lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
           "fontSize": 20,
           "lineHeight": 26,
         },
@@ -42,7 +42,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -91,19 +91,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
     </View>
   </View>
   <Text
-    fontFamily="Muli-Regular"
+    fontFamily="Rubik-Regular"
     fontSize={14}
     lineHeight={20}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Regular",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Regular",
           "fontSize": 14,
           "lineHeight": 20,
         },
         {
-          "color": "#666666",
+          "color": "#2C2C2C",
           "marginBottom": 4,
         },
       ]
@@ -124,7 +124,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -143,19 +143,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -179,15 +179,15 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         }
       >
         <View
-          borderRadius={4}
+          borderRadius={7}
           size={18}
           style={
             [
               {
                 "alignItems": "center",
                 "alignSelf": "flex-start",
-                "backgroundColor": "#FF8066",
-                "borderRadius": 4,
+                "backgroundColor": "#4D37D9",
+                "borderRadius": 7,
                 "flexDirection": "row",
                 "height": 18,
                 "justifyContent": "center",
@@ -198,7 +198,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "paddingTop": 4,
               },
               {
-                "backgroundColor": "#2FBFA7",
+                "backgroundColor": "#1CC577",
                 "paddingHorizontal": 6,
                 "position": "absolute",
                 "right": 6,
@@ -210,14 +210,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         >
           <Text
             color="#FFFFFF"
-            fontFamily="Muli-ExtraBold"
+            fontFamily="Rubik-ExtraBold"
             fontSize={10}
             lineHeight={14}
             style={
               [
                 {
-                  "color": "#222222",
-                  "fontFamily": "Muli-ExtraBold",
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-ExtraBold",
                   "fontSize": 10,
                   "lineHeight": 14,
                 },
@@ -270,7 +270,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -289,19 +289,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -325,15 +325,15 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         }
       >
         <View
-          borderRadius={4}
+          borderRadius={7}
           size={18}
           style={
             [
               {
                 "alignItems": "center",
                 "alignSelf": "flex-start",
-                "backgroundColor": "#FF8066",
-                "borderRadius": 4,
+                "backgroundColor": "#4D37D9",
+                "borderRadius": 7,
                 "flexDirection": "row",
                 "height": 18,
                 "justifyContent": "center",
@@ -344,7 +344,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "paddingTop": 4,
               },
               {
-                "backgroundColor": "#2FBFA7",
+                "backgroundColor": "#1CC577",
                 "paddingHorizontal": 6,
                 "position": "absolute",
                 "right": 6,
@@ -356,14 +356,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         >
           <Text
             color="#FFFFFF"
-            fontFamily="Muli-ExtraBold"
+            fontFamily="Rubik-ExtraBold"
             fontSize={10}
             lineHeight={14}
             style={
               [
                 {
-                  "color": "#222222",
-                  "fontFamily": "Muli-ExtraBold",
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-ExtraBold",
                   "fontSize": 10,
                   "lineHeight": 14,
                 },
@@ -382,7 +382,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         <View
           accessibilityState={
             {
-              "disabled": false,
+              "disabled": true,
             }
           }
           accessible={true}
@@ -398,9 +398,6 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
           style={
             {
               "alignItems": "center",
-              "backgroundColor": "rgba(34,34,34,0.8)",
-              "borderColor": "#FFFFFF",
-              "borderRadius": 10,
               "bottom": 6,
               "height": 20,
               "justifyContent": "center",
@@ -411,7 +408,22 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
               "zIndex": 3,
             }
           }
-        />
+        >
+          <View
+            size={20}
+            style={
+              [
+                {
+                  "borderColor": "#C7C7D2",
+                  "borderRadius": 6.2,
+                  "borderWidth": 2,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
         <Image
           size={124}
           source={
@@ -434,7 +446,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -453,19 +465,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -489,15 +501,15 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         }
       >
         <View
-          borderRadius={4}
+          borderRadius={7}
           size={18}
           style={
             [
               {
                 "alignItems": "center",
                 "alignSelf": "flex-start",
-                "backgroundColor": "#FF8066",
-                "borderRadius": 4,
+                "backgroundColor": "#4D37D9",
+                "borderRadius": 7,
                 "flexDirection": "row",
                 "height": 18,
                 "justifyContent": "center",
@@ -508,7 +520,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "paddingTop": 4,
               },
               {
-                "backgroundColor": "#2FBFA7",
+                "backgroundColor": "#1CC577",
                 "paddingHorizontal": 6,
                 "position": "absolute",
                 "right": 6,
@@ -520,14 +532,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         >
           <Text
             color="#FFFFFF"
-            fontFamily="Muli-ExtraBold"
+            fontFamily="Rubik-ExtraBold"
             fontSize={10}
             lineHeight={14}
             style={
               [
                 {
-                  "color": "#222222",
-                  "fontFamily": "Muli-ExtraBold",
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-ExtraBold",
                   "fontSize": 10,
                   "lineHeight": 14,
                 },
@@ -547,7 +559,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
           style={
             [
               {
-                "backgroundColor": "rgba(34,34,34,0.5)",
+                "backgroundColor": "rgba(44,44,44,0.5)",
                 "bottom": 0,
                 "left": 0,
                 "position": "absolute",
@@ -561,7 +573,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         <View
           accessibilityState={
             {
-              "disabled": false,
+              "disabled": true,
             }
           }
           accessible={true}
@@ -577,9 +589,6 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
           style={
             {
               "alignItems": "center",
-              "backgroundColor": "#FF8066",
-              "borderColor": "#FF8066",
-              "borderRadius": 10,
               "bottom": 6,
               "height": 20,
               "justifyContent": "center",
@@ -592,14 +601,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
           }
         >
           <test-file-stub
-            fill="#FFFFFF"
-            height={16}
+            fill="#49C4E9"
+            height="100%"
             style={
               [
                 {},
               ]
             }
-            width={16}
+            width="100%"
           />
         </View>
         <Image
@@ -634,7 +643,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -653,19 +662,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -689,14 +698,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         }
       >
         <Text
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Bold"
           fontSize={12}
           lineHeight={18}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Bold",
                 "fontSize": 12,
                 "lineHeight": 18,
               },
@@ -704,7 +713,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "color": "#FFFFFF",
                 "left": 8,
                 "position": "absolute",
-                "textShadowColor": "rgba(34,34,34,0.5)",
+                "textShadowColor": "rgba(44,44,44,0.5)",
                 "textShadowOffset": {
                   "height": 0,
                   "width": 0,
@@ -740,7 +749,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -759,19 +768,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -795,15 +804,15 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         }
       >
         <View
-          borderRadius={4}
+          borderRadius={7}
           size={18}
           style={
             [
               {
                 "alignItems": "center",
                 "alignSelf": "flex-start",
-                "backgroundColor": "#FF8066",
-                "borderRadius": 4,
+                "backgroundColor": "#4D37D9",
+                "borderRadius": 7,
                 "flexDirection": "row",
                 "height": 18,
                 "justifyContent": "center",
@@ -814,7 +823,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "paddingTop": 4,
               },
               {
-                "backgroundColor": "#2FBFA7",
+                "backgroundColor": "#1CC577",
                 "paddingHorizontal": 6,
                 "position": "absolute",
                 "right": 6,
@@ -826,14 +835,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
         >
           <Text
             color="#FFFFFF"
-            fontFamily="Muli-ExtraBold"
+            fontFamily="Rubik-ExtraBold"
             fontSize={10}
             lineHeight={14}
             style={
               [
                 {
-                  "color": "#222222",
-                  "fontFamily": "Muli-ExtraBold",
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-ExtraBold",
                   "fontSize": 10,
                   "lineHeight": 14,
                 },
@@ -865,14 +874,14 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
           width={24}
         />
         <Text
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Bold"
           fontSize={12}
           lineHeight={18}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Bold",
                 "fontSize": 12,
                 "lineHeight": 18,
               },
@@ -880,7 +889,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "color": "#FFFFFF",
                 "left": 8,
                 "position": "absolute",
-                "textShadowColor": "rgba(34,34,34,0.5)",
+                "textShadowColor": "rgba(44,44,44,0.5)",
                 "textShadowOffset": {
                   "height": 0,
                   "width": 0,
@@ -916,7 +925,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       style={
         [
           {
-            "borderColor": "#222222",
+            "borderColor": "#2C2C2C",
             "borderRadius": 4,
             "borderStyle": "dashed",
             "borderWidth": 1,
@@ -935,19 +944,19 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
       width={370}
     >
       <Text
-        fontFamily="Muli-Bold"
+        fontFamily="Rubik-Bold"
         fontSize={16}
         lineHeight={20}
         style={
           [
             {
-              "color": "#222222",
-              "fontFamily": "Muli-Bold",
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
               "fontSize": 16,
               "lineHeight": 20,
             },
             {
-              "backgroundColor": "#F2F3F4",
+              "backgroundColor": "#C7C7D2",
               "left": 16,
               "paddingHorizontal": 8,
               "position": "absolute",
@@ -974,7 +983,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
           style={
             [
               {
-                "backgroundColor": "rgba(34,34,34,0.5)",
+                "backgroundColor": "rgba(44,44,44,0.5)",
                 "bottom": 0,
                 "left": 0,
                 "position": "absolute",
@@ -1023,8 +1032,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 "alignSelf": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#FFFFFF",
-                "borderRadius": 16,
-                "borderWidth": 1,
+                "borderRadius": 7,
                 "flexDirection": "row",
                 "height": 28,
                 "justifyContent": "center",
@@ -1045,8 +1053,8 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
               width={16}
             />
             <Text
-              color="rgba(34,34,34,0.3)"
-              fontFamily="Muli-Bold"
+              color="rgba(199,199,210,0.7)"
+              fontFamily="Rubik-Bold"
               fontSize={14}
               hasIcon={true}
               lineHeight={20}
@@ -1055,13 +1063,13 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
               style={
                 [
                   {
-                    "color": "#222222",
-                    "fontFamily": "Muli-Bold",
+                    "color": "#2C2C2C",
+                    "fontFamily": "Rubik-Bold",
                     "fontSize": 14,
                     "lineHeight": 20,
                   },
                   {
-                    "color": "rgba(34,34,34,0.3)",
+                    "color": "rgba(199,199,210,0.7)",
                     "marginLeft": 4,
                   },
                   {
@@ -1070,7 +1078,7 @@ exports[`MediaTile tests MediaTile snapshot test 1`] = `
                 ]
               }
             >
-              Freishalten
+              unlock
             </Text>
           </View>
         </View>

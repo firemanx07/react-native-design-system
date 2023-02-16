@@ -60,7 +60,9 @@ const defaultArgs: Omit<BaseButtonProps, 'variant' | 'renderIcon'> = {
   disabled: false,
   loading: false,
   children: 'Button Text',
-  onPress: () => {},
+  onPress: () => {
+    // This is a mock
+  },
 };
 
 export const Primary = Template.bind({});

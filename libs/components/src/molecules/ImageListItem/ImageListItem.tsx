@@ -2,7 +2,7 @@ import { styled, useNamespacedTheme } from '@proxym/themes';
 import React, { memo, ReactNode } from 'react';
 import { ViewStyle, StyleProp } from 'react-native';
 
-import { BaseText, ForwardIcon, TextVariant, TextWeight } from '../../atoms';
+import { BaseText, LeftArrowIcon, TextVariant, TextWeight } from '../../atoms';
 import { TestIDType } from '../../types';
 
 export type PropsType = {
@@ -46,7 +46,7 @@ export const ImageListItem = ({
         )}
       </TextWrapper>
       {hasArrow && (
-        <ForwardIcon
+        <LeftArrowIcon
           width={iconSize.medium}
           height={iconSize.medium}
           fill={colors.dark}

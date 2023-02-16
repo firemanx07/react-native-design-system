@@ -86,7 +86,7 @@ export const Badge = ({
       <BadgeText color={badgeContentColor} {...textProps} style={textStyle}>
         {children}
       </BadgeText>
-      {variant === BadgeVariant.ArrowDown && <ArrowDown style={style} />}
+      {variant === BadgeVariant.ArrowDown && <ArrowDownWrapper style={style} />}
     </Container>
   );
 };
@@ -105,8 +105,11 @@ const Container = styled.View<ContainerType>`
   align-items: center;
   flex-direction: row;
   align-self: flex-start;
-  padding: ${({ theme }) =>
-    `${theme.ds.spacing.tiny}px ${theme.ds.spacing.small}px`};
+  padding: ${({
+    theme: {
+      ds: { spacing },
+    },
+  }) => `${spacing.tiny}px ${spacing.small}px`};
 `;
 
 type BadgeTextType = {
@@ -120,7 +123,7 @@ export const BadgeText = styled(BaseText)<BadgeTextType>`
 const IconWrapper = styled.View`
   padding-right: ${({ theme }) => theme.ds.spacing.tiny}px;
 `;
-const ArrowDown = styled.View<BadgeTextType>`
+const ArrowDownWrapper = styled.View<BadgeTextType>`
   width: 10px;
   height: 10px;
   background-color: ${({ theme }) => theme.ds.colors.primary};
