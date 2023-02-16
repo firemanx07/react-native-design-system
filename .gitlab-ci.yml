@@ -21,8 +21,9 @@ sonarqube-check:
   script:
     - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"
   allow_failure: true
-  rules:
-    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master" && $CI_MERGE_REQUEST_ACCEPTED'
+  only:
+    refs:
+      - master
 
 
 test_CI:
@@ -36,6 +37,8 @@ test_CI:
   only:
     refs:
       - merge_requests
+    variables:
+      - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
 
 pages:
   stage: deploy
