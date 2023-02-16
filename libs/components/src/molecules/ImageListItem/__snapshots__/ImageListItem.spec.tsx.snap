@@ -5,7 +5,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
   style={
     [
       {
-        "backgroundColor": "#F2F3F4",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -19,14 +19,14 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
   }
 >
   <Text
-    fontFamily="Muli-Bold"
+    fontFamily="Rubik-Bold"
     fontSize={20}
     lineHeight={26}
     style={
       [
         {
-          "color": "#222222",
-          "fontFamily": "Muli-Bold",
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
           "fontSize": 20,
           "lineHeight": 26,
         },
@@ -42,7 +42,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -75,7 +75,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
           [
             {
               "alignItems": "center",
-              "backgroundColor": "#FFF1E7",
+              "backgroundColor": "#49C4E9",
               "borderRadius": 4,
               "height": 64,
               "justifyContent": "center",
@@ -113,47 +113,47 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
         }
       >
         <Text
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Bold"
           fontSize={16}
           lineHeight={20}
           numberOfLines={2}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Bold",
                 "fontSize": 16,
                 "lineHeight": 20,
               },
             ]
           }
         >
-          Zuletzt hinzugefügt
+          Recently added
         </Text>
         <Text
-          fontFamily="Muli-SemiBold"
+          fontFamily="Rubik-SemiBold"
           fontSize={14}
           lineHeight={20}
           numberOfLines={2}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-SemiBold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-SemiBold",
                 "fontSize": 14,
                 "lineHeight": 20,
               },
               {
-                "color": "#666666",
+                "color": "#C7C7D2",
               },
             ]
           }
         >
-          300 Dateien
+          300 files
         </Text>
       </View>
       <test-file-stub
-        fill="#222222"
+        fill="#2C2C2C"
         height={20}
         width={20}
       />
@@ -163,7 +163,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -182,19 +182,19 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
     width={370}
   >
     <Text
-      fontFamily="Muli-Bold"
+      fontFamily="Rubik-Bold"
       fontSize={16}
       lineHeight={20}
       style={
         [
           {
-            "color": "#222222",
-            "fontFamily": "Muli-Bold",
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
             "fontSize": 16,
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#C7C7D2",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -220,7 +220,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
           [
             {
               "alignItems": "center",
-              "backgroundColor": "#FFF1E7",
+              "backgroundColor": "#49C4E9",
               "borderRadius": 4,
               "height": 64,
               "justifyContent": "center",
@@ -233,6 +233,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
       >
         <Image
           height={48}
+          resizeMode="contain"
           source={
             {
               "uri": "",
@@ -262,43 +263,43 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
         }
       >
         <Text
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Bold"
           fontSize={16}
           lineHeight={20}
           numberOfLines={2}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Bold",
                 "fontSize": 16,
                 "lineHeight": 20,
               },
             ]
           }
         >
-          Zuletzt hinzugefügt
+          Recently added
         </Text>
         <Text
-          fontFamily="Muli-SemiBold"
+          fontFamily="Rubik-SemiBold"
           fontSize={14}
           lineHeight={20}
           numberOfLines={2}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-SemiBold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-SemiBold",
                 "fontSize": 14,
                 "lineHeight": 20,
               },
               {
-                "color": "#666666",
+                "color": "#C7C7D2",
               },
             ]
           }
         >
-          300 Dateien
+          300 files
         </Text>
       </View>
     </View>
@@ -307,7 +308,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#222222",
+          "borderColor": "#2C2C2C",
           "borderRadius": 4,
           "borderStyle": "dashed",
           "borderWidth": 1,
@@ -326,19 +327,19 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
     width={370}
   >
     <Text
-      fontFamily="Muli-Bold"
+      fontFamily="Rubik-Bold"
       fontSize={16}
       lineHeight={20}
       style={
         [
           {
-            "color": "#222222",
-            "fontFamily": "Muli-Bold",
+            "color": "#2C2C2C",
+            "fontFamily": "Rubik-Bold",
             "fontSize": 16,
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#F2F3F4",
+            "backgroundColor": "#C7C7D2",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -364,7 +365,7 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
           [
             {
               "alignItems": "center",
-              "backgroundColor": "#FFF1E7",
+              "backgroundColor": "#49C4E9",
               "borderRadius": 4,
               "height": 64,
               "justifyContent": "center",
@@ -402,43 +403,43 @@ exports[`ImageListItem tests ImageListItem snapshot test 1`] = `
         }
       >
         <Text
-          fontFamily="Muli-Bold"
+          fontFamily="Rubik-Bold"
           fontSize={16}
           lineHeight={20}
           numberOfLines={2}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-Bold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Bold",
                 "fontSize": 16,
                 "lineHeight": 20,
               },
             ]
           }
         >
-          Zuletzt hinzugefügt
+          Recently added
         </Text>
         <Text
-          fontFamily="Muli-SemiBold"
+          fontFamily="Rubik-SemiBold"
           fontSize={14}
           lineHeight={20}
           numberOfLines={2}
           style={
             [
               {
-                "color": "#222222",
-                "fontFamily": "Muli-SemiBold",
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-SemiBold",
                 "fontSize": 14,
                 "lineHeight": 20,
               },
               {
-                "color": "#666666",
+                "color": "#C7C7D2",
               },
             ]
           }
         >
-          300 Dateien
+          300 files
         </Text>
       </View>
     </View>

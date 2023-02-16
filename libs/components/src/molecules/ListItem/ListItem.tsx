@@ -6,7 +6,7 @@ import {
   Badge,
   BadgeVariant,
   BaseText,
-  ForwardIcon,
+  LeftArrowIcon,
   TextVariant,
   TextWeight,
 } from '../../atoms';
@@ -52,7 +52,7 @@ export const ListItem = ({
         </NotificationsBadge>
       )}
       {hasArrow && (
-        <ForwardIcon
+        <LeftArrowIcon
           width={iconSize.medium}
           height={iconSize.medium}
           fill={colors.dark}

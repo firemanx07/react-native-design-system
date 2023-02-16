@@ -6,11 +6,11 @@ import {
   BadgeSize,
   BadgeVariant,
   Checkbox,
-  CommentIcon,
+  MenuIcon,
   BaseButton,
   ButtonSize,
   ButtonVariant,
-  LockKeyIcon,
+  LockIcon,
   BaseText,
   TextVariant,
   TextWeight,
@@ -52,7 +52,7 @@ export const NewBadge = styled(Badge).attrs({
   padding-horizontal: 6px;
 `;
 
-export const StyledCommentIcon = styled(CommentIcon).attrs(({ theme }) => ({
+export const StyledCommentIcon = styled(MenuIcon).attrs(({ theme }) => ({
   width: theme.ds.iconSize.primary,
   height: theme.ds.iconSize.primary,
   fill: theme.ds.colors.light,
@@ -105,7 +105,7 @@ export const ButtonUnlock = styled(BaseButton).attrs(({ theme }) => ({
   padding-horizontal: ${({ theme }) => theme.ds.spacing.small}px;
 `;
 
-export const StyledLockKeyIcon = styled(LockKeyIcon).attrs(({ theme }) => ({
+export const StyledLockKeyIcon = styled(LockIcon).attrs(({ theme }) => ({
   fill: theme.ds.colors.light,
 }))``;
 

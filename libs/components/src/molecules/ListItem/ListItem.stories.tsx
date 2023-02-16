@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
-import { BellIcon } from '../../atoms';
+import { NotificationIcon } from '../../atoms';
 import { StorybookScreen, StorybookSection } from '../../storybook';
 import {
   ListItem as ListItemBase,
@@ -15,7 +15,7 @@ const Story: ComponentMeta<typeof ListItemBase> = {
 export default Story;
 
 const renderIconLeft = (size: number, color: string) => (
-  <BellIcon width={size} height={size} fill={color} />
+  <NotificationIcon width={size} height={size} fill={color} />
 );
 
 const listItemText = 'notifications';
