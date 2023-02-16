@@ -14,7 +14,7 @@ sonarqube-check:
     paths:
       - .sonar/cache
   script:
-    - sonar-scanner -Dsonar.host.url="$SONAR_URL"
+    - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL"
   allow_failure: true
 
 pages:
