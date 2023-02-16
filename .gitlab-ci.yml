@@ -1,7 +1,6 @@
 image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 sonarqube-check:
-  stage: code_review
   tags:
     - docker
   image:
@@ -18,12 +17,9 @@ sonarqube-check:
     - sonar-scanner
   allow_failure: true
   only:
-    variables:
-      - $CI_COMMIT_BRANCH == "master"
-      - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master"
-      - $CI_MERGE_REQUEST_EVENT_TYPE == "merge_request"
-      - $CI_PIPELINE_SOURCE == "merge_request_event"
     changes:
+      - merge_requests
+      - master
       - "**/*.ts"
       - "**/*.tsx"
       - "**/*.js"
