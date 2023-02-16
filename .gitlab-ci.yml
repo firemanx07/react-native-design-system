@@ -20,9 +20,6 @@ sonarqube-check:
     changes:
       - merge_requests
       - master
-      - "**/*.ts"
-      - "**/*.tsx"
-      - "**/*.js"
 
 pages:
   stage: deploy
