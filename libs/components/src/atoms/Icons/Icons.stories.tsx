@@ -62,17 +62,20 @@ const Template: Story = ({ size, color }) => {
     () =>
       Object.values(iconSize).filter(
         (value: string | number) => typeof value === 'string',
-      ) as string[],
-    [],
+      ),
+    [iconSize],
   );
 
-  const renderIconSize = useCallback((key: any) => {
-    return (
-      <StorybookSectionText
-        key={key}
-      >{`${key}: ${iconSize[key]}px`}</StorybookSectionText>
-    );
-  }, []);
+  const renderIconSize = useCallback(
+    (key: any) => {
+      return (
+        <StorybookSectionText
+          key={key}
+        >{`${key}: ${iconSize[key]}px`}</StorybookSectionText>
+      );
+    },
+    [iconSize],
+  );
 
   const renderIcon = useCallback(
     (key: string) => {
@@ -88,7 +91,7 @@ const Template: Story = ({ size, color }) => {
         </IconWrapper>
       );
     },
-    [size, color],
+    [size, color, isLight, iconSize.primary],
   );
 
   return (

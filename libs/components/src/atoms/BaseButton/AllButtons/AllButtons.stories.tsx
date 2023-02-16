@@ -1,27 +1,25 @@
-import { useNamespacedTheme, styled } from '@proxym/themes';
+import { styled, useNamespacedTheme } from '@proxym/themes';
 import { Story } from '@storybook/react';
 import React from 'react';
 import { Svg } from 'react-native-svg';
 
 import {
+  StorybookItemWrapper,
+  StorybookRow,
   StorybookScreen,
   StorybookSection,
   StorybookSectionText,
-  StorybookItemWrapper,
-  StorybookRow,
 } from '../../../storybook';
 import { IconButton } from '../../IconButton';
 import {
-  PlusIcon,
-  HeartIcon,
-  HeartOutlineIcon,
-  StarOutlineIcon,
-  DownloadIcon,
-  PaperPlaneIcon,
-  LockKeyIcon,
-  CloseIcon,
-  WindowIcon,
+  CloudDownloadIcon,
   DeleteBinIcon,
+  DownloadIcon,
+  LockIcon,
+  MoneyCircleIcon,
+  PlusIcon,
+  RightArrowIcon,
+  WindowIcon,
 } from '../../Icons';
 import { LabelButton, LabelButtonVariant } from '../../LabelButton';
 import { BaseButton } from '../BaseButton';
@@ -32,7 +30,9 @@ export default {
   title: 'Atoms/Base Button/All Buttons',
 };
 
-const noop = () => {};
+const noop = () => {
+  // This is a mock
+};
 const buttonText = 'Label';
 const renderIcon = (size: number, color: string) => (
   <PlusIcon width={size} height={size} fill={color} />
@@ -134,9 +134,7 @@ const Template: Story = () => {
           {renderLabelButton(LabelButtonVariant.Small, true)}
         </StorybookSection>
         <StorybookSection title="IconButton">
-          {renderIconButton(HeartOutlineIcon, colors.dark)}
-          {renderIconButton(HeartIcon)}
-          {renderIconButton(StarOutlineIcon, colors.dark)}
+          {renderIconButton(MoneyCircleIcon)}
           {renderIconButton(DeleteBinIcon, colors.success)}
           {renderIconButton(DownloadIcon, colors.primary)}
           <StorybookItemWrapper>
@@ -145,7 +143,7 @@ const Template: Story = () => {
               size={40}
               iconSize={24}
               renderIcon={(size: number) => (
-                <PaperPlaneIcon
+                <CloudDownloadIcon
                   width={size}
                   height={size}
                   fill={colors.light}
@@ -174,7 +172,7 @@ const Template: Story = () => {
               size={ButtonSize.Small}
               variant={ButtonVariant.Outline}
               renderIcon={(size: number) => (
-                <LockKeyIcon width={size} height={size} fill={colors.light} />
+                <LockIcon width={size} height={size} fill={colors.light} />
               )}
             >
               {buttonText}
@@ -199,7 +197,7 @@ const Template: Story = () => {
               size={ButtonSize.Small}
               variant={ButtonVariant.Primary}
               renderIcon={(size: number, color: string) => (
-                <CloseIcon width={size} height={size} fill={color} />
+                <RightArrowIcon width={size} height={size} fill={color} />
               )}
             >
               {buttonText}

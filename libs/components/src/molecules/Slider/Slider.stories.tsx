@@ -19,7 +19,9 @@ const Story: ComponentMeta<typeof SliderBase> = {
 };
 export default Story;
 
-const noop = () => {};
+const noop = () => {
+  // This is a mock
+};
 
 const Template: ComponentStory<typeof SliderBase> = (args: SliderProps) => {
   const { colors } = useNamespacedTheme();
