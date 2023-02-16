@@ -14,7 +14,7 @@ sonarqube-check:
     paths:
       - .sonar/cache
   script:
-    - sonar-scanner -Dsonar.host.url="http://sonar.proxym-it.tn"
+    - sonar-scanner -Dsonar.host.url="http://sonar.proxym-it.tn" -Dsonar.login="ce3b72badb7d5d5805a8c01357fb578c9e542005"
   allow_failure: true
 
 pages:
