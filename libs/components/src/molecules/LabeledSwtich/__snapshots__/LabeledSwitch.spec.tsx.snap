@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Labeled Switch tests LabeledSwitch snapshot test 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": 600,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <Text
+    fontFamily="Rubik-Bold"
+    fontSize={20}
+    lineHeight={26}
+    style={
+      [
+        {
+          "color": "#2C2C2C",
+          "fontFamily": "Rubik-Bold",
+          "fontSize": 20,
+          "lineHeight": 26,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    Labeled Switch:
+  </Text>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#2C2C2C",
+          "borderRadius": 4,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "marginBottom": 24,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "marginTop": 24,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 370,
+        },
+      ]
+    }
+    width={370}
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#DEDFE0",
+            "borderRadius": 7,
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "minHeight": 60,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        Branches
+      </Text>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#4D37D9",
+            "borderRadius": 10,
+            "height": 20,
+            "opacity": 1,
+            "paddingBottom": 2.5,
+            "paddingLeft": 2.5,
+            "paddingRight": 2.5,
+            "paddingTop": 2.5,
+            "width": 42.5,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          size={15}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 7.5,
+              "elevation": 2,
+              "height": 15,
+              "shadowColor": "#2C2C2C",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 21.25,
+                },
+              ],
+              "width": 15,
+            }
+          }
+        />
+      </View>
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        ATM
+      </Text>
+    </View>
+  </View>
+</View>
+`;

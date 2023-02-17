@@ -82,14 +82,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#DEDFE0",
-          "borderRadius": 20,
-          "height": 40,
+          "borderRadius": 16,
+          "height": 32,
           "opacity": 1,
-          "paddingBottom": 8,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 8,
-          "width": 56,
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+          "width": 68,
         }
       }
     >
@@ -180,14 +180,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#DEDFE0",
-          "borderRadius": 20,
-          "height": 40,
+          "borderRadius": 16,
+          "height": 32,
           "opacity": 1,
-          "paddingBottom": 8,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 8,
-          "width": 56,
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+          "width": 68,
         }
       }
     >
@@ -277,14 +277,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#DEDFE0",
-          "borderRadius": 20,
-          "height": 40,
+          "borderRadius": 16,
+          "height": 32,
           "opacity": 1,
-          "paddingBottom": 8,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 8,
-          "width": 56,
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+          "width": 68,
         }
       }
     >
@@ -375,14 +375,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#4D37D9",
-          "borderRadius": 20,
-          "height": 40,
+          "borderRadius": 16,
+          "height": 32,
           "opacity": 1,
-          "paddingBottom": 8,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 8,
-          "width": 56,
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+          "width": 68,
         }
       }
     >
@@ -403,7 +403,7 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
             "shadowOpacity": 0.1,
             "transform": [
               {
-                "translateX": 16,
+                "translateX": 34,
               },
             ],
             "width": 24,
@@ -477,14 +477,14 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
       style={
         {
           "backgroundColor": "#C7C7D2",
-          "borderRadius": 20,
-          "height": 40,
+          "borderRadius": 16,
+          "height": 32,
           "opacity": 1,
-          "paddingBottom": 8,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 8,
-          "width": 56,
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+          "width": 68,
         }
       }
     >
