@@ -1,4 +1,4 @@
-import { useNamespacedTheme } from '@proxym/themes';
+import { ColorType, useNamespacedTheme } from '@proxym/themes';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
@@ -8,6 +8,12 @@ import { Toggle as ToggleBase, PropsType as ToggleProps } from './Toggle';
 const Story: ComponentMeta<typeof ToggleBase> = {
   component: ToggleBase,
   title: 'Atoms/Toggle',
+  argTypes: {
+    inActiveColor: {
+      control: { type: 'select' },
+      options: ColorType,
+    },
+  },
 };
 export default Story;
 
@@ -40,7 +46,7 @@ const Template: ComponentStory<typeof ToggleBase> = (args: ToggleProps) => {
 
 const parameters = {
   controls: {
-    include: ['disabled', 'secondary', 'size'],
+    include: ['disabled', 'secondary', 'size', 'inActiveColor'],
   },
 };
 
