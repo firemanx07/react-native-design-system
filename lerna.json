@@ -6,7 +6,7 @@
   "license": "SEE LICENSE IN LICENSE FILE",
   "command": {
     "publish": {
-      "registry": "https://repos.proxym-group.net/repository/npm-private/"
+      "registry": "https://gitlab.proxym-group.net/api/v4/react-native-starter/proxym-rn-design-system/packages/npm/"
     }
   },
   "npmClient": "yarn",

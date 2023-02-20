@@ -5,7 +5,7 @@
   "license": "SEE LICENSE IN LICENSE FILE",
   "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
-    "@proxym:registry": "https://repos.proxym-group.net/repository/npm-private/"
+    "@proxym:registry": "https://gitlab.proxym-group.net/api/v4/react-native-starter/proxym-rn-design-system/packages/npm/"
   },
   "workspaces": [
     "libs/*"
