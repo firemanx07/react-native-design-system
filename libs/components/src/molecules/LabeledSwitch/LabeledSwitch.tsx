@@ -1,7 +1,8 @@
 import { styled, useNamespacedTheme } from '@proxym/themes';
+import { rgba } from 'polished';
 import React, { memo, useState } from 'react';
 
-import { BaseText, Toggle } from '../../atoms';
+import { BaseText, TextVariant, TextWeight, Toggle } from '../../atoms';
 
 export enum LabeledSwitchValues {
   LEFT = 'left',
@@ -31,14 +32,26 @@ const LabeledSwitch = ({
   const { colors } = useNamespacedTheme();
   return (
     <Container width={width}>
-      <BaseText>{leftLabel}</BaseText>
+      <LeftText
+        weight={TextWeight.SemiBold}
+        variant={TextVariant.S}
+        isRight={isRight}
+      >
+        {leftLabel}
+      </LeftText>
       <Toggle
         isActive={isRight}
         inActiveColor={colors.secondary}
-        size={15}
+        size={12}
         onPress={handlePress}
       />
-      <BaseText>{rightLabel}</BaseText>
+      <RightText
+        weight={TextWeight.SemiBold}
+        variant={TextVariant.S}
+        isRight={isRight}
+      >
+        {rightLabel}
+      </RightText>
     </Container>
   );
 };
@@ -47,13 +60,24 @@ export default memo(LabeledSwitch);
 type ContainerProps = {
   width?: number;
 };
+type LabelProps = {
+  isRight: boolean;
+};
 const Container = styled.View<ContainerProps>`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   background-color: ${({ theme }) => theme.ds.colors.graySoft};
   padding: ${({ theme }) => theme.ds.spacing.primary}px;
-  min-height: 60px;
+  min-height: 40px;
   border-radius: 7px;
   ${({ width }) => width && 'width: ' + width + 'px;'}
+`;
+const LeftText = styled(BaseText)<LabelProps>`
+  color: ${({ theme, isRight }) =>
+    !isRight ? theme.ds.colors.dark : rgba(theme.ds.colors.dark, 0.6)};
+`;
+const RightText = styled(BaseText)<LabelProps>`
+  color: ${({ theme, isRight }) =>
+    isRight ? theme.ds.colors.dark : rgba(theme.ds.colors.dark, 0.6)};
 `;
