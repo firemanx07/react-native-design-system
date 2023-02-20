@@ -1,6 +1,6 @@
-import { useNamespacedTheme, styled } from '@proxym/themes';
-import React, { memo, useMemo, useCallback, useState } from 'react';
-import { StyleProp, ViewStyle, Animated } from 'react-native';
+import { ColorType, styled, useNamespacedTheme } from '@proxym/themes';
+import React, { memo, useCallback, useMemo, useState } from 'react';
+import { Animated, StyleProp, ViewStyle } from 'react-native';
 
 import { TestIDType } from '../../types';
 
@@ -11,6 +11,7 @@ export type PropsType = {
   secondary?: boolean;
   size?: number;
   style?: StyleProp<ViewStyle>;
+  inActiveColor?: ColorType;
 } & TestIDType;
 
 const TOGGLE_DURATION = 150;
@@ -23,17 +24,18 @@ export const Toggle = ({
   size,
   style,
   testID,
+  inActiveColor,
 }: PropsType) => {
   const { iconSize, spacing, colors } = useNamespacedTheme();
   const [isActive, setIsActive] = useState<boolean>(isActiveInitial);
   const toggleSize = size || iconSize.primary;
-  const toggleSpacing = spacing.small;
-  const toggleRightPosition = toggleSize - toggleSpacing;
+  const toggleSpacing = (toggleSize * spacing.small) / iconSize.primary;
+  const toggleRightPosition = toggleSize * 1.75 - toggleSpacing;
   const startPosition = isActive ? toggleRightPosition : 0;
   const endPosition = isActive ? 0 : toggleRightPosition;
 
-  const containerWidth = toggleSize * 2 + toggleSpacing;
-  const containerHeight = toggleSize + toggleSpacing * 2;
+  const containerWidth = toggleSize * 2.5 + toggleSpacing;
+  const containerHeight = toggleSize + toggleSpacing;
 
   const translateX = new Animated.Value(startPosition);
 
@@ -58,8 +60,8 @@ export const Toggle = ({
     if (isActive) {
       return secondary ? colors.secondary : colors.primary;
     }
-    return colors.graySoft;
-  }, [colors, isActive, disabled, secondary]);
+    return inActiveColor ?? colors.graySoft;
+  }, [colors, isActive, inActiveColor, disabled, secondary]);
 
   return (
     <Container
@@ -98,7 +100,7 @@ const Container = styled.TouchableOpacity<ContainerType>`
   height: ${({ height }) => height}px;
   border-radius: ${({ height }) => height / 2}px;
   background-color: ${({ backgroundColor }) => backgroundColor};
-  padding: ${({ spacing }) => spacing}px;
+  padding: ${({ spacing }) => spacing / 2}px;
 `;
 
 type ToggleBulletType = {

@@ -54,7 +54,8 @@ pages:
     paths:
       - public
   only:
-    changes:
+    refs:
       - master
-      - libs/components/src/**/*.stories.tsx
+    changes:
+      - "libs/components/src/**/*.stories.tsx"
   when: manual

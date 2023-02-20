@@ -20,6 +20,7 @@ export enum TextVariant {
 
 export enum TextWeight {
   Regular = 'Regular',
+  Medium = 'Medium',
   SemiBold = 'SemiBold',
   Bold = 'Bold',
   ExtraBold = 'ExtraBold',
@@ -48,6 +49,8 @@ export const BaseText = ({
         return fonts.family.primarySemiBold;
       case TextWeight.ExtraBold:
         return fonts.family.primaryExtraBold;
+      case TextWeight.Medium:
+        return fonts.family.primaryMedium;
       case TextWeight.Regular:
       default:
         return fonts.family.primary;
