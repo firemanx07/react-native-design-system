@@ -28,7 +28,7 @@ export const SectionTitle = styled(BaseText).attrs({
   position: absolute;
   top: -12px;
   left: ${({ theme }) => theme.ds.spacing.primary}px;
-  background-color: ${({ theme }) => theme.ds.colors.grayLight};
+  background-color: ${({ theme }) => theme.ds.colors.graySoft};
   padding-horizontal: ${({ theme }) => theme.ds.spacing.small}px;
 `;
 

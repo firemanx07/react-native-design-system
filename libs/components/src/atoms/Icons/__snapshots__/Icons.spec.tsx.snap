@@ -53,7 +53,7 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#C7C7D2",
+            "backgroundColor": "#DEDFE0",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -259,7 +259,66 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
           ]
         }
       >
-        AddIcon
+        AddFileIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        AddPersonIcon
       </Text>
     </View>
     <View
@@ -378,6 +437,360 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
         }
       >
         AlertTriangleIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        ArrowFillRoundIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        ArrowFillSquareIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        ArrowOutlineSquareIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        ArrowPointIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        BookMarkIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        BusinessIcon
       </Text>
     </View>
     <View
@@ -555,6 +968,65 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
         }
       >
         CameraIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        CarIcon
       </Text>
     </View>
     <View
@@ -1144,6 +1616,65 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
           ]
         }
       >
+        ConvertIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
         DebitIcon
       </Text>
     </View>
@@ -1439,7 +1970,184 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
           ]
         }
       >
+        EditIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
         ErrorFileIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        EyeHiddenIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        EyeIcon
       </Text>
     </View>
     <View
@@ -1558,6 +2266,65 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
         }
       >
         HamburgerMenuIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        HandTabletScreenIcon
       </Text>
     </View>
     <View
@@ -1793,7 +2560,125 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
           ]
         }
       >
+        LaptopIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
         LeftArrowIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        LetterIcon
       </Text>
     </View>
     <View
@@ -1912,6 +2797,65 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
         }
       >
         LockIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        LogoutIcon
       </Text>
     </View>
     <View
@@ -2501,6 +3445,124 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
           ]
         }
       >
+        PhonePlaneIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        PhoneTransferIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
         PieChartIcon
       </Text>
     </View>
@@ -2737,7 +3799,184 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
           ]
         }
       >
+        PowerIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        PrinterIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
         QuestionIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        RechargeIcon
       </Text>
     </View>
     <View
@@ -2856,6 +4095,65 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
         }
       >
         RightShakingPersonIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        SearchIcon
       </Text>
     </View>
     <View
@@ -3092,6 +4390,183 @@ exports[`Icons tests BaseIcons snapshot test 1`] = `
         }
       >
         ShakingPersonIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        SocialFacebookIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        SocialGoogleIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#2C2C2C"
+        height={24}
+        width={24}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        isLight={false}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        SocialTwitterIcon
       </Text>
     </View>
     <View
