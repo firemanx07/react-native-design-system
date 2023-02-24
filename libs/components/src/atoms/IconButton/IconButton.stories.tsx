@@ -68,7 +68,15 @@ const Template: ComponentStory<typeof IconButtonBase> = (
 
 const parameters = {
   controls: {
-    include: ['disabled', 'shape', 'size', 'iconSize', 'iconColor', 'style'],
+    include: [
+      'disabled',
+      'shape',
+      'size',
+      'iconSize',
+      'iconColor',
+      'uniColor',
+      'style',
+    ],
   },
 };
 
