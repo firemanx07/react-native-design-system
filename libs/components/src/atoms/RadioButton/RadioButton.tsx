@@ -3,6 +3,7 @@ import { rgba } from 'polished';
 import React, { memo } from 'react';
 import { StyleProp, ViewStyle } from 'react-native';
 
+import { TestIDType } from '../../types';
 import { Circle } from '../Circle';
 
 export type RadioButtonProps = {
@@ -12,7 +13,7 @@ export type RadioButtonProps = {
   size?: number;
   style?: StyleProp<ViewStyle>;
   onSelect: (value: string) => void;
-};
+} & TestIDType;
 
 const BORDER_WIDTH = 2;
 const RadioButton = ({
@@ -21,6 +22,7 @@ const RadioButton = ({
   onSelect,
   size = 24,
   disabled,
+  testID,
 }: RadioButtonProps) => {
   const { colors, spacing, iconSize } = useNamespacedTheme();
   const INNER_CIRCLE_SIZE =
@@ -36,6 +38,7 @@ const RadioButton = ({
       selected={selected}
       onPress={() => onSelect(value)}
       style={disabled && disabledStyle}
+      testID={testID}
     >
       {!disabled ? (
         selected && <Circle color={colors.secondary} size={INNER_CIRCLE_SIZE} />

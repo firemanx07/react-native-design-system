@@ -1,15 +1,19 @@
 import { Story } from '@storybook/react';
 import React from 'react';
 
-import { Colors as ColorsBase } from './Colors';
 import { StorybookScreen } from '../../storybook';
+import { Colors as ColorsBase } from './Colors';
 
 export default {
   component: ColorsBase,
   title: 'Foundations/Colors',
 };
 
-const Template: Story = () =>   <StorybookScreen title="Colors:"><ColorsBase /></StorybookScreen>;
+const Template: Story = () => (
+  <StorybookScreen title="Colors:">
+    <ColorsBase />
+  </StorybookScreen>
+);
 
 const parameters = {
   controls: {

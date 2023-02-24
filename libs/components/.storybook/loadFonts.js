@@ -28,7 +28,7 @@ export const loadStorybookFonts = () => {
     }
      @font-face {
       src: url(${rubikMedium});
-      font-family: ${FontFamilyType.primaryExtraBold};
+      font-family: ${FontFamilyType.primaryMedium};
     }
   `;
 

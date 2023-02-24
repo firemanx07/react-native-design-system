@@ -16,6 +16,7 @@ import Animated, {
 import { Badge, BadgeSize, BadgeVariant } from '../../atoms/Badge';
 import { BaseText } from '../../atoms/BaseText';
 import { formatTo3Digits } from '../../helpers/format-utils';
+import { TestIDType } from '../../types';
 
 const BASE_MARKER_SIZE = 15;
 export enum SliderSize {
@@ -24,7 +25,7 @@ export enum SliderSize {
   M = BASE_MARKER_SIZE * 2,
   S = BASE_MARKER_SIZE,
 }
-export interface SliderProps {
+export type SliderProps = {
   initialValue: number;
   label?: string;
   max: number;
@@ -32,7 +33,7 @@ export interface SliderProps {
   onChange: (value: number) => void;
   size?: SliderSize;
   width?: number;
-}
+} & TestIDType;
 
 const Slider = ({
   min,
@@ -42,6 +43,7 @@ const Slider = ({
   width = 300,
   size = BASE_MARKER_SIZE,
   label = '',
+  testID,
 }: SliderProps) => {
   const translationX = useSharedValue(
     interpolate(initialValue, [min, max], [0, width - size], Extrapolate.CLAMP),
@@ -123,7 +125,7 @@ const Slider = ({
   });
 
   return (
-    <RangeSelectorContainer>
+    <RangeSelectorContainer testID={testID}>
       <PanGestureHandler onGestureEvent={memoizedGestureHandler}>
         <BadgeContainer style={animatedBadgeStyle}>
           <ArrowBadge

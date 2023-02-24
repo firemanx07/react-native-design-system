@@ -7,6 +7,10 @@ console.warn = () => {
   //this is mock
 };
 
-Animated['timing'] = () => ({
-  start: () => jest.fn(),
+Animated['timing'] = (value, config) => ({
+  start: callback => {
+    value.setValue(config.toValue);
+    callback && callback({ finished: true });
+  },
+  stop: jest.fn(),
 });
