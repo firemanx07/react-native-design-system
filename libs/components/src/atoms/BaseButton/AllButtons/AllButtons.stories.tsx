@@ -12,13 +12,12 @@ import {
 } from '../../../storybook';
 import { IconButton } from '../../IconButton';
 import {
+  ArrowPointIcon,
   CloudDownloadIcon,
   DeleteBinIcon,
   DownloadIcon,
   LockIcon,
-  MoneyCircleIcon,
   PlusIcon,
-  RightArrowIcon,
   WindowIcon,
 } from '../../Icons';
 import { LabelButton, LabelButtonVariant } from '../../LabelButton';
@@ -134,7 +133,7 @@ const Template: Story = () => {
           {renderLabelButton(LabelButtonVariant.Small, true)}
         </StorybookSection>
         <StorybookSection title="IconButton">
-          {renderIconButton(MoneyCircleIcon)}
+          {renderIconButton(ArrowPointIcon, colors.dark)}
           {renderIconButton(DeleteBinIcon, colors.success)}
           {renderIconButton(DownloadIcon, colors.primary)}
           <StorybookItemWrapper>
@@ -172,7 +171,7 @@ const Template: Story = () => {
               size={ButtonSize.Small}
               variant={ButtonVariant.Outline}
               renderIcon={(size: number) => (
-                <LockIcon width={size} height={size} fill={colors.light} />
+                <LockIcon width={size} height={size} fill={colors.dark} />
               )}
             >
               {buttonText}
@@ -197,7 +196,7 @@ const Template: Story = () => {
               size={ButtonSize.Small}
               variant={ButtonVariant.Primary}
               renderIcon={(size: number, color: string) => (
-                <RightArrowIcon width={size} height={size} fill={color} />
+                <ArrowPointIcon width={size} height={size} fill={color} />
               )}
             >
               {buttonText}
@@ -225,11 +224,11 @@ const RoundIconButton = styled(IconButton)`
 
 const ButtonXSmall = styled(BaseButton).attrs(({ theme }) => ({
   textStyle: {
-    color: theme.ds.colors.light,
+    color: theme.ds.colors.dark,
   },
 }))`
   height: 28px;
-  border-color: ${({ theme }) => theme.ds.colors.light};
+  border-color: ${({ theme }) => theme.ds.colors.dark};
   background-color: transparent;
 `;
 

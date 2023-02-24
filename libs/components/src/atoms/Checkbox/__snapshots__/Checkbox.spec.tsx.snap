@@ -53,7 +53,7 @@ exports[`Checkbox tests Checkbox snapshot test 1`] = `
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#C7C7D2",
+            "backgroundColor": "#DEDFE0",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -137,7 +137,7 @@ exports[`Checkbox tests Checkbox snapshot test 1`] = `
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#C7C7D2",
+            "backgroundColor": "#DEDFE0",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",
@@ -221,7 +221,7 @@ exports[`Checkbox tests Checkbox snapshot test 1`] = `
             "lineHeight": 20,
           },
           {
-            "backgroundColor": "#C7C7D2",
+            "backgroundColor": "#DEDFE0",
             "left": 16,
             "paddingHorizontal": 8,
             "position": "absolute",

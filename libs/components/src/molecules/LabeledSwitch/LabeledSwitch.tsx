@@ -3,6 +3,7 @@ import { rgba } from 'polished';
 import React, { memo, useState } from 'react';
 
 import { BaseText, TextVariant, TextWeight, Toggle } from '../../atoms';
+import { TestIDType } from '../../types';
 
 export enum LabeledSwitchValues {
   LEFT = 'left',
@@ -14,13 +15,14 @@ export type LabeledSwitchProps = {
   initialValue: LabeledSwitchValues;
   width?: number;
   onChange?: (val: LabeledSwitchValues) => void;
-};
+} & TestIDType;
 const LabeledSwitch = ({
   leftLabel,
   rightLabel,
   initialValue = LabeledSwitchValues.RIGHT,
   onChange,
   width,
+  testID,
 }: LabeledSwitchProps) => {
   const [isRight, setIsRight] = useState<boolean>(
     initialValue === LabeledSwitchValues.RIGHT,
@@ -31,7 +33,7 @@ const LabeledSwitch = ({
   };
   const { colors } = useNamespacedTheme();
   return (
-    <Container width={width}>
+    <Container testID={testID} width={width}>
       <LeftText
         weight={TextWeight.SemiBold}
         variant={TextVariant.S}
