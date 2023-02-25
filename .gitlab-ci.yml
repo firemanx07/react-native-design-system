@@ -1,8 +1,24 @@
 image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 stages:
+  - Prepare
   - Code_Review
   - deploy
+
+prepare_cache:
+  stage: Prepare
+  tags:
+    - docker
+  script:
+    - echo "Checking if yarn.lock has changed in the past day..."
+    - if test `find ./yarn.lock -mtime +0` && test ! `find ./yarn.lock -mtime -1`; then echo "yarn.lock file has not changed in the past day. Caching node_modules..."; yarn install --frozen-lockfile; fi
+  cache:
+    key: "${CI_COMMIT_REF_SLUG}-node-modules"
+    paths:
+      - node_modules
+  only:
+    refs:
+      - master
 
 sonarqube-check:
   stage: Code_Review
@@ -18,6 +34,7 @@ sonarqube-check:
     key: "${CI_JOB_NAME}"
     paths:
       - .sonar/cache
+      - node_modules
   script:
     - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"
   allow_failure: true
@@ -58,4 +75,4 @@ pages:
       - master
     changes:
       - "libs/components/src/**/*.stories.tsx"
-  when: manual
+  when: manual 
