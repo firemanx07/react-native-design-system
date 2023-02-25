@@ -42,13 +42,11 @@ sonarqube-check:
     refs:
       - master
 
-
 test_CI:
   stage: Code_Review
   tags:
     - docker
   script:
-    - yarn install
     - yarn lint
     - yarn test:ci
   only:
@@ -56,13 +54,14 @@ test_CI:
       - merge_requests
     variables:
       - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
+  dependencies:
+    - prepare_cache
 
 pages:
   stage: deploy
   tags:
     - docker
   script:
-    - yarn install
     - yarn bootstrap
     - export NODE_ENV=production
     - yarn build-storybook
@@ -75,4 +74,6 @@ pages:
       - master
     changes:
       - "libs/components/src/**/*.stories.tsx"
-  when: manual 
+  dependencies:
+    - prepare_cache
+  when: manual
