@@ -13,9 +13,9 @@ const Story: ComponentMeta<typeof TopTabBarBase> = {
   component: TopTabBarBase,
   title: 'molecules/TabBar',
   decorators: [
-    Story => (
+    StoryComponent => (
       <StorybookScreen title="Top TabBar:">
-        <Story />
+        <StoryComponent />
       </StorybookScreen>
     ),
   ],

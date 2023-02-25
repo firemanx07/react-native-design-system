@@ -27,9 +27,9 @@ const Story: ComponentMeta<typeof BottomTabBarBase> = {
   component: BottomTabBarBase,
   title: 'molecules/TabBar',
   decorators: [
-    Story => (
+    StoryComponent => (
       <StorybookScreen title="Bottom TabBar:">
-        <Story />
+        <StoryComponent />
       </StorybookScreen>
     ),
   ],
@@ -40,15 +40,18 @@ type IconComponentType = (props: {
   height?: number;
   fill?: string;
 }) => JSX.Element;
+type TabsList = { icon: IconComponentType; name: string }[];
+const NOOP = () => null;
 const Template: ComponentStory<typeof StorybookScreen> = args => {
   const { colors } = useNamespacedTheme();
-  const LoggedInTabs: { icon: IconComponentType; name: string }[] = [
+
+  const LoggedInTabs: TabsList = [
     { icon: HomeIcon, name: 'Dashboard' },
     { icon: WalletIcon, name: 'Accounts' },
     { icon: RechargeIcon, name: 'Transfers' },
     { icon: PersonIcon, name: 'Profile' },
   ];
-  const GuestTabs: { icon: IconComponentType; name: string }[] = [
+  const GuestTabs: TabsList = [
     { icon: ConverterIcon, name: 'Converter' },
     { icon: SimulatorIcon, name: 'Simulator' },
     { icon: PinIcon, name: 'Agencies' },
@@ -58,6 +61,14 @@ const Template: ComponentStory<typeof StorybookScreen> = args => {
     (Icon: IconComponentType) =>
     ({ size, color }: { size: number; color: string }) =>
       <Icon width={size} height={size} fill={color} />;
+  const renderBottomTabs = (Tabs: TabsList) =>
+    Tabs.map(({ name, icon }) => (
+      <Tab.Screen
+        name={name}
+        options={{ tabBarIcon: renderIcon(icon) }}
+        component={NOOP}
+      />
+    ));
 
   return (
     <StorybookRow>
@@ -69,13 +80,7 @@ const Template: ComponentStory<typeof StorybookScreen> = args => {
           <Tab.Navigator
             tabBar={(props: any) => <BottomTabBarBase {...props} {...args} />}
           >
-            {LoggedInTabs.map(({ name, icon }) => (
-              <Tab.Screen
-                name={name}
-                options={{ tabBarIcon: renderIcon(icon) }}
-                component={() => null}
-              />
-            ))}
+            {renderBottomTabs(LoggedInTabs)}
           </Tab.Navigator>
         </NavigationContainer>
       </StorybookSection>
@@ -87,13 +92,7 @@ const Template: ComponentStory<typeof StorybookScreen> = args => {
           <Tab.Navigator
             tabBar={(props: any) => <BottomTabBarBase {...props} {...args} />}
           >
-            {GuestTabs.map(({ name, icon }) => (
-              <Tab.Screen
-                name={name}
-                options={{ tabBarIcon: renderIcon(icon) }}
-                component={() => null}
-              />
-            ))}
+            {renderBottomTabs(GuestTabs)}
           </Tab.Navigator>
         </NavigationContainer>
       </StorybookSection>
