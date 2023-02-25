@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomTabBarBase renders a tab bar with correct label and marker positions 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    hasTwoStates={true}
+    style={
+      {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      pointerEvents="auto"
+      style={
+        [
+          {
+            "flex": 1,
+            "overflow": "hidden",
+          },
+          [
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            {
+              "zIndex": 0,
+            },
+          ],
+        ]
+      }
+    >
+      <View
+        collapsable={false}
+        pointerEvents="auto"
+        removeClippedSubviews={false}
+        style={
+          {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          style={
+            [
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+                "flex": 1,
+              },
+              [
+                {
+                  "flex": 1,
+                  "flexDirection": "column-reverse",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          />
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              collapsable={false}
+              pointerEvents="box-none"
+              style={
+                {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": 0,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  {
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "borderBottomColor": "rgb(216, 216, 216)",
+                    "flex": 1,
+                    "shadowColor": "rgb(216, 216, 216)",
+                    "shadowOffset": {
+                      "height": 0.5,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.85,
+                    "shadowRadius": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              collapsable={false}
+              pointerEvents="box-none"
+              style={
+                {
+                  "height": 44,
+                  "maxHeight": undefined,
+                  "minHeight": undefined,
+                  "opacity": undefined,
+                  "transform": undefined,
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "height": 0,
+                  }
+                }
+              />
+              <View
+                pointerEvents="box-none"
+                style={
+                  {
+                    "alignItems": "stretch",
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    {
+                      "alignItems": "flex-start",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "justifyContent": "center",
+                      "marginStart": 0,
+                    }
+                  }
+                />
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    {
+                      "justifyContent": "center",
+                      "marginHorizontal": 16,
+                      "maxWidth": 718,
+                    }
+                  }
+                >
+                  <Text
+                    accessibilityRole="header"
+                    aria-level="1"
+                    collapsable={false}
+                    numberOfLines={1}
+                    style={
+                      {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 17,
+                        "fontWeight": "600",
+                      }
+                    }
+                  >
+                    Home
+                  </Text>
+                </View>
+                <View
+                  collapsable={false}
+                  pointerEvents="box-none"
+                  style={
+                    {
+                      "alignItems": "flex-end",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "justifyContent": "center",
+                      "marginEnd": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 7,
+          "flexDirection": "row",
+          "minHeight": 64,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "selected": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "minHeight": 35,
+          "opacity": 1,
+        }
+      }
+      testID="tab-Home"
+    >
+      <test-file-stub
+        fill="#4D37D9"
+        height={20}
+        width={20}
+      />
+      <Text
+        collapsable={false}
+        style={
+          {
+            "color": "#2C2C2C",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "lineHeight": 20,
+          }
+        }
+      >
+        Home
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={{}}
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "minHeight": 35,
+          "opacity": 1,
+        }
+      }
+      testID="tab-Accounts"
+    >
+      <test-file-stub
+        fill="#C7C7D2"
+        height={20}
+        width={20}
+      />
+      <Text
+        collapsable={false}
+        style={
+          {
+            "color": "#2C2C2C",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "lineHeight": 20,
+          }
+        }
+      >
+        Accounts
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={{}}
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "minHeight": 35,
+          "opacity": 1,
+        }
+      }
+      testID="tab-Profile"
+    >
+      <test-file-stub
+        fill="#C7C7D2"
+        height={20}
+        width={20}
+      />
+      <Text
+        collapsable={false}
+        style={
+          {
+            "color": "#2C2C2C",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "lineHeight": 20,
+          }
+        }
+      >
+        Profile
+      </Text>
+    </View>
+    <View
+      collapsable={false}
+      style={
+        {
+          "backgroundColor": "#4D37D9",
+          "borderRadius": 4,
+          "height": 5,
+          "position": "absolute",
+          "top": 0,
+          "transform": [
+            {
+              "translateX": 0,
+            },
+            {
+              "translateX": -9.5,
+            },
+          ],
+          "width": 19,
+        }
+      }
+      testID="marker"
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -16,6 +16,7 @@ import {
 } from '../../storybook';
 import { BaseText } from '../BaseText';
 import * as bkrise from './bankeriseIcons';
+import * as custom from './customIcons';
 
 export default {
   title: 'Atoms/Icons',
@@ -42,6 +43,7 @@ type IconType = {
 type IconsType = { [key: string]: (props: IconType) => JSX.Element };
 
 const bkriseIcons = bkrise as IconsType;
+const customIcons = custom as IconsType;
 
 const ICON_WRAPPER_WIDTH = 270;
 const ICON_WRAPPER_MARGIN = 10;
@@ -104,7 +106,33 @@ const Template: Story = ({ size, color }) => {
     </StorybookScreen>
   );
 };
+const CustomIconsTemplate: Story = ({ size }) => {
+  const { iconSize, colors } = useNamespacedTheme();
 
+  const renderIcon = useCallback(
+    (key: string) => {
+      const Icon = customIcons[key];
+      return (
+        <IconWrapper key={key} width={ICON_WRAPPER_WIDTH}>
+          <Icon
+            width={size || iconSize.large}
+            height={size || iconSize.large}
+            fill={colors.grayDark}
+          />
+          <IconName>{key}</IconName>
+        </IconWrapper>
+      );
+    },
+    [size],
+  );
+
+  return (
+    <StorybookScreen>
+      <StorybookSectionText>Custom icons:</StorybookSectionText>
+      <IconsWrapper>{Object.keys(customIcons).map(renderIcon)}</IconsWrapper>
+    </StorybookScreen>
+  );
+};
 const IconsWrapper = styled(StorybookRow)`
   width: ${ICON_WRAPPER_WIDTH * ICONS_IN_ROW +
   ICON_WRAPPER_MARGIN * ICONS_IN_ROW}px;
@@ -147,5 +175,10 @@ const defaultArgs = {
 export const BaseIcons = Template.bind({});
 BaseIcons.parameters = parameters;
 BaseIcons.args = {
+  ...defaultArgs,
+};
+export const CustomIcons = CustomIconsTemplate.bind({});
+CustomIcons.parameters = parameters;
+CustomIcons.args = {
   ...defaultArgs,
 };

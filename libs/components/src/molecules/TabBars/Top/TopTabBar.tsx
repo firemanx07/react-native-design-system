@@ -2,12 +2,9 @@ import { styled, useNamespacedTheme } from '@proxym/themes';
 import { MaterialTopTabBarProps } from '@react-navigation/material-top-tabs';
 import { Route } from '@react-navigation/native';
 import React, { memo, useCallback, useMemo, useRef, useState } from 'react';
-import {
-  Animated,
-  LayoutChangeEvent,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { Animated, LayoutChangeEvent, View } from 'react-native';
+
+import TabBarItem from './TabBarItem';
 
 const TopTabBar = ({
   state,
@@ -77,11 +74,9 @@ const TopTabBar = ({
       {state.routes.map((route, index: number) => {
         const { options } = descriptors[route.key];
         const label =
-          (options.tabBarLabel
-            ? options.tabBarLabel
-            : options.title
-            ? options.title
-            : route.name) ?? '';
+          (typeof options.tabBarLabel === 'string' && options.tabBarLabel) ||
+          options.title ||
+          route.name;
 
         const isFocused = state.index === index;
 
@@ -91,15 +86,14 @@ const TopTabBar = ({
 
         return (
           <TabBarItem
-            accessibilityRole="button"
-            accessibilityState={isFocused ? { selected: true } : {}}
-            accessibilityLabel={options.tabBarAccessibilityLabel}
-            testID={options.tabBarTestID}
-            onPress={onPress}
             key={route.key}
-          >
-            <TabBarLabel style={{ color }} children={String(label)} />
-          </TabBarItem>
+            testID={options.tabBarTestID}
+            isFocused={isFocused}
+            accessibilityLabel={options.tabBarAccessibilityLabel}
+            onPress={onPress}
+            label={label}
+            color={color}
+          />
         );
       })}
       <Marker testID="marker" style={{ transform }} />
@@ -110,17 +104,6 @@ const TabBarContainer = styled.View`
   flex-direction: row;
 `;
 
-const TabBarItem = styled(TouchableOpacity)`
-  flex: 1;
-  min-height: 35px;
-`;
-
-const TabBarLabel = styled(Animated.Text)`
-  color: ${({ theme }) => theme.ds.colors.dark};
-  font-family: ${({ theme }) => theme.ds.fonts.family.primaryMedium};
-  font-size: ${({ theme }) => theme.ds.fonts.size.medium}px;
-  line-height: ${({ theme }) => theme.ds.fonts.lineHeight.mediumTiny}px;
-`;
 const Marker = styled(Animated.View)`
   background-color: ${({ theme }) => theme.ds.colors.dark};
   width: 30px;
