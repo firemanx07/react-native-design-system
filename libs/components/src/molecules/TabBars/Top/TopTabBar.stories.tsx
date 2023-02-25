@@ -1,3 +1,4 @@
+import { useNamespacedTheme } from '@proxym/themes';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
@@ -10,23 +11,32 @@ const Tab = createMaterialTopTabNavigator();
 
 const Story: ComponentMeta<typeof TopTabBarBase> = {
   component: TopTabBarBase,
-  title: 'molecules/TabBar/TopTabBar',
+  title: 'molecules/TabBar',
+  decorators: [
+    Story => (
+      <StorybookScreen title="Top TabBar:">
+        <Story />
+      </StorybookScreen>
+    ),
+  ],
 };
 
-const Template: ComponentStory<typeof TopTabBarBase> = args => {
+const Template: ComponentStory<typeof StorybookScreen> = args => {
+  const { colors } = useNamespacedTheme();
   return (
     <NavigationContainer>
-      <StorybookScreen title="Top TabBar:">
-        <StorybookSection>
-          <Tab.Navigator
-            tabBar={(props: any) => <TopTabBarBase {...props} {...args} />}
-          >
-            <Tab.Screen name="Simple" component={() => null} />
-            <Tab.Screen name="Permanent" component={() => null} />
-            <Tab.Screen name="Multiple" component={() => null} />
-          </Tab.Navigator>
-        </StorybookSection>
-      </StorybookScreen>
+      <StorybookSection
+        title="Top TabBar:"
+        style={{ backgroundColor: colors.light }}
+      >
+        <Tab.Navigator
+          tabBar={(props: any) => <TopTabBarBase {...props} {...args} />}
+        >
+          <Tab.Screen name="Simple" component={() => null} />
+          <Tab.Screen name="Permanent" component={() => null} />
+          <Tab.Screen name="Multiple" component={() => null} />
+        </Tab.Navigator>
+      </StorybookSection>
     </NavigationContainer>
   );
 };
