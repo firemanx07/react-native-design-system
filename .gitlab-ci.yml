@@ -1,12 +1,11 @@
 image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 stages:
-  - Prepare
   - Code_Review
   - Deploy
 
 prepare_cache:
-  stage: Prepare
+  stage: .pre
   tags:
     - docker
   script:
@@ -18,12 +17,6 @@ prepare_cache:
   artifacts:
     paths:
       - node_modules
-  only:
-    refs:
-      - master
-      - merge_requests
-    variables:
-      - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
 
 sonarqube-check:
   stage: Code_Review
