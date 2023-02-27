@@ -43,6 +43,8 @@ sonarqube-check:
   script:
     - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"
   allow_failure: true
+  needs:
+    - job: prepare_cache
   only:
     refs:
       - master
@@ -84,4 +86,4 @@ pages:
     - prepare_cache
   needs:
     - job: prepare_cache
-      artifacts: true 
+      artifacts: true
