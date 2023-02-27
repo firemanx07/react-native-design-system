@@ -84,4 +84,4 @@ pages:
     - prepare_cache
   needs:
     - job: prepare_cache
-      artifacts: true
+      artifacts: true 
