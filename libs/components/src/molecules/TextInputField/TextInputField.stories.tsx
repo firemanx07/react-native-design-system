@@ -10,7 +10,7 @@ import { default as TextInputFieldBase, TextProps } from './TextInputField';
 
 const Story: ComponentMeta<typeof TextInputFieldBase> = {
   component: TextInputFieldBase,
-  title: 'molecules/TextInputField',
+  title: 'Molecules/TextInputField',
 };
 export default Story;
 

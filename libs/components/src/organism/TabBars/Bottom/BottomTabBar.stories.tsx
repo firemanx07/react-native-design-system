@@ -25,7 +25,7 @@ const Tab = createBottomTabNavigator();
 
 const Story: ComponentMeta<typeof BottomTabBarBase> = {
   component: BottomTabBarBase,
-  title: 'molecules/TabBar',
+  title: 'Organism/TabBar',
   decorators: [
     StoryComponent => (
       <StorybookScreen title="Bottom TabBar:">

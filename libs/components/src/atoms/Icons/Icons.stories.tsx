@@ -117,7 +117,7 @@ const CustomIconsTemplate: Story = ({ size }) => {
           <Icon
             width={size || iconSize.large}
             height={size || iconSize.large}
-            fill={colors.grayDark}
+            fill={colors.secondary}
           />
           <IconName>{key}</IconName>
         </IconWrapper>
@@ -179,6 +179,4 @@ BaseIcons.args = {
 };
 export const CustomIcons = CustomIconsTemplate.bind({});
 CustomIcons.parameters = parameters;
-CustomIcons.args = {
-  ...defaultArgs,
-};
+CustomIcons.parameters.controls.include = ['size'];
