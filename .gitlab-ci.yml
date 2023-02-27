@@ -61,6 +61,9 @@ test_CI:
       - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
   dependencies:
     - prepare_cache
+  needs:
+    - job: prepare_cache
+      artifacts: true
 
 pages:
   stage: Deploy
@@ -77,8 +80,8 @@ pages:
   only:
     refs:
       - master
-    changes:
-      - "libs/components/src/**/*.stories.tsx"
   dependencies:
     - prepare_cache
-  when: manual
+  needs:
+    - job: prepare_cache
+      artifacts: true 
