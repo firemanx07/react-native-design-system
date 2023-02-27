@@ -1,8 +1,23 @@
 image: gitlab-registry.proxym-group.net/docker/node:16.17.0
 
 stages:
+  - Prepare
   - Code_Review
-  - deploy
+  - Deploy
+
+prepare_cache:
+  stage: Prepare
+  tags:
+    - docker
+  script:
+    - yarn install --frozen-lockfile
+  cache:
+    key: "${CI_COMMIT_REF_SLUG}-node-modules"
+    paths:
+      - node_modules
+  only:
+    refs:
+      - master
 
 sonarqube-check:
   stage: Code_Review
@@ -18,6 +33,7 @@ sonarqube-check:
     key: "${CI_JOB_NAME}"
     paths:
       - .sonar/cache
+      - node_modules
   script:
     - sonar-scanner -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"
   allow_failure: true
@@ -25,13 +41,11 @@ sonarqube-check:
     refs:
       - master
 
-
 test_CI:
   stage: Code_Review
   tags:
     - docker
   script:
-    - yarn install
     - yarn lint
     - yarn test:ci
   only:
@@ -39,13 +53,14 @@ test_CI:
       - merge_requests
     variables:
       - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
+  dependencies:
+    - prepare_cache
 
 pages:
-  stage: deploy
+  stage: Deploy
   tags:
     - docker
   script:
-    - yarn install
     - yarn bootstrap
     - export NODE_ENV=production
     - yarn build-storybook
@@ -58,4 +73,6 @@ pages:
       - master
     changes:
       - "libs/components/src/**/*.stories.tsx"
+  dependencies:
+    - prepare_cache
   when: manual
