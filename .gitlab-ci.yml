@@ -14,9 +14,6 @@ prepare_cache:
     key: "${CI_COMMIT_REF_SLUG}-node-modules"
     paths:
       - node_modules
-  artifacts:
-    paths:
-      - node_modules
 
 sonarqube-check:
   stage: Code_Review
@@ -54,11 +51,6 @@ test_CI:
       - merge_requests
     variables:
       - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
-  dependencies:
-    - prepare_cache
-  needs:
-    - job: prepare_cache
-      artifacts: true
 
 pages:
   stage: Deploy
@@ -75,8 +67,3 @@ pages:
   only:
     refs:
       - master
-  dependencies:
-    - prepare_cache
-  needs:
-    - job: prepare_cache
-      artifacts: true
