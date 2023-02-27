@@ -21,6 +21,9 @@ prepare_cache:
   only:
     refs:
       - master
+      - merge_requests
+    variables:
+      - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
 
 sonarqube-check:
   stage: Code_Review
