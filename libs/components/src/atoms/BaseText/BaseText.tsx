@@ -13,6 +13,7 @@ export enum TextVariant {
   H2 = 'H2',
   H3 = 'H3',
   L = 'L',
+  XL = 'XL',
   M = 'M',
   S = 'S',
   XS = 'XS',
@@ -76,6 +77,11 @@ export const BaseText = ({
           fontFamily: fonts.family.primaryBold,
           fontSize: fonts.size.medium,
           lineHeight: fonts.lineHeight.mediumTiny,
+        };
+      case TextVariant.XL:
+        return {
+          fontSize: fonts.size.large,
+          lineHeight: fonts.lineHeight.extraLarge,
         };
       case TextVariant.M:
         return {

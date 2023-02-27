@@ -11,7 +11,7 @@ const Tab = createMaterialTopTabNavigator();
 
 const Story: ComponentMeta<typeof TopTabBarBase> = {
   component: TopTabBarBase,
-  title: 'molecules/TabBar',
+  title: 'Organism/TabBar',
   decorators: [
     StoryComponent => (
       <StorybookScreen title="Top TabBar:">
