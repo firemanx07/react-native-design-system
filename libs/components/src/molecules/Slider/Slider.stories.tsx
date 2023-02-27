@@ -7,7 +7,7 @@ import { default as SliderBase, SliderProps, SliderSize } from './Slider';
 
 const Story: ComponentMeta<typeof SliderBase> = {
   component: SliderBase,
-  title: 'molecules/Slider',
+  title: 'Molecules/Slider',
   argTypes: {
     size: {
       control: { type: 'select' },

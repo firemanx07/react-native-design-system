@@ -7,7 +7,7 @@ import { TopTabBar } from './Top/TopTabBar.stories';
 
 const Story: ComponentMeta<typeof StorybookScreen> = {
   component: StorybookScreen,
-  title: 'molecules/TabBar',
+  title: 'Organism/TabBar',
 };
 
 const Template: ComponentStory<typeof StorybookScreen> = () => {

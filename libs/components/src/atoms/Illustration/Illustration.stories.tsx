@@ -12,6 +12,11 @@ import {
 const Story: ComponentMeta<typeof IllustrationBase> = {
   component: IllustrationBase,
   title: 'Atoms/Illustration',
+  argTypes: {
+    name: {
+      control: { type: 'select' },
+    },
+  },
 };
 export default Story;
 

@@ -10,7 +10,7 @@ import {
 
 const Story: ComponentMeta<typeof LabeledSwitchBase> = {
   component: LabeledSwitchBase,
-  title: 'molecules/LabeledSwitch',
+  title: 'Molecules/LabeledSwitch',
   argTypes: {
     initialValue: {
       control: { type: 'select' },

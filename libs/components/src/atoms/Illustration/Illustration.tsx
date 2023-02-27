@@ -15,6 +15,8 @@ export enum IllustrationSize {
 export enum IllustrationName {
   Cards = 'Cards',
   Board = 'Board',
+  NO_DATA_FOUND = 'NoDataFound',
+  NO_INTERNET = 'NoInternet',
 }
 
 export type PropsType = {
