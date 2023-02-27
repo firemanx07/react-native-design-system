@@ -81,4 +81,7 @@ pages:
       - "libs/components/src/**/*.stories.tsx"
   dependencies:
     - prepare_cache
+  needs:
+    - job: prepare_cache
+      artifacts: true
   when: manual
