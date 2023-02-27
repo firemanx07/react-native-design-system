@@ -80,8 +80,6 @@ pages:
   only:
     refs:
       - master
-    changes:
-      - "libs/components/src/**/*.stories.tsx"
   dependencies:
     - prepare_cache
   needs:
