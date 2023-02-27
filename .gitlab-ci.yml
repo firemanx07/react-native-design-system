@@ -15,6 +15,9 @@ prepare_cache:
     key: "${CI_COMMIT_REF_SLUG}-node-modules"
     paths:
       - node_modules
+  artifacts:
+    paths:
+      - node_modules
   only:
     refs:
       - master
