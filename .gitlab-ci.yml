@@ -4,17 +4,6 @@ stages:
   - Code_Review
   - Deploy
 
-prepare_cache:
-  stage: .pre
-  tags:
-    - docker
-  script:
-    - yarn install --frozen-lockfile
-  cache:
-    key: "${CI_COMMIT_REF_SLUG}-node-modules"
-    paths:
-      - node_modules
-
 sonarqube-check:
   stage: Code_Review
   tags:
@@ -41,12 +30,9 @@ test_CI:
   tags:
     - docker
   script:
+    - yarn install --frozen-lockfile
     - yarn lint
     - yarn test:ci
-  cache:
-    key: "${CI_COMMIT_REF_SLUG}-node-modules"
-    paths:
-      - node_modules
   only:
     refs:
       - merge_requests
@@ -58,14 +44,12 @@ pages:
   tags:
     - docker
   script:
+    - yarn install --frozen-lockfile
     - yarn bootstrap
     - export NODE_ENV=production
     - yarn build-storybook
     - mv libs/components/storybook-static ./public
-  cache:
-    key: "${CI_COMMIT_REF_SLUG}-node-modules"
-    paths:
-      - node_modules
+
   artifacts:
     paths:
       - public
