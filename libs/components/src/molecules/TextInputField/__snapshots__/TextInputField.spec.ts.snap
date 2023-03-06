@@ -70,9 +70,38 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
         ]
       }
     >
+      <Text
+        fontFamily="Rubik-Medium"
+        fontSize={12}
+        lineHeight={18}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Medium",
+              "fontSize": 12,
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        BaseTextInput Field
+      </Text>
       <View
+        accessible={true}
+        collapsable={false}
         color="rgba(199,199,210,0.5)"
         editable={true}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           [
             {
@@ -81,6 +110,7 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
               "borderColor": "rgba(199,199,210,0.5)",
               "borderRadius": 7,
               "borderWidth": 1,
+              "flexDirection": "row",
               "justifyContent": "space-between",
               "minHeight": 48,
               "paddingHorizontal": 8,
@@ -199,8 +229,20 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           disabled Text input
         </Text>
         <View
+          accessible={true}
+          collapsable={false}
           color="rgba(199,199,210,0.5)"
           editable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             [
               {
@@ -209,6 +251,7 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
                 "borderColor": "transparent",
                 "borderRadius": 7,
                 "borderWidth": 1,
+                "flexDirection": "row",
                 "justifyContent": "space-between",
                 "minHeight": 48,
                 "paddingHorizontal": 8,
@@ -288,7 +331,7 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           ]
         }
       >
-        Success input field with text:
+        Success input field :
       </Text>
       <View
         style={
@@ -318,8 +361,20 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           success Text input
         </Text>
         <View
+          accessible={true}
+          collapsable={false}
           color="rgba(28,197,119,0.5)"
           editable={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             [
               {
@@ -328,6 +383,7 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
                 "borderColor": "rgba(28,197,119,0.5)",
                 "borderRadius": 7,
                 "borderWidth": 1,
+                "flexDirection": "row",
                 "justifyContent": "space-between",
                 "minHeight": 48,
                 "paddingHorizontal": 8,
@@ -361,6 +417,159 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
             value="Success Value"
           />
         </View>
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Rubik-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#DEDFE0",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        Error input field :
+      </Text>
+      <View
+        style={
+          [
+            {
+              "alignItems": "flex-start",
+              "justifyContent": "flex-start",
+            },
+          ]
+        }
+      >
+        <Text
+          fontFamily="Rubik-Medium"
+          fontSize={12}
+          lineHeight={18}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Medium",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          Error Text input
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          color="rgba(255,59,59,0.5)"
+          editable={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "rgba(255,59,59,0.5)",
+                "borderRadius": 7,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "minHeight": 48,
+                "paddingHorizontal": 8,
+                "width": 300,
+              },
+            ]
+          }
+          width={300}
+        >
+          <TextInput
+            autoFocus={false}
+            editable={true}
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Placeholder"
+            placeholderTextColor="rgba(44,44,44,0.5)"
+            style={
+              [
+                {
+                  "color": "#2C2C2C",
+                  "fontFamily": "Rubik-Regular",
+                  "fontSize": 16,
+                  "height": 48,
+                  "marginLeft": 8,
+                  "width": "100%",
+                },
+              ]
+            }
+            value=""
+          />
+        </View>
+        <Text
+          fontFamily="Rubik-Regular"
+          fontSize={12}
+          lineHeight={18}
+          style={
+            [
+              {
+                "color": "#2C2C2C",
+                "fontFamily": "Rubik-Regular",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+              {
+                "color": "#FF3B3B",
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          Oops! Somethings not right here.
+        </Text>
       </View>
     </View>
   </View>
@@ -417,7 +626,7 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           ]
         }
       >
-        Error input field with text:
+        input field with icon:
       </Text>
       <View
         style={
@@ -444,19 +653,32 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
             ]
           }
         >
-          Error Text input
+          Text input With Icons
         </Text>
         <View
-          color="rgba(255,59,59,0.5)"
+          accessible={true}
+          collapsable={false}
+          color="rgba(199,199,210,0.5)"
           editable={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             [
               {
                 "alignItems": "center",
                 "backgroundColor": "#FFFFFF",
-                "borderColor": "rgba(255,59,59,0.5)",
+                "borderColor": "rgba(199,199,210,0.5)",
                 "borderRadius": 7,
                 "borderWidth": 1,
+                "flexDirection": "row",
                 "justifyContent": "space-between",
                 "minHeight": 48,
                 "paddingHorizontal": 8,
@@ -466,15 +688,22 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           }
           width={300}
         >
+          <test-file-stub
+            fill="#2C2C2C"
+            height={24}
+            width={24}
+          />
           <TextInput
             autoFocus={false}
             editable={true}
+            leftAccessory={[Function]}
             multiline={false}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholder="Placeholder"
             placeholderTextColor="rgba(44,44,44,0.5)"
+            rightAccessory={[Function]}
             style={
               [
                 {
@@ -483,34 +712,19 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
                   "fontSize": 16,
                   "height": 48,
                   "marginLeft": 8,
+                  "marginRight": 4,
                   "width": "100%",
                 },
               ]
             }
             value=""
           />
+          <test-file-stub
+            fill="#2C2C2C"
+            height={24}
+            width={24}
+          />
         </View>
-        <Text
-          fontFamily="Rubik-Regular"
-          fontSize={12}
-          lineHeight={18}
-          style={
-            [
-              {
-                "color": "#2C2C2C",
-                "fontFamily": "Rubik-Regular",
-                "fontSize": 12,
-                "lineHeight": 18,
-              },
-              {
-                "color": "#FF3B3B",
-                "marginTop": 4,
-              },
-            ]
-          }
-        >
-          Oops! Somethings not right here.
-        </Text>
       </View>
     </View>
     <View
@@ -587,8 +801,20 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           Text box
         </Text>
         <View
+          accessible={true}
+          collapsable={false}
           color="rgba(199,199,210,0.5)"
           editable={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             [
               {
@@ -597,6 +823,7 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
                 "borderColor": "rgba(199,199,210,0.5)",
                 "borderRadius": 7,
                 "borderWidth": 1,
+                "flexDirection": "row",
                 "justifyContent": "space-between",
                 "minHeight": 48,
                 "paddingHorizontal": 8,
