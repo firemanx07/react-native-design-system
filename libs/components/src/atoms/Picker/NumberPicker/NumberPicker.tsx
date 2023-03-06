@@ -23,8 +23,9 @@ enum PickerButtons {
   ADD = 'ADD',
 }
 const ICON_SIZE = IconSizeType.medium;
+const PICKER_DEFAULT_WIDTH = 300;
 const NumberPicker = ({
-  width = 300,
+  width = PICKER_DEFAULT_WIDTH,
   color,
   initialValue = 0,
   step = 1,
@@ -87,8 +88,10 @@ const PickerContainer = styled.View<{ width: number; color: ColorType }>`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-horizontal: ${({ theme }) => theme.ds.spacing.primary}px;
+  padding-horizontal: ${({ theme, width }) =>
+    (theme.ds.spacing.primary * width) / PICKER_DEFAULT_WIDTH}px;
   width: ${({ width }) => width}px;
+  min-width: ${PICKER_DEFAULT_WIDTH / 3}px;
   border-radius: 7px;
   background-color: ${({ color }) => rgba(color, 0.08)};
   min-height: 47px;

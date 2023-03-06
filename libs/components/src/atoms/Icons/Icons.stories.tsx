@@ -123,7 +123,7 @@ const CustomIconsTemplate: Story = ({ size }) => {
         </IconWrapper>
       );
     },
-    [size],
+    [colors.secondary, iconSize.large, size],
   );
 
   return (
@@ -179,4 +179,3 @@ BaseIcons.args = {
 };
 export const CustomIcons = CustomIconsTemplate.bind({});
 CustomIcons.parameters = parameters;
-CustomIcons.parameters.controls.include = ['size'];
