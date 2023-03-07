@@ -19,7 +19,7 @@ export enum OptionVariant {
 const IconOption = ({ item }: optionProps) => {
   return (
     <StyledOption>
-      <IconConatiner>{item?.icon}</IconConatiner>
+      <IconContainer>{item?.icon}</IconContainer>
       <BaseText>{item.label}</BaseText>
     </StyledOption>
   );
@@ -41,7 +41,7 @@ const StyledOption = styled.View`
   align-items: center;
   height: 40px;
 `;
-const IconConatiner = styled.View`
+const IconContainer = styled.View`
   flex-direction: row;
   width: ${({ theme }) => theme.ds.iconSize.primary};
   height: ${({ theme }) => theme.ds.iconSize.primary};

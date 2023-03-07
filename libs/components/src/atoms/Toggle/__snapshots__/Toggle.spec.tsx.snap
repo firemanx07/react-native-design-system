@@ -124,292 +124,409 @@ exports[`Toggle tests Toggle snapshot test 1`] = `
     style={
       [
         {
-          "borderColor": "#2C2C2C",
-          "borderRadius": 4,
-          "borderStyle": "dashed",
-          "borderWidth": 1,
-          "marginBottom": 24,
-          "marginLeft": 24,
-          "marginRight": 24,
-          "marginTop": 24,
-          "paddingBottom": 16,
-          "paddingLeft": 16,
-          "paddingRight": 16,
-          "paddingTop": 16,
-          "width": 370,
+          "flexDirection": "row",
         },
       ]
     }
-    width={370}
   >
-    <Text
-      fontFamily="Rubik-Bold"
-      fontSize={16}
-      lineHeight={20}
+    <View
       style={
         [
           {
-            "color": "#2C2C2C",
-            "fontFamily": "Rubik-Bold",
-            "fontSize": 16,
-            "lineHeight": 20,
-          },
-          {
-            "backgroundColor": "#DEDFE0",
-            "left": 16,
-            "paddingHorizontal": 8,
-            "position": "absolute",
-            "top": -12,
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
           },
         ]
       }
+      width={370}
     >
-      inactive
-    </Text>
-    <View
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        {
-          "backgroundColor": "#DEDFE0",
-          "borderRadius": 16,
-          "height": 32,
-          "opacity": 1,
-          "paddingBottom": 4,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 4,
-          "width": 68,
+      <Text
+        fontFamily="Rubik-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#DEDFE0",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
         }
-      }
-    >
+      >
+        inactive
+      </Text>
       <View
+        accessible={true}
         collapsable={false}
-        size={24}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           {
-            "backgroundColor": "#FFFFFF",
-            "borderRadius": 12,
-            "elevation": 2,
-            "height": 24,
-            "shadowColor": "#2C2C2C",
-            "shadowOffset": {
-              "height": 2,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "transform": [
-              {
-                "translateX": 0,
-              },
-            ],
-            "width": 24,
+            "backgroundColor": "#DEDFE0",
+            "borderRadius": 16,
+            "height": 32,
+            "opacity": 1,
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+            "width": 68,
           }
         }
-      />
+      >
+        <View
+          collapsable={false}
+          size={24}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12,
+              "elevation": 2,
+              "height": 24,
+              "shadowColor": "#2C2C2C",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+              "width": 24,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
+          },
+        ]
+      }
+      width={370}
+    >
+      <Text
+        fontFamily="Rubik-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#DEDFE0",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
+        }
+      >
+        inactive - secondary
+      </Text>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#49C4E9",
+            "borderRadius": 16,
+            "height": 32,
+            "opacity": 1,
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+            "width": 68,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          size={24}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12,
+              "elevation": 2,
+              "height": 24,
+              "shadowColor": "#2C2C2C",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+              "width": 24,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
   <View
     style={
       [
         {
-          "borderColor": "#2C2C2C",
-          "borderRadius": 4,
-          "borderStyle": "dashed",
-          "borderWidth": 1,
-          "marginBottom": 24,
-          "marginLeft": 24,
-          "marginRight": 24,
-          "marginTop": 24,
-          "paddingBottom": 16,
-          "paddingLeft": 16,
-          "paddingRight": 16,
-          "paddingTop": 16,
-          "width": 370,
+          "flexDirection": "row",
         },
       ]
     }
-    width={370}
   >
-    <Text
-      fontFamily="Rubik-Bold"
-      fontSize={16}
-      lineHeight={20}
+    <View
       style={
         [
           {
-            "color": "#2C2C2C",
-            "fontFamily": "Rubik-Bold",
-            "fontSize": 16,
-            "lineHeight": 20,
-          },
-          {
-            "backgroundColor": "#DEDFE0",
-            "left": 16,
-            "paddingHorizontal": 8,
-            "position": "absolute",
-            "top": -12,
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
           },
         ]
       }
+      width={370}
     >
-      inactive - secondary
-    </Text>
-    <View
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        {
-          "backgroundColor": "#DEDFE0",
-          "borderRadius": 16,
-          "height": 32,
-          "opacity": 1,
-          "paddingBottom": 4,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 4,
-          "width": 68,
+      <Text
+        fontFamily="Rubik-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#DEDFE0",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
         }
-      }
-    >
+      >
+        active
+      </Text>
       <View
+        accessible={true}
         collapsable={false}
-        secondary={true}
-        size={24}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           {
-            "backgroundColor": "#FFFFFF",
-            "borderRadius": 12,
-            "elevation": 2,
-            "height": 24,
-            "shadowColor": "#2C2C2C",
-            "shadowOffset": {
-              "height": 2,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "transform": [
-              {
-                "translateX": 0,
-              },
-            ],
-            "width": 24,
+            "backgroundColor": "#4D37D9",
+            "borderRadius": 16,
+            "height": 32,
+            "opacity": 1,
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+            "width": 68,
           }
         }
-      />
+      >
+        <View
+          collapsable={false}
+          size={24}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12,
+              "elevation": 2,
+              "height": 24,
+              "shadowColor": "#2C2C2C",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 34,
+                },
+              ],
+              "width": 24,
+            }
+          }
+        />
+      </View>
     </View>
-  </View>
-  <View
-    style={
-      [
-        {
-          "borderColor": "#2C2C2C",
-          "borderRadius": 4,
-          "borderStyle": "dashed",
-          "borderWidth": 1,
-          "marginBottom": 24,
-          "marginLeft": 24,
-          "marginRight": 24,
-          "marginTop": 24,
-          "paddingBottom": 16,
-          "paddingLeft": 16,
-          "paddingRight": 16,
-          "paddingTop": 16,
-          "width": 370,
-        },
-      ]
-    }
-    width={370}
-  >
-    <Text
-      fontFamily="Rubik-Bold"
-      fontSize={16}
-      lineHeight={20}
+    <View
       style={
         [
           {
-            "color": "#2C2C2C",
-            "fontFamily": "Rubik-Bold",
-            "fontSize": 16,
-            "lineHeight": 20,
-          },
-          {
-            "backgroundColor": "#DEDFE0",
-            "left": 16,
-            "paddingHorizontal": 8,
-            "position": "absolute",
-            "top": -12,
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 370,
           },
         ]
       }
+      width={370}
     >
-      active
-    </Text>
-    <View
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        {
-          "backgroundColor": "#4D37D9",
-          "borderRadius": 16,
-          "height": 32,
-          "opacity": 1,
-          "paddingBottom": 4,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 4,
-          "width": 68,
+      <Text
+        fontFamily="Rubik-Bold"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "backgroundColor": "#DEDFE0",
+              "left": 16,
+              "paddingHorizontal": 8,
+              "position": "absolute",
+              "top": -12,
+            },
+          ]
         }
-      }
-    >
+      >
+        active - secondary
+      </Text>
       <View
+        accessible={true}
         collapsable={false}
-        size={24}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           {
-            "backgroundColor": "#FFFFFF",
-            "borderRadius": 12,
-            "elevation": 2,
-            "height": 24,
-            "shadowColor": "#2C2C2C",
-            "shadowOffset": {
-              "height": 2,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "transform": [
-              {
-                "translateX": 34,
-              },
-            ],
-            "width": 24,
+            "backgroundColor": "#49C4E9",
+            "borderRadius": 16,
+            "height": 32,
+            "opacity": 1,
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+            "width": 68,
           }
         }
-      />
+      >
+        <View
+          collapsable={false}
+          secondary={true}
+          size={24}
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 12,
+              "elevation": 2,
+              "height": 24,
+              "shadowColor": "#2C2C2C",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "transform": [
+                {
+                  "translateX": 34,
+                },
+              ],
+              "width": 24,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
   <View

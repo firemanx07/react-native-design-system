@@ -12,19 +12,19 @@ const ListMessageContainer = styled.View`
 `;
 
 const ListMessageText = styled(BaseText)``;
-type ListEmptyProps = {
-  loading: boolean;
-  message: string;
+export type ListEmptyProps = {
+  loading?: boolean;
+  message?: string;
   ActivityIndicatorComponent?: JSX.Element;
 };
 function ListEmpty({
-  loading,
-  message,
+  loading = false,
+  message = 'No Option found',
   ActivityIndicatorComponent,
 }: ListEmptyProps) {
   return (
     <ListMessageContainer>
-      {!loading ? (
+      {loading ? (
         ActivityIndicatorComponent ?? (
           <LoadingIndicator size={IconSizeType.small} />
         )

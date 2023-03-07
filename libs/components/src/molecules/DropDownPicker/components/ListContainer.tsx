@@ -4,11 +4,10 @@ import { FlatList, ListRenderItem } from 'react-native';
 
 import { TestIDType } from '../../../types';
 import { DropDownItemProps, DropDownTestIDs } from '../DropDownPicker';
-import ListEmpty from './ListEmpty';
+import ListEmpty, { ListEmptyProps } from './ListEmpty';
 
 type ListItemsProps = {
-  loading?: boolean;
-  emptyMessage?: string;
+  emptyItemsProps?: ListEmptyProps;
   items: DropDownItemProps[];
   selectedItemID?: string;
   renderOption?: (
@@ -17,14 +16,13 @@ type ListItemsProps = {
     selectedID: string | undefined,
   ) => React.ReactElement;
   ItemSeparatorComponent?: () => React.ReactElement;
-  onPress?: (item: DropDownItemProps) => void;
+  onPress?: (index: number) => void;
 } & TestIDType;
 const ListContainer = React.forwardRef<FlatList, ListItemsProps>(
   (
     {
       items,
-      loading = false,
-      emptyMessage = 'No option found',
+      emptyItemsProps,
       renderOption,
       ItemSeparatorComponent,
       onPress,
@@ -43,7 +41,7 @@ const ListContainer = React.forwardRef<FlatList, ListItemsProps>(
     const renderItem: ListRenderItem<DropDownItemProps> = useCallback(
       ({ item, index }) => (
         <ItemWrapper
-          onPress={() => onPress && onPress(item)}
+          onPress={() => onPress && onPress(index)}
           testID={`${testID}-${DropDownTestIDs.LIST_ITEM_TEST_ID}-${index}`}
         >
           {renderOption && renderOption(item, index, selectedItemID)}
@@ -57,9 +55,7 @@ const ListContainer = React.forwardRef<FlatList, ListItemsProps>(
         data={items}
         renderItem={renderItem}
         keyExtractor={keyExtractor}
-        ListEmptyComponent={
-          <ListEmpty loading={loading} message={emptyMessage} />
-        }
+        ListEmptyComponent={<ListEmpty {...emptyItemsProps} />}
         ItemSeparatorComponent={ItemSeparatorComponent}
         scrollEventThrottle={16}
         testID={testID}

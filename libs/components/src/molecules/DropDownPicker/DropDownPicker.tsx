@@ -1,6 +1,7 @@
 import { styled, useNamespacedTheme } from '@proxym/themes';
 import React, {
   memo,
+  ReactNode,
   useCallback,
   useEffect,
   useMemo,
@@ -10,17 +11,20 @@ import React, {
 import { Animated, Easing, LayoutChangeEvent, Platform } from 'react-native';
 
 import { ArrowPointIcon, BaseText } from '../../atoms';
+import { maskCreditCardNumber } from '../../helpers/format-utils';
+import { clamp } from '../../helpers/utils';
 import { TestIDType } from '../../types';
 import { TextInputField } from '../TextInputField';
 import { AccessoryRenderFunction } from '../TextInputField/TextInputField';
 import ListContainer from './components/ListContainer';
+import { ListEmptyProps } from './components/ListEmpty';
 import { default as Options, OptionVariant } from './components/ListOptions';
 
 export type DropDownItemProps = {
   id: string;
   label: string;
   value: string;
-  icon?: JSX.Element;
+  icon?: ReactNode;
 };
 
 export enum DropDownDirection {
@@ -28,9 +32,10 @@ export enum DropDownDirection {
   BOTTOM = 'BOTTOM',
 }
 export type DropDownPickerProps = {
-  value: string;
+  initialIndex?: number;
   placeholder?: string;
   disabled?: boolean;
+  loading?: boolean;
   items?: DropDownItemProps[];
   optionVariant?: OptionVariant;
   leftAccessory?: AccessoryRenderFunction;
@@ -44,6 +49,9 @@ export type DropDownPickerProps = {
     index: number,
     selectedID: string | undefined,
   ) => React.ReactElement;
+  onChange?: (index: number) => void;
+  ItemSeparatorComponent?: () => React.ReactElement;
+  emptyItemsProps?: Omit<ListEmptyProps, 'loading'>;
 } & TestIDType;
 
 export enum DropDownTestIDs {
@@ -53,7 +61,7 @@ export enum DropDownTestIDs {
   LIST_ITEM_TEST_ID = 'list-item',
 }
 const DropDownPicker = ({
-  value = '',
+  initialIndex,
   items = [],
   placeholder,
   leftAccessory,
@@ -66,10 +74,16 @@ const DropDownPicker = ({
   onOpen,
   isError,
   customRenderOption,
+  onChange,
+  loading,
+  emptyItemsProps,
 }: DropDownPickerProps) => {
   const { spacing } = useNamespacedTheme();
   const [open, setOpen] = useState<boolean>(false);
-  const [pickerHeight, setPickerHeight] = useState(0);
+  const [pickerHeight, setPickerHeight] = useState<number>(0);
+  const [selectedItem, setSelectedItem] = useState<number | undefined>(
+    initialIndex && clamp(initialIndex, 0, items?.length - 1),
+  );
   const rotationValue = useRef(new Animated.Value(0)).current;
   const animateRotation = useCallback(
     () =>
@@ -131,6 +145,22 @@ const DropDownPicker = ({
     },
     [open, rotation],
   );
+  /**
+   * The arrow component.
+   *
+   */
+  const __leftAccessory = useCallback<AccessoryRenderFunction>(
+    (_a, _b) => {
+      if (
+        typeof selectedItem === 'number' &&
+        optionVariant === OptionVariant.ICON_OPTION &&
+        items[selectedItem].icon
+      )
+        return items[selectedItem].icon;
+      return undefined;
+    },
+    [items, optionVariant, selectedItem],
+  );
 
   /**
    * Pointer events.
@@ -160,6 +190,17 @@ const DropDownPicker = ({
   );
 
   /**
+   * Picker Value:
+   * @return {string}
+   */
+  const __value = useMemo<string>(() => {
+    if (typeof selectedItem === 'number')
+      return optionVariant !== OptionVariant.CREDIT_CARD
+        ? items[selectedItem]?.label
+        : maskCreditCardNumber(items[selectedItem].label);
+    return '';
+  }, [items, optionVariant, selectedItem]);
+  /**
    * The body component.
    */
   const _BodyComponent = useMemo(() => {
@@ -167,9 +208,9 @@ const DropDownPicker = ({
       <TextInputField
         onLayout={__onLayout}
         placeholder={placeholder}
-        value={value}
+        value={__value}
         rightAccessory={rightAccessory}
-        leftAccessory={leftAccessory}
+        leftAccessory={leftAccessory ?? __leftAccessory}
         focusable={false}
         editable={!disabled}
         width={width}
@@ -183,19 +224,24 @@ const DropDownPicker = ({
     );
   }, [
     __onLayout,
-    __onPress,
-    disabled,
-    isError,
-    leftAccessory,
     placeholder,
-    pointerEvents,
+    __value,
     rightAccessory,
-    testID,
-    value,
+    leftAccessory,
+    __leftAccessory,
+    disabled,
     width,
+    testID,
+    isError,
+    __onPress,
+    pointerEvents,
   ]);
   /**
    * renderOption
+   * @param {DropDownItemProps} item
+   * @param {number} index
+   * @param {string} selectedID
+   * @return {React.ReactElement}
    */
   const __renderOption = useCallback<
     (
@@ -221,6 +267,19 @@ const DropDownPicker = ({
     },
     [customRenderOption, optionVariant],
   );
+  /**
+   * handlePress
+   * @param {number} index
+   * @return void
+   */
+  const __handlePress = useCallback<(index: number) => void>(
+    index => {
+      setSelectedItem(index);
+      setOpen(false);
+      onChange && onChange(index);
+    },
+    [onChange],
+  );
 
   return (
     <Container width={width}>
@@ -233,6 +292,8 @@ const DropDownPicker = ({
           items={items}
           testID={testID + DropDownTestIDs.DROPDOWN_LIST_TEST_ID}
           renderOption={__renderOption}
+          onPress={__handlePress}
+          emptyItemsProps={{ loading, ...emptyItemsProps }}
         />
       </DropDownBodyContainer>
     </Container>
@@ -254,7 +315,6 @@ const DropDownBodyContainer = styled(Animated.View)`
   shadow-offset: 0 0;
   shadow-opacity: 0.13;
   shadow-radius: 40px;
-  z-index: 1000;
 `;
 
 export default memo(DropDownPicker);

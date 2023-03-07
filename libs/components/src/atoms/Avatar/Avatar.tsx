@@ -10,6 +10,7 @@ export enum AvatarSize {
   M = 51,
   L = 66,
   XL = 120,
+  iconSize = 27,
 }
 export enum AvatarShape {
   Round = 'Round',
@@ -33,7 +34,7 @@ export const Avatar = ({
     }
 
     return require('../../assets/images/avatar-placeholder.png');
-  }, [size, uri]);
+  }, [uri]);
 
   return (
     <Container size={size} testID={testID} shape={shape}>
