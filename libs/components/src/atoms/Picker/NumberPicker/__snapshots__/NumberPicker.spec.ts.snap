@@ -49,6 +49,7 @@ exports[`Number Picker tests NumberPicker snapshot test 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "minHeight": 47,
+          "minWidth": 100,
           "paddingHorizontal": 16,
           "width": 300,
         },

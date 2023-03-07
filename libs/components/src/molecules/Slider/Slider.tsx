@@ -16,6 +16,7 @@ import Animated, {
 import { Badge, BadgeSize, BadgeVariant } from '../../atoms/Badge';
 import { BaseText } from '../../atoms/BaseText';
 import { formatTo3Digits } from '../../helpers/format-utils';
+import { clamp } from '../../helpers/utils';
 import { TestIDType } from '../../types';
 
 const BASE_MARKER_SIZE = 15;
@@ -49,7 +50,9 @@ const Slider = ({
     interpolate(initialValue, [min, max], [0, width - size], Extrapolate.CLAMP),
   );
 
-  const [currentValue, setCurrentValue] = useState(initialValue);
+  const [currentValue, setCurrentValue] = useState(
+    clamp(initialValue, min, max),
+  );
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const onGestureEvent = useCallback(

@@ -1,1 +1,1 @@
-export { default as LabeledSwitch } from './LabeledSwitch';
+export { default as LabeledSwitch, LabeledSwitchValues } from './LabeledSwitch';
