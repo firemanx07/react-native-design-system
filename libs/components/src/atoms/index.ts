@@ -11,6 +11,5 @@ export * from './Badge';
 export * from './Illustration';
 export * from './LoadingIndicator';
 export * from './Logo';
-export * from './Picker';
 export * from './RadioButton';
-export * from './Toggle';
+export * from './Switch';

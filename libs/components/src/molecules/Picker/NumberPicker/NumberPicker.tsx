@@ -7,9 +7,9 @@ import {
 import { rgba } from 'polished';
 import React, { memo, useCallback, useState } from 'react';
 
+import { BaseText, TextVariant, TextWeight } from '../../../atoms/BaseText';
+import { PickerMinusIcon, PickerPlusIcon } from '../../../atoms/Icons';
 import { TestIDType } from '../../../types';
-import { BaseText, TextVariant, TextWeight } from '../../BaseText';
-import { PickerMinusIcon, PickerPlusIcon } from '../../Icons';
 
 export type NumberPickerProps = {
   width?: number;

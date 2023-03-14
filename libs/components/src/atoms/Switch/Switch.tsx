@@ -16,7 +16,7 @@ export type PropsType = {
 
 const TOGGLE_DURATION = 150;
 
-export const Toggle = ({
+export const Switch = ({
   isActive: isActiveInitial = false,
   onPress,
   disabled,
@@ -37,7 +37,10 @@ export const Toggle = ({
   const containerWidth = toggleSize * 2.5 + toggleSpacing;
   const containerHeight = toggleSize + toggleSpacing;
 
-  const translateX = new Animated.Value(startPosition);
+  const translateX = useMemo(
+    () => new Animated.Value(startPosition),
+    [startPosition],
+  );
 
   const handleToggle = useCallback(() => {
     Animated.timing(translateX, {
@@ -51,7 +54,7 @@ export const Toggle = ({
         return newActiveState;
       });
     });
-  }, [endPosition, onPress, isActive, setIsActive, translateX]);
+  }, [endPosition, onPress, setIsActive, translateX]);
 
   const toggleBackgroundColor = useMemo(() => {
     if (disabled) {
@@ -119,4 +122,4 @@ const ToggleBullet = styled(Animated.View)<ToggleBulletType>`
   background-color: ${({ theme }) => theme.ds.colors.light};
 `;
 
-export default memo(Toggle);
+export default memo(Switch);

@@ -7,11 +7,11 @@ import {
   StorybookScreen,
   StorybookSection,
 } from '../../storybook';
-import { Toggle as ToggleBase, PropsType as ToggleProps } from './Toggle';
+import { Switch as SwitchBase, PropsType as SwitchProps } from './Switch';
 
-const Story: ComponentMeta<typeof ToggleBase> = {
-  component: ToggleBase,
-  title: 'Atoms/Toggle',
+const Story: ComponentMeta<typeof SwitchBase> = {
+  component: SwitchBase,
+  title: 'Atoms/Switch',
   argTypes: {
     inActiveColor: {
       control: { type: 'select' },
@@ -25,19 +25,19 @@ const noop = () => {
   // This is a mock
 };
 
-const Template: ComponentStory<typeof ToggleBase> = (args: ToggleProps) => {
+const Template: ComponentStory<typeof SwitchBase> = (args: SwitchProps) => {
   const { colors } = useNamespacedTheme();
   return (
-    <StorybookScreen title="Toggle:" style={{ backgroundColor: colors.light }}>
+    <StorybookScreen title="Switch:" style={{ backgroundColor: colors.light }}>
       <StorybookSection>
-        <ToggleBase {...args} />
+        <SwitchBase {...args} />
       </StorybookSection>
       <StorybookRow>
         <StorybookSection title="inactive">
-          <ToggleBase onPress={noop} isActive={false} />
+          <SwitchBase onPress={noop} isActive={false} />
         </StorybookSection>
         <StorybookSection title="inactive - secondary">
-          <ToggleBase
+          <SwitchBase
             onPress={noop}
             isActive={false}
             inActiveColor={colors.secondary}
@@ -46,14 +46,14 @@ const Template: ComponentStory<typeof ToggleBase> = (args: ToggleProps) => {
       </StorybookRow>
       <StorybookRow>
         <StorybookSection title="active">
-          <ToggleBase onPress={noop} isActive />
+          <SwitchBase onPress={noop} isActive />
         </StorybookSection>
         <StorybookSection title="active - secondary">
-          <ToggleBase onPress={noop} isActive secondary />
+          <SwitchBase onPress={noop} isActive secondary />
         </StorybookSection>
       </StorybookRow>
       <StorybookSection title="disabled">
-        <ToggleBase onPress={noop} isActive={false} disabled />
+        <SwitchBase onPress={noop} isActive={false} disabled />
       </StorybookSection>
     </StorybookScreen>
   );
@@ -65,7 +65,7 @@ const parameters = {
   },
 };
 
-const defaultArgs: ToggleProps = {
+const defaultArgs: SwitchProps = {
   isActive: false,
   disabled: false,
   secondary: false,
@@ -73,8 +73,8 @@ const defaultArgs: ToggleProps = {
   onPress: noop,
 };
 
-export const Toggle = Template.bind({});
-Toggle.parameters = parameters;
-Toggle.args = {
+export const Switch = Template.bind({});
+Switch.parameters = parameters;
+Switch.args = {
   ...defaultArgs,
 };
