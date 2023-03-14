@@ -1,8 +1,8 @@
 import { styled } from '@proxym/themes';
 import React, { useMemo } from 'react';
 
-import { BaseText } from '../../../atoms';
-import { maskCreditCardNumber } from '../../../helpers/format-utils';
+import { BaseText } from '../../../../atoms';
+import { maskCreditCardNumber } from '../../../../helpers/format-utils';
 import { DropDownItemProps } from '../DropDownPicker';
 
 type optionProps = {

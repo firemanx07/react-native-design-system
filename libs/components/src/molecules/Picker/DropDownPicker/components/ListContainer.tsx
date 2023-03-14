@@ -2,7 +2,7 @@ import { styled } from '@proxym/themes';
 import React, { memo, useCallback } from 'react';
 import { FlatList, ListRenderItem } from 'react-native';
 
-import { TestIDType } from '../../../types';
+import { TestIDType } from '../../../../types';
 import { DropDownItemProps, DropDownTestIDs } from '../DropDownPicker';
 import ListEmpty, { ListEmptyProps } from './ListEmpty';
 

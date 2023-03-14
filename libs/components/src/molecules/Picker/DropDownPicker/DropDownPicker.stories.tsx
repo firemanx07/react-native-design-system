@@ -1,12 +1,12 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 
-import { Avatar, AvatarSize } from '../../atoms';
+import { Avatar, AvatarSize } from '../../../atoms';
 import {
   StorybookRow,
   StorybookScreen,
   StorybookSection,
-} from '../../storybook';
+} from '../../../storybook';
 import {
   default as DropDownPickerBase,
   DropDownItemProps,
@@ -16,13 +16,10 @@ import { OptionVariant } from './components/ListOptions';
 
 const Story: ComponentMeta<typeof DropDownPickerBase> = {
   component: DropDownPickerBase,
-  title: 'Molecules/DropDownPicker',
+  title: 'Molecules/Picker',
 };
 export default Story;
 
-// const noop = () => {
-//   // This is a mock
-// };
 const cardMockItems: DropDownItemProps[] = [
   {
     id: '12',
