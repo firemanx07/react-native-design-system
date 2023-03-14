@@ -10,12 +10,12 @@ import React, {
 } from 'react';
 import { Animated, Easing, LayoutChangeEvent, Platform } from 'react-native';
 
-import { ArrowPointIcon, BaseText } from '../../atoms';
-import { maskCreditCardNumber } from '../../helpers/format-utils';
-import { clamp } from '../../helpers/utils';
-import { TestIDType } from '../../types';
-import { TextInputField } from '../TextInputField';
-import { AccessoryRenderFunction } from '../TextInputField/TextInputField';
+import { ArrowPointIcon, BaseText } from '../../../atoms';
+import { maskCreditCardNumber } from '../../../helpers/format-utils';
+import { clamp } from '../../../helpers/utils';
+import { TestIDType } from '../../../types';
+import { TextInputField } from '../../TextInputField';
+import { AccessoryRenderFunction } from '../../TextInputField/TextInputField';
 import ListContainer from './components/ListContainer';
 import { ListEmptyProps } from './components/ListEmpty';
 import { default as Options, OptionVariant } from './components/ListOptions';

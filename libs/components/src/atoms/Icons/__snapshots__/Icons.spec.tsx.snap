@@ -5033,7 +5033,181 @@ exports[`Icons tests CustomIcons snapshot test 1`] = `
           ]
         }
       >
+        ActionIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#49C4E9"
+        height={40}
+        width={40}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        CloseIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#49C4E9"
+        height={40}
+        width={40}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
         ConverterIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#49C4E9"
+        height={40}
+        width={40}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        ErrorIcon
       </Text>
     </View>
     <View
@@ -5208,6 +5382,64 @@ exports[`Icons tests CustomIcons snapshot test 1`] = `
         }
       >
         SimulatorIcon
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderColor": "#2C2C2C",
+            "borderRadius": 4,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "marginBottom": 24,
+            "marginLeft": 24,
+            "marginRight": 24,
+            "marginTop": 24,
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+            "width": 270,
+          },
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": 0,
+            "marginRight": 10,
+            "marginTop": 0,
+            "overflow": "hidden",
+            "width": 270,
+          },
+        ]
+      }
+      width={270}
+    >
+      <test-file-stub
+        fill="#49C4E9"
+        height={40}
+        width={40}
+      />
+      <Text
+        fontFamily="Rubik-Regular"
+        fontSize={16}
+        lineHeight={20}
+        style={
+          [
+            {
+              "color": "#2C2C2C",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            {
+              "paddingLeft": 16,
+            },
+          ]
+        }
+      >
+        SuccessIcon
       </Text>
     </View>
   </View>

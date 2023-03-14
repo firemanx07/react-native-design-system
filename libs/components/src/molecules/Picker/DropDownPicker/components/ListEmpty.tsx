@@ -1,7 +1,7 @@
 import { IconSizeType, styled } from '@proxym/themes';
 import React, { memo } from 'react';
 
-import { BaseText, LoadingIndicator } from '../../../atoms';
+import { BaseText, LoadingIndicator } from '../../../../atoms';
 
 const ListMessageContainer = styled.View`
   background-color: ${props => props.theme.ds.colors.light};

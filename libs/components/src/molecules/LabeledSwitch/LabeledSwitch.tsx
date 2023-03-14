@@ -2,7 +2,7 @@ import { styled, useNamespacedTheme } from '@proxym/themes';
 import { rgba } from 'polished';
 import React, { memo, useState } from 'react';
 
-import { BaseText, TextVariant, TextWeight, Toggle } from '../../atoms';
+import { BaseText, Switch, TextVariant, TextWeight } from '../../atoms';
 import { TestIDType } from '../../types';
 
 export enum LabeledSwitchValues {
@@ -41,7 +41,7 @@ const LabeledSwitch = ({
       >
         {leftLabel}
       </LeftText>
-      <Toggle
+      <Switch
         isActive={isRight}
         inActiveColor={colors.secondary}
         size={12}

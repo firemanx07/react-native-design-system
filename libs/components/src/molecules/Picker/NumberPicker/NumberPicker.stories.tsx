@@ -7,7 +7,7 @@ import { default as NumberPickerBase, NumberPickerProps } from './NumberPicker';
 
 const Story: ComponentMeta<typeof NumberPickerBase> = {
   component: NumberPickerBase,
-  title: 'Atoms/Picker',
+  title: 'Molecules/Picker',
   argTypes: {
     color: {
       control: { type: 'select' },
