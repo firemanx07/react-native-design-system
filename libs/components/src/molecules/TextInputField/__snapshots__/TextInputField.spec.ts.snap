@@ -88,6 +88,23 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
         BaseTextInput Field
       </Text>
       <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         collapsable={false}
         color="rgba(199,199,210,0.5)"
@@ -229,6 +246,23 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           disabled Text input
         </Text>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           color="rgba(199,199,210,0.5)"
@@ -361,6 +395,23 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           success Text input
         </Text>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           color="rgba(28,197,119,0.5)"
@@ -493,6 +544,23 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           Error Text input
         </Text>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           color="rgba(255,59,59,0.5)"
@@ -656,6 +724,23 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           Text input With Icons
         </Text>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           color="rgba(199,199,210,0.5)"
@@ -801,6 +886,23 @@ exports[`Slider tests TextInputField snapshot test 1`] = `
           Text box
         </Text>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           color="rgba(199,199,210,0.5)"

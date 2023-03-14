@@ -224,7 +224,19 @@ exports[`BottomTabBarBase renders a tab bar with correct label and marker positi
       accessibilityRole="button"
       accessibilityState={
         {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
           "selected": true,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
         }
       }
       accessible={true}
@@ -271,7 +283,23 @@ exports[`BottomTabBarBase renders a tab bar with correct label and marker positi
     </View>
     <View
       accessibilityRole="button"
-      accessibilityState={{}}
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -316,7 +344,23 @@ exports[`BottomTabBarBase renders a tab bar with correct label and marker positi
     </View>
     <View
       accessibilityRole="button"
-      accessibilityState={{}}
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
