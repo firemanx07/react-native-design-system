@@ -7,7 +7,6 @@ interface TabItemProps {
   onPress: () => void;
   onLongPress: () => void;
   label: string;
-  fontFamily: Animated.AnimatedInterpolation<string | number>;
   renderIcon?: (props: {
     focused: boolean;
     color: string;
@@ -16,13 +15,11 @@ interface TabItemProps {
   accessibilityLabel?: string;
   testID?: string;
 }
-
 const TabBarItem = ({
   isFocused,
   onPress,
   onLongPress,
   label,
-  fontFamily,
   accessibilityLabel,
   testID,
   renderIcon,
@@ -43,7 +40,7 @@ const TabBarItem = ({
           size: IconSizeType.medium,
           color: isFocused ? colors.primary : colors.grayDark,
         })}
-      <TabBarLabel style={{ fontWeight: fontFamily }} children={label} />
+      <TabBarLabel isFocused={isFocused} children={label} />
     </TabItem>
   );
 };
@@ -54,10 +51,14 @@ const TabItem = styled(TouchableOpacity)`
   min-height: 35px;
 `;
 
-const TabBarLabel = styled(Animated.Text)`
+const TabBarLabel = styled(Animated.Text)<{ isFocused: boolean }>`
   color: ${({ theme }) => theme.ds.colors.dark};
   font-size: ${({ theme }) => theme.ds.fonts.size.small}px;
   line-height: ${({ theme }) => theme.ds.fonts.lineHeight.mediumTiny}px;
+  font-family: ${({ isFocused, theme }) =>
+    isFocused
+      ? theme.ds.fonts.family.primarySemiBold
+      : theme.ds.fonts.family.primary};
 `;
 
 export default TabBarItem;

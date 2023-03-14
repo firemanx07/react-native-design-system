@@ -8,8 +8,7 @@ import TabBarItem from './TabBarItem';
 
 const MARKER_WIDTH = 19;
 const TAB_BAR_HEIGHT = 64;
-const FONT_WEIGHT_BOLD = 700;
-const FONT_WEIGHT_REGULAR = 400;
+
 const BottomTabBar = ({
   state,
   descriptors,
@@ -28,10 +27,6 @@ const BottomTabBar = ({
   }, [tabContainerWidth, state.routes.length]);
   const position = useRef<Animated.Value>(new Animated.Value(0)).current;
 
-  const inputRange = useMemo(() => {
-    return state.routes.map((_: any, i: number) => i);
-  }, [state.routes]);
-
   const transform = useMemo(() => {
     return [
       {
@@ -42,16 +37,7 @@ const BottomTabBar = ({
       },
     ];
   }, [position, TAB_ITEM_WIDTH]);
-  const handleFonts = useCallback(
-    (index: number) =>
-      position.interpolate({
-        inputRange,
-        outputRange: inputRange.map((i: number) =>
-          i === index ? FONT_WEIGHT_BOLD : FONT_WEIGHT_REGULAR,
-        ),
-      }),
-    [inputRange, position],
-  );
+
   const handlePress = useCallback(
     (route: Route<string>, isFocused: boolean, index: number) => {
       const event = navigation.emit({
@@ -89,8 +75,6 @@ const BottomTabBar = ({
           });
         };
 
-        const fontType = handleFonts(index);
-
         return (
           <TabBarItem
             key={route.key}
@@ -98,7 +82,6 @@ const BottomTabBar = ({
             onPress={onPress}
             onLongPress={onLongPress}
             label={String(label)}
-            fontFamily={fontType}
             renderIcon={options.tabBarIcon}
             testID={options.tabBarTestID}
             accessibilityLabel={options.tabBarAccessibilityLabel}
