@@ -103,6 +103,24 @@ const parameters = {
   controls: {
     include: [],
   },
+  docs: {
+    source: {
+      code:
+        'import BottomTabBar from "@proxym/components"; \n \n' +
+        'const Tab = createBottomTabNavigator();\n\n' +
+        'const renderIcon = (Icon: IconComponentType) =>\n' +
+        '({ size, color }: { size: number; color: string }) =>\n' +
+        ' <Icon width={size} height={size} fill={color} />;\n\n' +
+        '<Tab.Navigator tabBar={(props: any) => <BottomTabBar {...props}  />} >\n' +
+        '   <Tab.Screen  options={{ tabBarIcon: renderIcon(HomeIcon) }} name="Dasboard" component="null"/>\n' +
+        '   <Tab.Screen  options={{ tabBarIcon: renderIcon(WalletIcon) }} name="Accounts" component="null"/>\n' +
+        '   <Tab.Screen  options={{ tabBarIcon: renderIcon(RechargeIcon) }} name="Transfers" component="null"/>\n' +
+        '   <Tab.Screen  options={{ tabBarIcon: renderIcon(PersonIcon) }} name="Profile" component="null"/>\n' +
+        '</Tab.Navigator>',
+      language: 'jsx',
+      type: 'dynamic',
+    },
+  },
 };
 export default Story;
 
