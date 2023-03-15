@@ -1,6 +1,6 @@
 {
   "name": "@proxym/themes",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "main": "src/index.ts",
   "repository": "https://gitlab.proxym-group.net/ghassen-mellassi/react-native-starter/proxym-rn-design-system.git",
   "publishConfig": {
