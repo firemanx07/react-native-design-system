@@ -1,5 +1,7 @@
 import { styled, useNamespacedTheme } from '@proxym/themes';
+import { BlurView } from '@react-native-community/blur';
 import React, { memo, useCallback, useMemo, useState } from 'react';
+import { StyleSheet } from 'react-native';
 
 import {
   ActionIcon,
@@ -90,6 +92,12 @@ const Modal = ({
       onRequestClose={onClose}
     >
       <Container>
+        <BlurView
+          style={StyleSheet.absoluteFillObject}
+          blurType="light"
+          blurAmount={10}
+          reducedTransparencyFallbackColor="white"
+        />
         <Backdrop onPress={onClose} />
         <StyledModal width={width}>
           <StyledIconButton

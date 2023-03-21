@@ -2964,6 +2964,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@react-native-community/blur@^4.3.1":
+  version "4.3.1"
+  resolved "https://repos.proxym-group.net/repository/npm-private/@react-native-community/blur/-/blur-4.3.1.tgz#5a866d25637dd56e7c66d4c2684e9f9e65961d41"
+  integrity sha512-3fJKeME735ZbIaA6f9jD07IgHElujIZ0Fh9qobfYZU6SPyAaTT+mTmj50RXcZbmfAhyqtO5Obc1SLkDpYGetrg==
+
 "@react-native-community/cli-clean@^10.1.1":
   version "10.1.1"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-clean/-/cli-clean-10.1.1.tgz#4c73ce93a63a24d70c0089d4025daac8184ff504"
@@ -4592,7 +4597,7 @@
     regenerator-runtime "^0.13.7"
     resolve-from "^5.0.0"
 
-"@testing-library/jest-native@^4.0.13", "@testing-library/jest-native@^4.0.2":
+"@testing-library/jest-native@^4.0.13":
   version "4.0.13"
   resolved "https://registry.yarnpkg.com/@testing-library/jest-native/-/jest-native-4.0.13.tgz#3d2a27ffac9f8126a4185e46a167b0cde4443336"
   integrity sha512-BovApxYJRb0Z9TUZbFQhW2ZWC4KfymH1SQZ5FxcTHh7Zrzb6+vfWT1CyvGnb8JE6WEZGcuumzSXOMdSIVUjj5Q==
@@ -15378,7 +15383,7 @@ react-native-tab-view@^3.5.0:
   dependencies:
     use-latest-callback "^0.1.5"
 
-react-native-web@0.18.12, react-native-web@~0.18.10:
+react-native-web@0.18.12:
   version "0.18.12"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.18.12.tgz#d4bb3a783ece2514ba0508d7805b09c0a98f5a8e"
   integrity sha512-fboP7yqobJ8InSr4fP+bQ3scOtSQtUoPcR+HWasH8b/fk/RO+mWcJs/8n+lewy9WTZc2D68ha7VwRDviUshEWA==
@@ -15458,7 +15463,7 @@ react-test-renderer@^18.2.0:
     react-shallow-renderer "^16.15.0"
     scheduler "^0.23.0"
 
-react@18.2.0, react@^18.2.0:
+react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
